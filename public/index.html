@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Import Centre — Enterprise Ingestion & Execution Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="theme-dark">
+  <!-- App Container -->
+  <div id="app" class="app-layout">
+    
+    <!-- Top Global Header -->
+    <header class="app-header">
+      <div class="header-brand">
+        <div class="brand-logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="17 8 12 3 7 8"/>
+            <line x1="12" y1="3" x2="12" y2="15"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Data Import Centre</span>
+          <span class="brand-badge">Enterprise v1.0</span>
+        </div>
+      </div>
+
+      <!-- Breadcrumb / Active Context -->
+      <div class="header-breadcrumb" id="header-breadcrumb" style="display:none;">
+        <span class="crumb-sep" id="crumb-sep">›</span>
+        <span class="crumb-current-pill" id="crumb-dept-name">Select Department</span>
+      </div>
+
+      <nav class="header-nav">
+        <button class="nav-btn nav-btn-icon active" data-view="landing" id="nav-landing-btn" onclick="selectGlobalLanding()" title="Data Centre Landing">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+        </button>
+        <button class="nav-btn" data-view="dashboard" id="nav-dashboard-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+          Dashboard
+        </button>
+        <button class="nav-btn" data-view="wizard" id="nav-wizard-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          Import Studio
+        </button>
+        <button class="nav-btn" data-view="schemas" id="nav-schemas-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          Entity Schemas
+        </button>
+        <button class="nav-btn" data-view="audit" id="nav-audit-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          Audit Logs
+        </button>
+      </nav>
+
+      <!-- User & Tenant Context Bar -->
+      <div class="header-context">
+        <div class="context-item tenant-badge" title="Organization Context">
+          <span class="context-label">Organization:</span>
+          <span class="context-value" id="current-tenant-label">BOSS</span>
+        </div>
+
+        <div class="context-item role-selector" title="Simulate RBAC Permission Context">
+          <span class="context-label">Role:</span>
+          <select id="user-role-select" class="role-select-dropdown" >
+            <option value="org_admin" selected>1. Organization Admin (Broad Access)</option>
+            <option value="hr_admin">2. HR Admin (HR Imports)</option>
+            <option value="finance_admin">3. Finance Admin (Finance Imports)</option>
+            <option value="procurement_manager">4. Procurement Manager</option>
+            <option value="sales_manager">5. Sales Manager</option>
+            <option value="compliance_manager">6. Compliance Manager</option>
+            <option value="project_manager">7. Project Manager</option>
+            <option value="employee">8. Employee (Authorized Operations)</option>
+          </select>
+        </div>
+
+        <button class="btn btn-secondary btn-xs" id="btn-switch-dept-header" onclick="selectGlobalLanding()" style="display: none;">
+          ⇄ Switch Dept
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="app-main">
+      
+      <!-- ========================================================================= -->
+      <!-- VIEW 0: CENTRALIZED LANDING PAGE (DEPARTMENT SELECTION) -->
+      <!-- ========================================================================= -->
+      <section id="view-landing" class="view-panel active">
+        <div class="view-header">
+          <div>
+            <h1 class="view-title">Data Import Centre</h1>
+            <p class="view-subtitle">Import, clean, validate and manage enterprise data across departments.</p>
+          </div>
+        </div>
+
+        <!-- Global Metric Summary KPI Cards -->
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-icon blue">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            </div>
+            <div class="metric-content">
+              <span class="metric-label">Accessible Department Total Jobs</span>
+              <span class="metric-value" id="global-kpi-total-imports">0</span>
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-icon green">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <div class="metric-content">
+              <span class="metric-label">Completed & Reconciled</span>
+              <span class="metric-value" id="global-kpi-completed-imports">0</span>
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-icon amber">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+            </div>
+            <div class="metric-content">
+              <span class="metric-label">Pending Approval</span>
+              <span class="metric-value" id="global-kpi-pending-approval">0</span>
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-icon purple">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            </div>
+            <div class="metric-content">
+              <span class="metric-label">Processed Records</span>
+              <span class="metric-value" id="global-kpi-total-records">0</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Authorized Department Selector Cards Grid -->
+        <div class="card mt-4">
+          <div class="card-header flex-between">
+            <div>
+              <h3 class="card-title">Authorized Department Data Centres</h3>
+              <p class="card-subtitle">Select a department module context to manage operational imports, entity schemas, and templates.</p>
+            </div>
+            <span class="badge badge-neutral" id="authorized-dept-count-badge">0 Departments Authorized</span>
+          </div>
+          <div class="card-body">
+            <div id="department-cards-grid" class="department-cards-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px;"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================================= -->
+      <!-- VIEW 1: DEPARTMENT-SPECIFIC DASHBOARD -->
+      <!-- ========================================================================= -->
+      <section id="view-dashboard" class="view-panel">
+        <div class="view-header flex-between">
+          <div>
+            <h1 class="view-title" id="dashboard-dept-title">DATA IMPORT DASHBOARD</h1>
+            <p class="view-subtitle" id="dashboard-dept-subtitle">Monitor, govern, and execute data pipelines for the selected department context.</p>
+          </div>
+          <div style="display: flex; gap: 8px;">
+            <button class="btn btn-secondary" onclick="selectGlobalLanding()">
+              ⇄ Switch Department
+            </button>
+            <button class="btn btn-primary" id="btn-start-new-import">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              Create New Import
+            </button>
+          </div>
+        </div>
+
+        <!-- Metric KPI Cards -->
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-icon blue">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            </div>
+            <div class="metric-content">
+              <span class="metric-label">Total Import Jobs</span>
+              <span class="metric-value" id="kpi-total-imports">0</span>
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-icon green">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <div class="metric-content">
+              <span class="metric-label">Completed & Reconciled</span>
+              <span class="metric-value" id="kpi-completed-imports">0</span>
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-icon amber">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+            </div>
+            <div class="metric-content">
+              <span class="metric-label">Pending Approval</span>
+              <span class="metric-value" id="kpi-pending-approval">0</span>
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-icon purple">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            </div>
+            <div class="metric-content">
+              <span class="metric-label">Processed Records</span>
+              <span class="metric-value" id="kpi-total-records">0</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Import History Table Container -->
+        <div class="card table-card">
+          <div class="card-header">
+            <div class="table-header-left">
+              <h3 class="card-title" id="recent-jobs-table-title">Recent Import Jobs</h3>
+              <span class="badge badge-neutral" id="imports-count-badge">0 jobs</span>
+            </div>
+            <div class="table-actions">
+              <input type="text" id="dashboard-search-input" class="input input-sm search-input" placeholder="Search by name, entity, or status...">
+              <button class="btn btn-secondary btn-sm" id="btn-refresh-dashboard">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 4v6h-6"></path><path d="M1 20v-6h6"></path><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                Refresh
+              </button>
+            </div>
+          </div>
+
+          <div class="table-wrapper">
+            <table class="data-table" id="dashboard-imports-table">
+              <thead>
+                <tr>
+                  <th>Job Name</th>
+                  <th>Target Entity</th>
+                  <th>Format</th>
+                  <th>Status</th>
+                  <th>Records</th>
+                  <th>Created By</th>
+                  <th>Created At</th>
+                  <th class="text-right">Actions</th>
+                </tr>
+              </thead>
+              <tbody id="dashboard-table-body">
+                <tr class="empty-row">
+                  <td colspan="8">
+                    <div class="empty-state">
+                      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                      <p>No import jobs created yet for this department.</p>
+                      <button class="btn btn-primary btn-sm" id="empty-create-btn">Create Your First Import</button>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================================= -->
+      <!-- VIEW 2: IMPORT STUDIO / MULTI-STEP WIZARD -->
+      <!-- ========================================================================= -->
+      <section id="view-wizard" class="view-panel">
+        
+        <!-- Wizard Stepper Navigation -->
+        <div class="wizard-stepper-container">
+          <div class="stepper-track">
+            <div class="step-node active" data-step="1" id="step-node-1">
+              <div class="step-circle">1</div>
+              <div class="step-title">Entity Setup</div>
+            </div>
+            <div class="step-line" id="step-line-1"></div>
+            <div class="step-node" data-step="2" id="step-node-2">
+              <div class="step-circle">2</div>
+              <div class="step-title">File Upload</div>
+            </div>
+            <div class="step-line" id="step-line-2"></div>
+            <div class="step-node" data-step="3" id="step-node-3">
+              <div class="step-circle">3</div>
+              <div class="step-title">Mapping</div>
+            </div>
+            <div class="step-line" id="step-line-3"></div>
+            <div class="step-node" data-step="4" id="step-node-4">
+              <div class="step-circle">4</div>
+              <div class="step-title">Validation</div>
+            </div>
+            <div class="step-line" id="step-line-4"></div>
+            <div class="step-node" data-step="5" id="step-node-5">
+              <div class="step-circle">5</div>
+              <div class="step-title">Duplicate Scan</div>
+            </div>
+            <div class="step-line" id="step-line-5"></div>
+            <div class="step-node" data-step="6" id="step-node-6">
+              <div class="step-circle">6</div>
+              <div class="step-title">Final Review</div>
+            </div>
+            <div class="step-line" id="step-line-6"></div>
+            <div class="step-node" data-step="7" id="step-node-7">
+              <div class="step-circle">7</div>
+              <div class="step-title">Approval</div>
+            </div>
+            <div class="step-line" id="step-line-7"></div>
+            <div class="step-node" data-step="8" id="step-node-8">
+              <div class="step-circle">8</div>
+              <div class="step-title">Execution</div>
+            </div>
+            <div class="step-line"></div>
+            <div class="step-node" data-step="9" id="step-node-9">
+              <div class="step-circle">9</div>
+              <div class="step-title">Import Results</div>
+            </div>
+            <div class="step-line"></div>
+            <div class="step-node" data-step="10" id="step-node-10">
+              <div class="step-circle">10</div>
+              <div class="step-title">Report</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Current Job Info Bar -->
+        <div class="job-context-bar" id="active-job-bar" style="display: none;">
+          <div class="job-context-info">
+            <span class="job-tag">ACTIVE JOB</span>
+            <span class="job-name" id="active-job-name">Loading...</span>
+            <span class="badge" id="active-job-status-badge">DRAFT</span>
+            <span class="job-id-pill" id="active-job-id-pill">ID: -</span>
+          </div>
+          <div class="job-context-actions">
+            <button class="btn btn-secondary btn-xs" id="btn-cancel-active-job">Cancel Job</button>
+            <button class="btn btn-secondary btn-xs" id="btn-exit-to-dashboard">Exit to Dashboard</button>
+          </div>
+        </div>
+
+        <!-- Wizard Step Panels -->
+        <div class="wizard-content">
+
+          <!-- STEP 1: ENTITY SETUP -->
+          <div class="wizard-step-panel active" id="wizard-step-1">
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Step 1: Target Entity & Job Configuration</h3>
+                  <p class="card-subtitle">Choose the destination domain entity and define import parameters.</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="input-job-name" class="form-label required">Import Job Name</label>
+                    <input type="text" id="input-job-name" class="input" placeholder="e.g. Q1 Enterprise Contacts Ingestion">
+                  </div>
+                  <div class="form-group">
+                    <label for="select-target-entity" class="form-label required">Target Entity</label>
+                    <select id="select-target-entity" class="select">
+                      <option value="">Select Destination Entity...</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group mt-3">
+                  <label for="input-job-description" class="form-label">Description / Business Purpose</label>
+                  <textarea id="input-job-description" class="textarea" rows="2" placeholder="Optional notes regarding the source and purpose of this dataset..."></textarea>
+                </div>
+
+                <!-- Entity Schema Preview Box -->
+                <div class="schema-preview-box" id="entity-schema-preview-box" style="display: none;">
+                  <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; flex-wrap: wrap; gap: 12px;">
+                    <div>
+                      <h4 class="schema-preview-title" style="margin: 0;">Target Entity Schema & Requirements</h4>
+                      <div id="schema-stats-pills" style="margin-top: 6px; display: flex; gap: 8px;"></div>
+                    </div>
+                    <div style="display: flex; gap: 8px;">
+                      <a id="btn-download-csv-template" class="btn btn-secondary btn-sm" href="#" download style="display: inline-flex; align-items: center; gap: 4px;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download CSV Template
+                      </a>
+                      <a id="btn-download-xlsx-template" class="btn btn-secondary btn-sm" href="#" download style="display: inline-flex; align-items: center; gap: 4px;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download XLSX Template
+                      </a>
+                    </div>
+                  </div>
+                  <div class="schema-tags-list" id="schema-fields-tags-list"></div>
+                </div>
+              </div>
+              <div class="card-footer text-right">
+                <button class="btn btn-primary" id="btn-step1-next">
+                  Create Import & Proceed
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 2: FILE UPLOAD -->
+          <div class="wizard-step-panel" id="wizard-step-2">
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Step 2: File Ingestion & Security Verification</h3>
+                  <p class="card-subtitle">Upload source dataset in CSV, TSV, Excel (.xlsx), JSON, or XML format.</p>
+                </div>
+              </div>
+              <div class="card-body">
+                
+                <!-- Quick Demo File Loaders -->
+                <div class="demo-files-bar">
+                  <span class="demo-label">Load Test Demo File:</span>
+                  <div class="demo-buttons">
+                    <button class="btn btn-secondary btn-xs demo-file-btn" data-file="data-import-demo-valid.csv">Valid Contacts (5 rows)</button>
+                    <button class="btn btn-secondary btn-xs demo-file-btn" data-file="data-import-demo-invalid.csv">Invalid Data (Validation Errors)</button>
+                    <button class="btn btn-secondary btn-xs demo-file-btn" data-file="data-import-demo-duplicates.csv">Duplicate Records</button>
+                    <button class="btn btn-secondary btn-xs demo-file-btn" data-file="data-import-demo-mixed.csv">Mixed Edge Cases</button>
+                  </div>
+                </div>
+
+                <!-- Upload Drag & Drop Zone -->
+                <div class="upload-dropzone" id="upload-dropzone">
+                  <input type="file" id="file-input" class="file-input-hidden" accept=".csv,.tsv,.xlsx,.xls,.json,.xml">
+                  <div class="dropzone-content">
+                    <div class="dropzone-icon">
+                      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                    </div>
+                    <h4 class="dropzone-title">Drag & drop your file here, or <span class="text-link">browse</span></h4>
+                    <p class="dropzone-hint" id="dropzone-hint-text">Supported formats: CSV, TSV, XLSX, JSON, XML · Max file size: <strong id="dropzone-maxsize-label">100 MB</strong></p>
+                  </div>
+                </div>
+
+                <!-- Selected File Metadata Bar -->
+                <div class="selected-file-card" id="selected-file-card" style="display: none;">
+                  <div class="file-info-left">
+                    <div class="file-icon-badge" id="file-format-badge">CSV</div>
+                    <div>
+                      <div class="file-name" id="selected-file-name">-</div>
+                      <div class="file-meta" id="selected-file-meta">0 KB</div>
+                    </div>
+                  </div>
+                  <button class="btn btn-secondary btn-xs" id="btn-remove-file">Remove</button>
+                </div>
+
+                <!-- Parsed Dataset Details (Dataset Summary & Detected Column Cards) -->
+                <div class="parsed-file-details-card" id="parsed-file-details-card" style="display: none;">
+                  <div class="parsed-file-header">
+                    <div>
+                      <h4 class="schema-preview-title">Dataset Summary & Extraction Profile</h4>
+                      <p class="card-subtitle" id="parsed-file-summary">-</p>
+                    </div>
+                  </div>
+                  
+                  <div class="parsed-file-metrics" style="display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0;">
+                    <div class="metric-pill"><span class="metric-label">Total Rows</span><strong id="parsed-row-count">0</strong></div>
+                    <div class="metric-pill"><span class="metric-label">Columns</span><strong id="parsed-column-count">0</strong></div>
+                    <div class="metric-pill"><span class="metric-label">Format</span><strong id="parsed-format">-</strong></div>
+                    <div class="metric-pill"><span class="metric-label">File Size</span><strong id="parsed-file-size">-</strong></div>
+                    <div class="metric-pill"><span class="metric-label">Parsing Status</span><span class="badge badge-success" id="parsed-status-badge" style="font-size:0.75rem; margin-top:4px; display:inline-block;">PARSED_SUCCESS</span></div>
+                  </div>
+
+                  <div class="parsed-file-section mt-3">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                      <h4 class="schema-preview-title" style="margin: 0;">Detected Columns</h4>
+                      <span style="font-size: 0.8rem; color: var(--text-muted);">Source column names detected from the uploaded file</span>
+                    </div>
+                    <!-- Compact Column Cards Grid -->
+                    <div id="parsed-column-cards-grid" class="column-cards-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px;"></div>
+                  </div>
+                </div>
+
+                <!-- Import Options -->
+                <div class="import-options-card" id="import-options-card">
+                  <div class="parsed-file-header">
+                    <div>
+                      <h4 class="schema-preview-title">Import Options</h4>
+                      <p class="card-subtitle">Configure batch processing, header handling, timezone and duplicate/error policy before mapping.</p>
+                    </div>
+                  </div>
+                  <div class="form-grid mt-3">
+                    <div class="form-group">
+                      <label class="form-label" for="input-batch-size">Batch Size <small style="color:var(--text-muted);">(records per batch)</small></label>
+                      <input id="input-batch-size" class="input" type="number" min="1" max="10000" value="500" placeholder="e.g. 500">
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label" for="input-max-records">Max Records Limit <small style="color:var(--text-muted);">(0 = unlimited)</small></label>
+                      <input id="input-max-records" class="input" type="number" min="0" value="0" placeholder="e.g. 10000">
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label" for="select-max-file-size">Max File Size</label>
+                      <select id="select-max-file-size" class="select">
+                        <option value="10">10 MB</option>
+                        <option value="25">25 MB</option>
+                        <option value="50">50 MB</option>
+                        <option value="100" selected>100 MB</option>
+                        <option value="250">250 MB</option>
+                        <option value="500">500 MB</option>
+                        <option value="1024">1 GB</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label" for="input-header-row">Header Row Index</label>
+                      <input id="input-header-row" class="input" type="number" min="0" max="100" value="0">
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label" for="input-timezone">Timezone</label>
+                      <input id="input-timezone" class="input" type="text" value="UTC" placeholder="e.g. Asia/Kolkata">
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label" for="select-error-strategy">Error Strategy</label>
+                      <select id="select-error-strategy" class="select">
+                        <option value="CONTINUE_ON_ERROR">Continue on error</option>
+                        <option value="ALL_OR_NOTHING">All or nothing</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="flex-end mt-3">
+                    <button class="btn btn-secondary btn-xs" id="btn-save-import-options">Save Import Options</button>
+                  </div>
+                </div>
+
+                <!-- Upload Progress -->
+                <div class="progress-bar-container" id="upload-progress-container" style="display: none;">
+                  <div class="progress-bar-header">
+                    <span id="upload-progress-status">Uploading and verifying security signatures...</span>
+                    <span id="upload-progress-percent">0%</span>
+                  </div>
+                  <div class="progress-track">
+                    <div class="progress-fill" id="upload-progress-fill" style="width: 0%;"></div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-footer flex-between">
+                <button class="btn btn-secondary" id="btn-step2-back">Back</button>
+                <div class="footer-actions">
+                  <button class="btn btn-secondary" id="btn-step2-upload" disabled>
+                    Upload & Parse File
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                  <button class="btn btn-primary" id="btn-step2-continue-mapping" disabled style="display:none;">
+                    Continue to Mapping
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 3: COLUMN MAPPING & TRANSFORMATIONS -->
+          <div class="wizard-step-panel" id="wizard-step-3">
+            <div class="card">
+              <div class="card-header flex-between" style="flex-wrap: wrap; gap: 12px;">
+                <div>
+                  <h3 class="card-title">Step 3: Column Mapping & Transformations</h3>
+                  <p class="card-subtitle">The system maps and normalizes data automatically. Review only low-confidence or ambiguous decisions; every automatic mapping shows why it was selected.</p>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                  <button class="btn btn-secondary btn-sm" id="btn-auto-map-unmapped" style="border-color: var(--primary); color: #60a5fa;">
+                    ⚡ Auto-Map Unmapped Items
+                  </button>
+                  <button class="btn btn-secondary btn-sm" id="btn-auto-map-all">
+                    Auto-Map All Columns
+                  </button>
+                  <div class="mapping-stats-pill" id="mapping-stats-pill">0 of 0 fields mapped</div>
+                </div>
+              </div>
+              <div class="card-body">
+                
+                <div class="mapping-table-wrapper">
+                  <table class="data-table mapping-table" id="mapping-table">
+                    <thead>
+                      <tr>
+                        <th>Source Header</th>
+                        <th>Sample Preview</th>
+                        <th>Target Entity Field</th>
+                        <th>Transformations</th>
+                        <th>Confidence & Mapping Evidence</th>
+                      </tr>
+                    </thead>
+                    <tbody id="mapping-table-body">
+                      <!-- Populated via JS -->
+                    </tbody>
+                  </table>
+                </div>
+
+              </div>
+              <div class="card-footer flex-between">
+                <button class="btn btn-secondary" id="btn-step3-back">Back</button>
+                <div class="footer-actions">
+                  <button class="btn btn-secondary" id="btn-step3-validate-mapping">Validate Mapping</button>
+                  <button class="btn btn-primary" id="btn-step3-save">
+                    Save Mapping
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 4: TRANSFORMATION & VALIDATION -->
+          <div class="wizard-step-panel" id="wizard-step-4">
+            <div class="card">
+              <div class="card-header flex-between">
+                <div>
+                  <h3 class="card-title">Step 4: Data Quality & Validation Summary</h3>
+                  <p class="card-subtitle">Automated transformations fix safe issues. Work only on records requiring attention, grouped by issue category and column with server-side pagination and bulk corrections.</p>
+                </div>
+                <div class="header-actions">
+                  <button class="btn btn-primary" id="btn-run-dataset-validation">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    Run Dataset Validation
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                
+                <!-- Loading State Banner -->
+                <div class="validation-loading-banner" id="val-loading-banner" style="display: none;">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="spin"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a10 10 0 0 1 10 10"></path></svg>
+                  <span>Loading validation results...</span>
+                </div>
+                <div id="validation-result-message" role="status" style="display: none; margin-bottom: 16px; padding: 12px 16px; border: 1px solid rgba(34, 197, 94, 0.35); border-radius: 8px; background: rgba(34, 197, 94, 0.08); color: var(--success);"></div>
+
+                <!-- 7 Validation Summary Cards -->
+                <div class="val-summary-7grid" id="val-summary-7grid">
+                  <div class="val-card-box total">
+                    <span class="val-card-num" id="val-stat-total">—</span>
+                    <span class="val-card-label">Total Records</span>
+                  </div>
+                  <div class="val-card-box valid">
+                    <span class="val-card-num" id="val-stat-valid">—</span>
+                    <span class="val-card-label">Valid</span>
+                  </div>
+                  <div class="val-card-box warning">
+                    <span class="val-card-num" id="val-stat-warning">—</span>
+                    <span class="val-card-label">Warnings</span>
+                  </div>
+                  <div class="val-card-box invalid">
+                    <span class="val-card-num" id="val-stat-invalid">—</span>
+                    <span class="val-card-label">Invalid</span>
+                  </div>
+                  <div class="val-card-box corrected">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                      <span class="val-card-num" id="val-stat-corrected">—</span>
+                      <button class="btn btn-xs btn-secondary" id="btn-view-auto-corrections" style="padding: 2px 6px; font-size: 0.65rem;" title="View automatic transformation details">View</button>
+                    </div>
+                    <span class="val-card-label">Auto-Corrected</span>
+                  </div>
+
+                  <div class="val-card-box action">
+                    <span class="val-card-num" id="val-stat-needs-action">—</span>
+                    <span class="val-card-label">Needs Action</span>
+                  </div>
+                </div>
+
+
+                <!-- Controls Bar & Server-Side Filters -->
+                <div class="val-controls-bar">
+                  <div class="val-filter-pills" id="val-filter-pills">
+                    <button class="val-pill active" data-filter="NEEDS_ACTION">Needs Action (<span id="filter-cnt-needs-action">—</span>)</button>
+                    <button class="val-pill" data-filter="INVALID">Invalid (<span id="filter-cnt-invalid-pill">—</span>)</button>
+                    <button class="val-pill" data-filter="WARNING">Warnings (<span id="filter-cnt-warning-pill">—</span>)</button>
+                    <button class="val-pill" data-filter="CORRECTED">Auto-Corrected (<span id="filter-cnt-corrected-pill">—</span>)</button>
+                    <button class="val-pill" data-filter="VALID">Valid (<span id="filter-cnt-valid-pill">—</span>)</button>
+                    <button class="val-pill" data-filter="ALL">All Records (<span id="filter-cnt-all-pill">—</span>)</button>
+                  </div>
+
+                  <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+                    <select id="select-filter-column" class="select select-sm" style="min-width: 150px;">
+                      <option value="">All Columns</option>
+                    </select>
+
+                    <select id="select-filter-error" class="select select-sm" style="min-width: 150px;">
+                      <option value="">All Issue Types</option>
+                    </select>
+
+                    <input type="text" id="input-filter-search" class="input input-sm" placeholder="Search affected records…" style="min-width: 180px;" />
+
+                    <button class="btn btn-secondary btn-xs" id="btn-reset-val-filters" type="button">Reset Filters</button>
+                  </div>
+                </div>
+
+                <!-- Auto-Corrected Transformations Overview & Drill-down -->
+                <div id="auto-corrected-section" class="card mb-4" style="display: none; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 20px;">
+                  <div class="flex-between mb-3" style="border-bottom: 1px solid var(--border-color); padding-bottom: 12px;">
+                    <div>
+                      <h4 class="staged-title" style="margin: 0; font-size: 1.05rem; display: flex; align-items: center; gap: 8px;">
+                        <span>✨ AUTO-CORRECTED COLUMNS</span>
+                        <span class="badge badge-info" id="auto-corrected-total-badge">0 Transformations</span>
+                      </h4>
+                      <p style="margin: 4px 0 0 0; font-size: 0.8rem; color: var(--text-muted);">
+                        Source columns automatically cleansed, normalized, and transformed during validation.
+                      </p>
+                    </div>
+                    <button class="btn btn-secondary btn-xs" id="btn-close-auto-corrected" type="button">Close Overview ▲</button>
+                  </div>
+
+                  <!-- Column Summary Grid -->
+                  <div id="auto-corrected-cols-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin-bottom: 16px;"></div>
+
+                  <!-- Drill-down Inspection Table Panel -->
+                  <div id="auto-corrected-drilldown-panel" style="display: none; background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 16px;">
+                    <div class="flex-between mb-3">
+                      <div>
+                        <h4 style="margin: 0; font-size: 0.95rem; color: var(--text-main);" id="drilldown-col-title">Column Transformations</h4>
+                        <span style="font-size: 0.78rem; color: var(--text-muted);" id="drilldown-col-subtitle">Original vs Corrected values drill-down</span>
+                      </div>
+                      <button class="btn btn-secondary btn-xs" id="btn-close-drilldown" type="button">Close Drill-down ▲</button>
+                    </div>
+
+                    <div class="table-wrapper mb-3">
+                      <table class="data-table compact-table">
+                        <thead>
+                          <tr>
+                            <th>Source Column</th>
+                            <th>Original Value</th>
+                            <th>Corrected Value</th>
+                            <th>Reason / Transformation Rule</th>
+                            <th class="text-right">Affected Records</th>
+                          </tr>
+                        </thead>
+                        <tbody id="drilldown-table-tbody"></tbody>
+                      </table>
+                    </div>
+
+                    <!-- Paginated Controls for Drilldown -->
+                    <div class="table-pagination-bar" id="drilldown-pagination-bar" style="border-top: 1px solid var(--border-color); padding-top: 10px; margin-top: 6px;">
+                      <span style="font-size: 0.8rem; color: var(--text-muted);" id="drilldown-count-info">Showing 1–50 of 600</span>
+                      <div style="display: flex; align-items: center; gap: 8px;">
+                        <button class="btn btn-secondary btn-xs" id="btn-drilldown-prev" disabled>Previous</button>
+                        <span style="font-size: 0.8rem; font-weight: 600; color: var(--text-main);" id="drilldown-pages-info">Page 1 of 1</span>
+                        <button class="btn btn-secondary btn-xs" id="btn-drilldown-next" disabled>Next</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Staged Records Table -->
+                <div class="staged-records-container">
+                  <div class="staged-header flex-between mb-2">
+                    <h4 class="staged-title" id="staged-table-title">Records Requiring Attention</h4>
+                    <span style="font-size: 0.8rem; color: var(--text-muted);" id="staged-table-count">Showing 0 of 0 records</span>
+                  </div>
+
+                  <div class="table-wrapper">
+                    <table class="data-table" id="staged-records-table">
+                      <thead id="staged-records-thead"></thead>
+                      <tbody id="staged-records-tbody"></tbody>
+                    </table>
+                  </div>
+
+                  <!-- Server-side Pagination Bar -->
+                  <div class="table-pagination-bar" id="table-pagination-bar">
+                    <div style="display: flex; align-items: center; gap: 10px; font-size: 0.8rem; color: var(--text-muted);">
+                      <span>Rows per page:</span>
+                      <select id="select-page-size" class="select select-sm" style="width: auto;">
+                        <option value="25">25</option>
+                        <option value="50" selected>50</option>
+                        <option value="100">100</option>
+                      </select>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                      <button class="btn btn-secondary btn-xs" id="btn-page-prev" disabled>Previous</button>
+                      <span style="font-size: 0.8rem; font-weight: 600; color: var(--text-main);" id="pagination-pages-info">Page 1 of 1</span>
+                      <button class="btn btn-secondary btn-xs" id="btn-page-next" disabled>Next</button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-footer flex-between">
+                <button class="btn btn-secondary" id="btn-step4-back">Back to Mapping</button>
+                <div class="footer-actions">
+                  <button class="btn btn-primary" id="btn-step4-next">
+                    Proceed to Duplicate Matching
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 5: DUPLICATE DETECTION & MATCHING -->
+          <div class="wizard-step-panel" id="wizard-step-5">
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Step 5: Duplicate Scan</h3>
+                  <p class="card-subtitle">Compare primary records with their duplicates. Choose Skip, Reject, or Update for each duplicate.</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <div style="display: flex; justify-content: flex-end; margin-bottom: 12px;">
+                  <button class="btn btn-secondary" id="btn-run-duplicate-check">Run Duplicate Scan</button>
+                </div>
+
+                <!-- Match Results Preview -->
+                <div class="match-summary-card mt-3" id="match-summary-card">
+                  <div class="match-stat-item">
+                    <span class="match-stat-val" id="match-cnt-groups">0</span>
+                    <span class="match-stat-label">Duplicate Groups</span>
+                  </div>
+                  <div class="match-stat-item">
+                    <span class="match-stat-val" id="match-cnt-updated">0</span>
+                    <span class="match-stat-label">Updated</span>
+                  </div>
+                  <div class="match-stat-item">
+                    <span class="match-stat-val" id="match-cnt-new">0</span>
+                    <span class="match-stat-label">New Inserts</span>
+                  </div>
+                  <div class="match-stat-item">
+                    <span class="match-stat-val" id="match-cnt-matched">0</span>
+                    <span class="match-stat-label">Existing Record Updates</span>
+                  </div>
+                  <div class="match-stat-item">
+                    <span class="match-stat-val" id="match-cnt-infile">0</span>
+                    <span class="match-stat-label">In-File Duplicates</span>
+                  </div>
+                  <div class="match-stat-item">
+                    <span class="match-stat-val" id="match-cnt-skipped">0</span>
+                    <span class="match-stat-label">Skipped</span>
+                  </div>
+                  <div class="match-stat-item">
+                    <span class="match-stat-val" id="match-cnt-review">0</span>
+                    <span class="match-stat-label">Requires Review</span>
+                  </div>
+                </div>
+
+                <!-- Empty State before Duplicate Scan -->
+                <div class="duplicate-empty-state mt-4" id="duplicate-empty-state" style="display: block; padding: 40px 20px; text-align: center; background: rgba(15, 23, 42, 0.4); border: 1px dashed rgba(148, 163, 184, 0.25); border-radius: 8px;">
+                  <div style="font-size: 2rem; margin-bottom: 8px;">🔍</div>
+                  <h4 style="margin: 0 0 6px 0; font-size: 1.05rem; color: var(--text-main);" id="duplicate-empty-title">No duplicate scan has been run yet.</h4>
+                  <p style="margin: 0 auto; font-size: 0.85rem; color: var(--text-muted); max-width: 520px;" id="duplicate-empty-desc">
+                    Click <strong>Run Duplicate Scan</strong> above to analyze the validated records, group genuine duplicates, and match against existing database entities.
+                  </p>
+                </div>
+
+                <!-- Duplicate Findings Container (Visible after Scan) -->
+                <div class="duplicate-findings-container mt-4" id="duplicate-findings-container" style="display: none;">
+                  <div class="staged-header flex-between mb-3">
+                    <div style="display:flex; align-items:center; gap:10px;">
+                      <h4 class="staged-title" style="margin:0;">Duplicate Groups</h4>
+                      <span class="badge badge-warning" id="duplicate-findings-count-badge">0 Groups</span>
+                    </div>
+                  </div>
+
+                  <!-- Duplicate groups are displayed expanded for immediate review. -->
+                  <div id="duplicate-groups-list">
+                    <!-- Populated via JS -->
+                  </div>
+
+                  <!-- Resolved Duplicates Section -->
+                  <div id="duplicate-resolved-section" class="mt-4" style="display: none;">
+                    <div class="staged-header flex-between mb-3">
+                      <div style="display:flex; align-items:center; gap:10px;">
+                        <h4 class="staged-title" style="margin:0;">Resolved Records</h4>
+                        <span class="badge badge-success" id="duplicate-resolved-count-badge">0 Resolved</span>
+                      </div>
+                    </div>
+                    <div id="duplicate-resolved-list">
+                      <!-- Populated via JS -->
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-footer flex-between">
+                <button class="btn btn-secondary" id="btn-step5-back">Back</button>
+                <button class="btn btn-primary" id="btn-step5-next">
+                  Proceed to Review & Sign-Off
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 6: REVIEW & GOVERNANCE -->
+          <div class="wizard-step-panel" id="wizard-step-6">
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Step 6: Final Review</h3>
+                  <p class="card-subtitle">What will happen? Review the planned creates, updates, skips, and rejects. Approval is requested only when policy requires it.</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="review-import-details">
+                  <div><small>Import</small><strong id="review-import-name">—</strong></div>
+                  <div><small>Department</small><strong id="review-import-department">—</strong></div>
+                  <div><small>File</small><strong id="review-import-file">—</strong></div>
+                  <div><small>Total records</small><strong id="review-import-total">0</strong></div>
+                </div>
+
+                <div class="review-readiness" aria-live="polite">
+                  <strong id="review-readiness-status">Loading review status…</strong>
+                  <strong class="review-needs-review-label">Items needing review</strong>
+                  <p id="review-items-needing-review">Loading unresolved item count…</p>
+                  <button type="button" class="btn btn-secondary btn-xs" id="btn-review-view-issues" style="display:none;">View Issues</button>
+                </div>
+
+                <div class="review-checklist-card">
+                  <h4 class="checklist-title">Review checks</h4>
+                  <ul class="checklist-items" id="review-checklist-items">
+                    <li class="check-item">Loading server-side readiness checks...</li>
+                  </ul>
+                </div>
+
+                <!-- Authoritative execution outcome counts -->
+                <div class="review-summary-box mt-3">
+                  <h4 class="summary-box-title">FINAL IMPORT OUTCOME</h4>
+                  <div class="impact-metrics-row">
+                    <div class="impact-col">
+                      <span class="impact-val text-green" id="review-impact-insert">0</span>
+                      <span class="impact-lbl">Created</span>
+                    </div>
+                    <div class="impact-col">
+                      <span class="impact-val text-blue" id="review-impact-update">0</span>
+                      <span class="impact-lbl">Updated</span>
+                    </div>
+                    <div class="impact-col">
+                      <span class="impact-val text-muted" id="review-impact-skip">0</span>
+                      <span class="impact-lbl">Skipped</span>
+                    </div>
+                    <div class="impact-col">
+                      <span class="impact-val text-red" id="review-impact-reject">0</span>
+                      <span class="impact-lbl">Rejected</span>
+                    </div>
+                    <div class="impact-col">
+                      <span class="impact-val text-red" id="review-impact-failed">0</span>
+                      <span class="impact-lbl">Failed</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-footer flex-between">
+                <button class="btn btn-secondary" id="btn-step6-back">Back</button>
+                <button class="btn btn-primary" id="btn-step6-next">
+                  Continue
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 7: APPROVAL & FOUR-EYES GOVERNANCE -->
+          <div class="wizard-step-panel" id="wizard-step-7">
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Step 7: Approval Request</h3>
+                  <p class="card-subtitle">Track the request and review it if it is assigned to your business role.</p>
+                </div>
+              </div>
+              <div class="card-body">
+                
+                <div class="approval-card-box">
+                  <div class="approval-status-banner" id="approval-status-banner">
+                    <span class="approval-icon">✓</span>
+                    <div>
+                      <div class="approval-banner-title" id="approval-banner-title">Approval status</div>
+                      <div class="approval-banner-sub" id="approval-banner-sub">Loading approval request...</div>
+                    </div>
+                  </div>
+
+                  <div class="form-group mt-3">
+                    <label for="input-approval-notes" class="form-label">Decision note (required when rejecting)</label>
+                    <textarea id="input-approval-notes" class="textarea" rows="3" placeholder="Add an optional approval note or explain why you are rejecting this request..."></textarea>
+                  </div>
+
+                  <div id="approval-permission-notice" class="permission-notice" style="display:none;"></div>
+
+                  <div class="approval-actions-row mt-3">
+                    <button class="btn btn-danger" id="btn-reject-import">Reject request</button>
+                    <button class="btn btn-success btn-lg" id="btn-approve-import">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      Approve request
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-footer flex-between">
+                <button class="btn btn-secondary" id="btn-step7-back">Back</button>
+                <button class="btn btn-primary" id="btn-step7-next" disabled>
+                  Continue to Import
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 8: TRANSACTIONAL BATCH EXECUTION -->
+          <div class="wizard-step-panel" id="wizard-step-8">
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Step 8: Import Execution</h3>
+                  <p class="card-subtitle">Start the import and follow its live progress.</p>
+                </div>
+              </div>
+              <div class="card-body">
+                
+                <div class="execution-hero">
+                  <button class="btn btn-primary btn-lg" id="btn-trigger-execution">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    Start Import
+                  </button>
+                </div>
+
+                <div class="exec-progress-wrapper mt-4" id="exec-progress-wrapper" style="display: none;">
+                  <div class="progress-bar-header">
+                    <span id="exec-status-text">Ready to start.</span>
+                    <span id="exec-percent-text">0%</span>
+                  </div>
+                  <div class="progress-track">
+                    <div class="progress-fill" id="exec-progress-fill" style="width: 0%;"></div>
+                  </div>
+
+                  <div class="exec-metrics-grid mt-3">
+                    <div class="exec-metric-card"><span class="exec-val text-blue" id="exec-metric-total">—</span><span class="exec-lbl">Total Records</span></div>
+                    <div class="exec-metric-card"><span class="exec-val" id="exec-metric-processed">—</span><span class="exec-lbl">Processed Records</span></div>
+                    <div class="exec-metric-card"><span class="exec-val text-green" id="exec-metric-success">—</span><span class="exec-lbl">Created or updated</span></div>
+                    <div class="exec-metric-card"><span class="exec-val" id="exec-metric-skipped">—</span><span class="exec-lbl">Skipped</span></div>
+                    <div class="exec-metric-card"><span class="exec-val" id="exec-metric-rejected">—</span><span class="exec-lbl">Rejected</span></div>
+                    <div class="exec-metric-card"><span class="exec-val" id="exec-metric-blocked">—</span><span class="exec-lbl">Not imported</span></div>
+                    <div class="exec-metric-card"><span class="exec-val" id="exec-metric-remaining">—</span><span class="exec-lbl">Remaining Records</span></div>
+                    <div class="exec-metric-card"><span class="exec-val text-red" id="exec-metric-failed">—</span><span class="exec-lbl">Failed Records</span></div>
+                    <div class="exec-metric-card"><span class="exec-val text-blue" id="exec-metric-duration">—</span><span class="exec-lbl">Duration</span></div>
+                  </div>
+
+                  <details class="mt-3">
+                    <summary>Execution details</summary>
+                  <!-- Live Console Logs -->
+                  <div class="exec-console-box mt-3" id="exec-console-box">
+                    <div class="console-line">[READY] Execution engine initialized.</div>
+                  </div>
+                  </details>
+                </div>
+              </div>
+              <div class="card-footer flex-between">
+                <button class="btn btn-secondary" id="btn-step8-back">Back</button>
+                <button class="btn btn-primary" id="btn-step8-next" disabled>
+                  Proceed to Reconciliation
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 9: POST-IMPORT RECONCILIATION -->
+          <div class="wizard-step-panel" id="wizard-step-9">
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Step 9: Import Results</h3>
+                  <p class="card-subtitle">See how every source row was accounted for.</p>
+                </div>
+              </div>
+              <div class="card-body">
+                
+                <div class="reconciliation-card">
+                  <div class="recon-status-badge-row">
+                    <span class="recon-badge fully-reconciled" id="recon-status-badge">Results pending</span>
+                    <span class="recon-variance-tag" id="recon-variance-tag">Unaccounted rows: —</span>
+                  </div>
+
+                  <div class="recon-summary-grid mt-3">
+                    <div class="recon-summary-item"><span>Source Rows</span><strong id="recon-source-rows">—</strong></div>
+                    <div class="recon-summary-item"><span>Accounted for</span><strong id="recon-accounted-rows">—</strong></div>
+                    <div class="recon-summary-item"><span>Created</span><strong id="recon-target-created">—</strong></div>
+                    <div class="recon-summary-item"><span>Updated</span><strong id="recon-target-updated">—</strong></div>
+                    <div class="recon-summary-item"><span>Skipped</span><strong id="recon-target-skipped">—</strong></div>
+                    <div class="recon-summary-item"><span>Rejected</span><strong id="recon-target-rejected">—</strong></div>
+                    <div class="recon-summary-item"><span>Not imported</span><strong id="recon-target-blocked">—</strong></div>
+                    <div class="recon-summary-item"><span>Failed</span><strong id="recon-target-failed">—</strong></div>
+                  </div>
+                  <div id="recon-variance-detail" class="mt-3" role="status"></div>
+                </div>
+
+              </div>
+              <div class="card-footer flex-between">
+                <button class="btn btn-secondary" id="btn-step9-back">Back</button>
+                <button class="btn btn-primary" id="btn-step9-next">
+                  View Final Report
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 10: FINAL REPORT & EXPORT -->
+          <div class="wizard-step-panel" id="wizard-step-10">
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Step 10: Final Import Report</h3>
+                  <p class="card-subtitle">Review the final outcomes, approval and available downloads.</p>
+                </div>
+              </div>
+              <div class="card-body">
+                
+                <div class="final-report-card">
+                  <div class="report-header">
+                    <div class="report-title-group">
+                      <h4 class="report-job-title" id="report-job-title">Import Job Complete</h4>
+                      <p class="report-meta" id="report-meta-text">Import details</p>
+                    </div>
+                    <span class="badge badge-success btn-lg" id="report-status-badge">COMPLETED</span>
+                  </div>
+
+                  <div class="report-stat-grid mt-4" id="final-report-stat-grid">
+                    <div><span>Rows</span><strong id="report-total-rows">—</strong></div>
+                    <div><span>Columns</span><strong id="report-column-count">—</strong></div>
+                    <div><span>Valid</span><strong id="report-valid-rows">—</strong></div>
+                    <div><span>Warnings</span><strong id="report-warning-rows">—</strong></div>
+                    <div><span>Invalid</span><strong id="report-invalid-rows">—</strong></div>
+                    <div><span>Corrected</span><strong id="report-corrected-rows">—</strong></div>
+                    <div><span>Duplicates</span><strong id="report-duplicate-rows">—</strong></div>
+                    <div><span>Created</span><strong id="report-created">—</strong></div>
+                    <div><span>Updated</span><strong id="report-updated">—</strong></div>
+                    <div><span>Skipped</span><strong id="report-skipped">—</strong></div>
+                    <div><span>Rejected</span><strong id="report-rejected">—</strong></div>
+                    <div><span>Blocked</span><strong id="report-blocked">—</strong></div>
+                    <div><span>Failed</span><strong id="report-failed">—</strong></div>
+                    <div><span>Unaccounted rows</span><strong id="report-variance">—</strong></div>
+                  </div>
+                  <div class="mt-3" id="report-approval-summary"></div>
+                  <div class="mt-3" id="report-reconciliation-detail"></div>
+
+                  <div class="report-export-section mt-4 report-download-card">
+                    <div class="report-export-section-header">
+                      <div>
+                        <h4>1. Download Cleaned Data</h4>
+                        <p>Download the final cleaned dataset produced by the import pipeline. Duplicates and blocking invalid records are excluded from the cleaned-data export.</p>
+                      </div>
+                      <span class="report-export-note report-note-success">Complete dataset</span>
+                    </div>
+                    <div class="report-download-grid report-download-grid-four">
+                      <button class="report-download-tile report-download-primary" id="btn-download-cleaned-csv" type="button">
+                        <span class="report-download-icon">CSV</span>
+                        <span><strong>Cleaned CSV</strong><small>Complete cleaned records</small></span>
+                      </button>
+                      <button class="report-download-tile" id="btn-download-cleaned-xlsx" type="button">
+                        <span class="report-download-icon">XLSX</span>
+                        <span><strong>Cleaned Excel</strong><small>Complete cleaned records</small></span>
+                      </button>
+                      <button class="report-download-tile" id="btn-download-cleaned-pdf" type="button">
+                        <span class="report-download-icon" style="background:rgba(239,68,68,0.15);color:#f87171;">PDF</span>
+                        <span><strong>Cleaned PDF</strong><small>Formatted data report</small></span>
+                      </button>
+                      <button class="report-download-tile" id="btn-download-cleaned-docx" type="button">
+                        <span class="report-download-icon" style="background:rgba(59,130,246,0.15);color:#60a5fa;">DOCX</span>
+                        <span><strong>Cleaned Word</strong><small>Editable document</small></span>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="report-export-section mt-4 report-download-card">
+                    <div class="report-export-section-header">
+                      <div>
+                        <h4>2. Download Import Report Summary</h4>
+                        <p>A formatted report containing the import metadata, data-quality results, matching, execution and reconciliation summary.</p>
+                      </div>
+                      <span class="report-export-note">Report only</span>
+                    </div>
+                    <div class="report-download-grid report-download-grid-three">
+                      <button class="report-download-tile report-format-download" data-report-format="pdf" type="button">
+                        <span class="report-download-icon">PDF</span>
+                        <span><strong>PDF Report</strong><small>Formatted summary</small></span>
+                      </button>
+                      <button class="report-download-tile report-format-download" data-report-format="docx" type="button">
+                        <span class="report-download-icon">DOCX</span>
+                        <span><strong>Word Report</strong><small>Editable summary</small></span>
+                      </button>
+                      <button class="report-download-tile report-format-download" data-report-format="csv" type="button">
+                        <span class="report-download-icon">CSV</span>
+                        <span><strong>Summary CSV</strong><small>Machine-readable metrics</small></span>
+                      </button>
+                    </div>
+                  </div>
+
+
+
+                  <!-- Retry Section if errors exist -->
+                  <div class="retry-action-card mt-4" id="retry-action-card" style="display: none;">
+                    <div class="retry-card-content">
+                      <div>
+                        <h5>Failed Records Detected</h5>
+                        <p>You can automatically retry recoverable failures or edit mappings.</p>
+                      </div>
+                      <button class="btn btn-warning" id="btn-retry-failed-records">Retry Failed Records</button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-footer text-right" style="display: flex; justify-content: space-between; align-items: center;">
+                <button class="btn btn-secondary" id="btn-step10-back" type="button">← Back to Reconciliation</button>
+                <button class="btn btn-primary" id="btn-finish-wizard">Return to Dashboard</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ========================================================================= -->
+      <!-- VIEW 3: ENTITY SCHEMAS EXPLORER -->
+      <!-- ========================================================================= -->
+      <section id="view-schemas" class="view-panel">
+        <div class="view-header">
+          <div>
+            <h1 class="view-title">Registered Entity Schemas</h1>
+            <p class="view-subtitle">Authoritative data dictionary defining importable entities, fields, constraints, and duplicate rules.</p>
+          </div>
+        </div>
+
+        <div class="schemas-container" id="schemas-container">
+          <!-- Populated via JS -->
+        </div>
+      </section>
+
+      <!-- ========================================================================= -->
+      <!-- VIEW 4: AUDIT LOGS -->
+      <!-- ========================================================================= -->
+      <section id="view-audit" class="view-panel">
+        <div class="view-header">
+          <div>
+            <h1 class="view-title">Immutable Audit Trail</h1>
+            <p class="view-subtitle">Append-only compliance log tracking every upload, validation, approval, execution, and rollback.</p>
+          </div>
+          <button class="btn btn-secondary btn-sm" id="btn-refresh-audit">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 4v6h-6"></path><path d="M1 20v-6h6"></path><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+            Refresh Logs
+          </button>
+        </div>
+
+        <div class="card">
+          <div class="table-wrapper">
+            <table class="data-table" id="audit-table">
+              <thead>
+                <tr>
+                  <th>Timestamp</th>
+                  <th>Action</th>
+                  <th>User ID</th>
+                  <th>Organization</th>
+                  <th>Resource ID</th>
+                  <th>Operation Details</th>
+                </tr>
+              </thead>
+              <tbody id="audit-table-body">
+                <!-- Populated via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Save Progress / Draft Confirmation Modal -->
+    <div id="modal-draft-backdrop" class="modal-backdrop" style="display: none;"></div>
+    <div id="modal-draft-dialog-wrapper" class="modal-dialog-wrapper" style="display: none;">
+      <div id="modal-save-draft" class="modal" style="max-width: 500px;">
+        <div class="modal-header" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 24px; border-bottom: 1px solid var(--border-color);">
+          <div>
+            <h3 style="margin: 0; font-size: 1.15rem; color: var(--text-main); font-weight: 700;">Save your progress?</h3>
+            <p style="margin: 4px 0 0 0; font-size: 0.85rem; color: var(--text-muted);">Unsaved changes detected</p>
+          </div>
+          <button class="btn btn-secondary btn-xs" id="btn-draft-close-x" type="button">✕</button>
+        </div>
+        <div class="modal-body" style="padding: 20px 24px;">
+          <p style="margin: 0; font-size: 0.92rem; color: var(--text-main); line-height: 1.5;">
+            You have unsaved changes on this step. Would you like to save them before going back?
+          </p>
+        </div>
+        <div class="modal-footer" style="display: flex; gap: 10px; justify-content: flex-end; padding: 16px 24px; border-top: 1px solid var(--border-color); flex-wrap: wrap;">
+          <button class="btn btn-secondary" id="btn-draft-cancel" type="button">Cancel</button>
+          <button class="btn btn-secondary" id="btn-draft-leave-without-save" type="button" style="border-color: rgba(239, 68, 68, 0.4); color: #f87171;">Leave Without Saving</button>
+          <button class="btn btn-primary" id="btn-draft-save" type="button">Save as Draft</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Column Inspection Side Drawer -->
+    <div id="column-inspect-drawer-backdrop" class="drawer-backdrop" style="display: none;" onclick="closeColumnInspectDrawer()"></div>
+    <div id="column-inspect-drawer" class="side-drawer" style="display: none;">
+      <div class="drawer-header" style="display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; border-bottom: 1px solid var(--border-color);">
+        <div>
+          <h3 id="drawer-column-title" style="margin: 0; font-size: 1.1rem; color: var(--text-main);">Column Profile</h3>
+          <span id="drawer-original-name" style="font-size: 0.8rem; color: var(--text-muted);">Original Header</span>
+        </div>
+        <button class="btn btn-secondary btn-xs" onclick="closeColumnInspectDrawer()">✕ Close</button>
+      </div>
+    </div>
+
+    <!-- Edit Duplicate Record Modal -->
+    <div id="modal-edit-dup-backdrop" class="modal-backdrop" style="display: none;" onclick="window.closeEditDuplicateModal()"></div>
+    <div id="modal-edit-dup-wrapper" class="modal-dialog-wrapper" style="display: none;">
+    <div id="modal-edit-duplicate-record" class="modal" role="dialog" aria-modal="true" aria-labelledby="edit-dup-modal-title" tabindex="-1" style="display: none; max-width: 640px; width: 90%;">
+      <div class="modal-header" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 24px; border-bottom: 1px solid var(--border-color);">
+        <div>
+          <h3 id="edit-dup-modal-title" style="margin: 0; font-size: 1.15rem; color: var(--text-main); font-weight: 700;">Edit Duplicate Record</h3>
+          <p style="margin: 4px 0 0 0; font-size: 0.85rem; color: var(--text-muted);" id="edit-dup-modal-subtitle">Review and update the record before applying the change.</p>
+        </div>
+        <button class="btn btn-secondary btn-xs" onclick="window.closeEditDuplicateModal()" type="button">✕</button>
+      </div>
+      <div class="modal-body" style="padding: 24px; max-height: 480px; overflow-y: auto;" id="edit-dup-modal-body">
+        <p style="margin: 0 0 16px; color: var(--text-muted);">Review and update the record before applying the change.</p>
+      </div>
+      <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; border-top: 1px solid var(--border-color);">
+        <button id="btn-cancel-edit-duplicate" class="btn btn-secondary" onclick="window.closeEditDuplicateModal()" type="button">Cancel</button>
+        <button class="btn btn-primary" id="btn-save-edit-duplicate" type="button">Save &amp; Update</button>
+      </div>
+    </div>
+    </div>
+
+    <div id="modal-resolution-backdrop" class="modal-backdrop" style="display: none;"></div>
+    <div id="modal-resolution-wrapper" class="modal-dialog-wrapper" style="display: none;">
+      <section id="modal-resolution" class="modal" role="dialog" aria-modal="true" aria-labelledby="resolution-modal-title" aria-describedby="resolution-modal-description" tabindex="-1" style="display: none; max-width: 480px; width: 90%;">
+        <div class="modal-header" style="padding: 18px 24px; border-bottom: 1px solid var(--border-color);">
+          <h3 id="resolution-modal-title" style="margin: 0; color: var(--text-main);"></h3>
+        </div>
+        <div class="modal-body" style="padding: 24px;">
+          <p id="resolution-modal-description" style="margin: 0; color: var(--text-muted);"></p>
+          <div id="resolution-reason-group" class="form-group mt-3" style="display: none;">
+            <label for="resolution-rejection-reason" class="form-label">Reason (optional)</label>
+            <textarea id="resolution-rejection-reason" class="textarea" rows="3" maxlength="1000" placeholder="Add a reason for rejecting this record."></textarea>
+          </div>
+          <div id="resolution-modal-error" role="alert" style="display: none; margin-top: 12px; color: var(--danger);"></div>
+        </div>
+        <div class="modal-footer" style="display: flex; justify-content: flex-end; gap: 10px; padding: 16px 24px; border-top: 1px solid var(--border-color);">
+          <button id="btn-cancel-resolution" class="btn btn-secondary" type="button">Cancel</button>
+          <button id="btn-confirm-resolution" class="btn btn-primary" type="button">Confirm</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- Export Cleaned Data Modal -->
+    <div id="modal-export-backdrop" class="modal-backdrop" style="display: none;"></div>
+    <div id="modal-export-cleaned" class="modal" style="display: none; max-width: 540px;">
+      <div class="modal-header" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 24px; border-bottom: 1px solid var(--border-color);">
+        <div>
+          <h3 style="margin: 0; font-size: 1.2rem; color: var(--text-main);">📥 Export Cleaned Dataset</h3>
+          <p style="margin: 4px 0 0 0; font-size: 0.82rem; color: var(--text-muted);">Select export format and column options for the processed dataset.</p>
+        </div>
+        <button class="btn btn-secondary btn-xs" onclick="closeExportModal()">✕</button>
+      </div>
+      <div class="modal-body" style="padding: 24px;">
+        <div class="form-group mb-4">
+          <label class="form-label" style="font-weight: 600; margin-bottom: 8px;">Choose File Format</label>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+            <label style="display: flex; align-items: center; gap: 8px; padding: 12px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; cursor: pointer;">
+              <input type="radio" name="export-format-radio" value="csv" checked>
+              <div>
+                <strong style="display: block; font-size: 0.9rem;">CSV Format</strong>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">Sanitized UTF-8 tabular data</span>
+              </div>
+            </label>
+            <label style="display: flex; align-items: center; gap: 8px; padding: 12px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; cursor: pointer;">
+              <input type="radio" name="export-format-radio" value="xlsx">
+              <div>
+                <strong style="display: block; font-size: 0.9rem;">Excel (.xlsx)</strong>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">Formatted spreadsheet</span>
+              </div>
+            </label>
+            <label style="display: flex; align-items: center; gap: 8px; padding: 12px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; cursor: pointer;">
+              <input type="radio" name="export-format-radio" value="pdf">
+              <div>
+                <strong style="display: block; font-size: 0.9rem;">PDF Report</strong>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">Executive audit summary & preview</span>
+              </div>
+            </label>
+            <label style="display: flex; align-items: center; gap: 8px; padding: 12px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; cursor: pointer;">
+              <input type="radio" name="export-format-radio" value="docx">
+              <div>
+                <strong style="display: block; font-size: 0.9rem;">Word (.docx)</strong>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">Structured Word document</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group mb-4">
+          <label class="form-label" style="font-weight: 600; margin-bottom: 8px;">Dataset Scope</label>
+          <select id="select-export-scope" class="select">
+            <option value="cleaned" selected>Cleaned & Valid Records Only (Default)</option>
+            <option value="rejected">Rejected / Invalid Records Only</option>
+            <option value="all">All Uploaded Records</option>
+          </select>
+        </div>
+
+        <div style="background: var(--bg-card); padding: 14px; border-radius: 8px; border: 1px solid var(--border-color); margin-top: 16px;">
+          <div style="font-size: 0.8rem; color: var(--text-muted); display: flex; justify-content: space-between;">
+            <span>Target Entity: <strong id="export-modal-entity-name" style="color: var(--text-main);">-</strong></span>
+            <span>Target Columns: <strong id="export-modal-col-count" style="color: var(--text-main);">-</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer" style="display: flex; justify-content: space-between; padding: 16px 24px; border-top: 1px solid var(--border-color);">
+        <button class="btn btn-secondary" onclick="closeExportModal()">Cancel</button>
+        <button class="btn btn-primary" id="btn-trigger-export-download">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Generate & Download File
+        </button>
+      </div>
+    </div>
+
+    <!-- Auto-Corrections Audit Summary Modal -->
+    <div id="modal-corrections-backdrop" class="modal-backdrop" style="display: none;"></div>
+    <div id="modal-auto-corrections" class="modal" style="display: none; max-width: 680px;">
+      <div class="modal-header" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 24px; border-bottom: 1px solid var(--border-color);">
+        <div>
+          <h3 style="margin: 0; font-size: 1.15rem; color: var(--text-main);">✨ Automatic Transformation Audit Summary</h3>
+          <p style="margin: 4px 0 0 0; font-size: 0.82rem; color: var(--text-muted);">Safe whitespace, casing, date, number, and enum normalizations applied automatically by the pipeline.</p>
+        </div>
+        <button class="btn btn-secondary btn-xs" onclick="closeAutoCorrectionsModal()">✕</button>
+      </div>
+      <div class="modal-body" style="padding: 20px 24px; max-height: 400px; overflow-y: auto;">
+        <table class="data-table" style="font-size: 0.8rem;">
+          <thead>
+            <tr>
+              <th>Column</th>
+              <th>Original Value</th>
+              <th>Corrected Value</th>
+              <th>Transformation Rule</th>
+              <th>Count</th>
+            </tr>
+          </thead>
+          <tbody id="auto-corrections-tbody">
+            <tr><td colspan="5" class="text-center text-muted">No automatic corrections recorded.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer" style="display: flex; justify-content: flex-end; padding: 14px 24px; border-top: 1px solid var(--border-color);">
+        <button class="btn btn-secondary btn-sm" onclick="closeAutoCorrectionsModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

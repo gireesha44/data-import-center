@@ -1,0 +1,4 @@
+First Name,Last Name,Email Address,Phone Number,Company,Status
+Invalid,User,not-an-email,+1-555-0101,Invalid Co,ACTIVE
+Missing,Last,,+1-555-0102,Wayne Enterprises,ACTIVE
+Bad,Status,bad.status@corp.com,+1-555-0103,Daily Planet,UNKNOWN_STATUS

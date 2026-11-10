@@ -1,0 +1,1 @@
+{"version":3,"file":"type-compatibility.evaluator.d.ts","sourceRoot":"","sources":["../../../src/domain/mapping/type-compatibility.evaluator.ts"],"names":[],"mappings":"AAAA;;GAEG;AAEH,OAAO,EAAE,aAAa,EAAE,MAAM,+CAA+C,CAAC;AAC9E,OAAO,EAAE,iBAAiB,EAAE,MAAM,mCAAmC,CAAC;AAEtE,qBAAa,0BAA0B;IACrC;;OAEG;WACW,QAAQ,CACpB,UAAU,EAAE,aAAa,GAAG,SAAS,EACrC,UAAU,EAAE,aAAa,GACxB,iBAAiB;CAgErB"}

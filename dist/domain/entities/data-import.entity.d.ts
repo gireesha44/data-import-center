@@ -1,0 +1,104 @@
+/**
+ * Master Data Import Domain Entity
+ */
+import { ImportStatus, ImportSourceType, ImportOptions } from '../../core/types/import.types.js';
+export interface DataImportProps {
+    id: string;
+    organizationId: string;
+    sourceId?: string | null;
+    targetModule: string;
+    targetEntity: string;
+    name: string;
+    status?: ImportStatus;
+    sourceType?: ImportSourceType;
+    fileName?: string | null;
+    fileSizeBytes?: number | null;
+    fileMimeType?: string | null;
+    fileStoragePath?: string | null;
+    fileChecksumSha256?: string | null;
+    fileMetadata?: Record<string, any> | null;
+    importOptions?: Partial<ImportOptions>;
+    totalRecords?: number;
+    validRecords?: number;
+    invalidRecords?: number;
+    warningRecords?: number;
+    processedRecords?: number;
+    failedRecords?: number;
+    skippedRecords?: number;
+    requiresApproval?: boolean;
+    createdBy: string;
+    createdAt?: Date;
+    updatedAt?: Date;
+    startedAt?: Date | null;
+    completedAt?: Date | null;
+    cancelledAt?: Date | null;
+    version?: number;
+}
+export declare class DataImportEntity {
+    readonly id: string;
+    readonly organizationId: string;
+    sourceId: string | null;
+    targetModule: string;
+    targetEntity: string;
+    name: string;
+    status: ImportStatus;
+    sourceType: ImportSourceType;
+    fileName: string | null;
+    fileSizeBytes: number | null;
+    fileMimeType: string | null;
+    fileStoragePath: string | null;
+    fileChecksumSha256: string | null;
+    fileMetadata: Record<string, any> | null;
+    importOptions: ImportOptions;
+    totalRecords: number;
+    validRecords: number;
+    invalidRecords: number;
+    warningRecords: number;
+    processedRecords: number;
+    failedRecords: number;
+    skippedRecords: number;
+    requiresApproval: boolean;
+    readonly createdBy: string;
+    readonly createdAt: Date;
+    updatedAt: Date;
+    startedAt: Date | null;
+    completedAt: Date | null;
+    cancelledAt: Date | null;
+    version: number;
+    constructor(props: DataImportProps);
+    isDraft(): boolean;
+    isTerminal(): boolean;
+    isEditable(): boolean;
+    toJSON(): {
+        id: string;
+        organizationId: string;
+        sourceId: string | null;
+        targetModule: string;
+        targetEntity: string;
+        name: string;
+        status: ImportStatus;
+        sourceType: ImportSourceType;
+        fileName: string | null;
+        fileSizeBytes: number | null;
+        fileMimeType: string | null;
+        fileChecksumSha256: string | null;
+        fileMetadata: Record<string, any> | null;
+        importOptions: ImportOptions;
+        totalRecords: number;
+        validRecords: number;
+        invalidRecords: number;
+        warningRecords: number;
+        processedRecords: number;
+        failedRecords: number;
+        skippedRecords: number;
+        requiresApproval: boolean;
+        createdBy: string;
+        createdAt: string;
+        updatedAt: string;
+        startedAt: string | null;
+        completedAt: string | null;
+        cancelledAt: string | null;
+        version: number;
+    };
+}
+//# sourceMappingURL=data-import.entity.d.ts.map

@@ -1,0 +1,14 @@
+first_name,last_name,email,phone,company,status
+Jane,Doe,jane.doe@example.com,+1-555-0100,Acme Corp,ACTIVE
+,,missing.required@example.com,+1-555-0101,Beta Corp,LEAD
+Alice,Smith,alice.smith@example.com,,Gamma Inc,LEAD
+Bob,Marley,bob.marley@example.com,+1-555-0103,Delta Corp,LEAD
+Bob,Marley,bob.marley@example.com,+1-555-0103,Delta Corp,LEAD
+Charlie,Brown,charlie.brown@example.com,+1-555-0104,Epsilon Corp,ACTIVE
+David,Miller,invalid-email-address,+1-555-0105,Zeta Inc,ACTIVE
+Eve,Adams,eve.adams@example.com,not-a-phone-number,Eta Corp,ACTIVE
+Frank,Wright,frank.wright@example.com,+1-555-0107,Theta Corp,Pending
+Grace,Hopper,grace.hopper@example.com,+1-555-0108,N/A,LEAD
+  Henry  ,  Ford  ,  henry.ford@example.com  ,  +1-555-0109  ,  Ford Motor  ,  lead  
+Robert,Johnson,r.johnson@example.com,+1-555-0110,Iota Corp,LEAD
+Rob,Johnson,r.johnson@example.com,+1-555-0110,Iota Corp,LEAD

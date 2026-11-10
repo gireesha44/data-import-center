@@ -1,0 +1,6 @@
+customer_code,customer_name,email,phone,customer_category,account_owner,status
+CUS-1001,Acme Industries,contact@acme.example.com,+91-9000000001,Enterprise,Alex Rivera,ACTIVE
+CUS-1002,Bright Retail,info@bright.example.com,+91-9000000002,Retail,Maria Chen,ACTIVE
+CUS-1003,CloudBase Tech,hello@cloudbase.example.com,+91-9000000003,Enterprise,Alex Rivera,PROSPECT
+CUS-1004,Delta Logistics,ops@delta.example.com,+91-9000000004,SME,Jordan Smith,INACTIVE
+CUS-1005,Echo Partners,reach@echo.example.com,+91-9000000005,Retail,Maria Chen,ACTIVE

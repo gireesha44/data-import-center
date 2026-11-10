@@ -1,0 +1,4040 @@
+[
+  {
+    "id": "target_work_orders_f8f85256-8ec9-44de-a5f1-3abb85a3047d",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1000",
+      "product_sku": "SKU-02000",
+      "target_quantity": 10,
+      "plant_code": "PL-HYD-01",
+      "id": "target_work_orders_f8f85256-8ec9-44de-a5f1-3abb85a3047d",
+      "createdAt": "2026-10-05T18:23:23.819Z",
+      "updatedAt": "2026-10-05T18:23:23.819Z"
+    },
+    "createdAt": "2026-10-05T18:23:23.819Z",
+    "updatedAt": "2026-10-05T18:23:23.819Z"
+  },
+  {
+    "id": "target_work_orders_0a9271a5-8560-4d6c-8da5-94a2e22c264b",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1001",
+      "product_sku": "SKU-02001",
+      "target_quantity": 17,
+      "plant_code": "PL-PUN-01",
+      "id": "target_work_orders_0a9271a5-8560-4d6c-8da5-94a2e22c264b",
+      "createdAt": "2026-10-05T18:23:23.936Z",
+      "updatedAt": "2026-10-05T18:23:23.936Z"
+    },
+    "createdAt": "2026-10-05T18:23:23.936Z",
+    "updatedAt": "2026-10-05T18:23:23.936Z"
+  },
+  {
+    "id": "target_work_orders_0285d953-772a-454e-b4c9-298865f519b8",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1002",
+      "product_sku": "SKU-02002",
+      "target_quantity": 24,
+      "plant_code": "PL-BLR-01",
+      "id": "target_work_orders_0285d953-772a-454e-b4c9-298865f519b8",
+      "createdAt": "2026-10-05T18:23:23.985Z",
+      "updatedAt": "2026-10-05T18:23:23.985Z"
+    },
+    "createdAt": "2026-10-05T18:23:23.985Z",
+    "updatedAt": "2026-10-05T18:23:23.985Z"
+  },
+  {
+    "id": "target_work_orders_ee89ef1c-2f02-493e-bfc3-52ac6e859987",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1003",
+      "product_sku": "SKU-02003",
+      "target_quantity": 31,
+      "plant_code": "PL-HYD-01",
+      "id": "target_work_orders_ee89ef1c-2f02-493e-bfc3-52ac6e859987",
+      "createdAt": "2026-10-05T18:23:23.990Z",
+      "updatedAt": "2026-10-05T18:23:23.990Z"
+    },
+    "createdAt": "2026-10-05T18:23:23.990Z",
+    "updatedAt": "2026-10-05T18:23:23.990Z"
+  },
+  {
+    "id": "target_work_orders_ff0f65f2-4f1d-4e0e-9924-d14365053d84",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1004",
+      "product_sku": "68",
+      "target_quantity": 38,
+      "plant_code": "PL-PUN-01",
+      "id": "target_work_orders_ff0f65f2-4f1d-4e0e-9924-d14365053d84",
+      "createdAt": "2026-10-05T18:23:24.003Z",
+      "updatedAt": "2026-10-05T18:23:24.003Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.003Z",
+    "updatedAt": "2026-10-05T18:23:24.003Z"
+  },
+  {
+    "id": "target_work_orders_9ad200e5-a1c0-4d2e-bc63-b155a5004281",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1005",
+      "product_sku": "SKU-02005",
+      "target_quantity": 45,
+      "plant_code": "PL-BLR-01",
+      "id": "target_work_orders_9ad200e5-a1c0-4d2e-bc63-b155a5004281",
+      "createdAt": "2026-10-05T18:23:24.018Z",
+      "updatedAt": "2026-10-05T18:23:24.018Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.018Z",
+    "updatedAt": "2026-10-05T18:23:24.018Z"
+  },
+  {
+    "id": "target_work_orders_c178b2c0-6ba5-4229-bbba-31806d3e80fe",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1006",
+      "product_sku": "SKU-02006",
+      "target_quantity": 52,
+      "plant_code": "PL-HYD-01",
+      "id": "target_work_orders_c178b2c0-6ba5-4229-bbba-31806d3e80fe",
+      "createdAt": "2026-10-05T18:23:24.026Z",
+      "updatedAt": "2026-10-05T18:23:24.026Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.026Z",
+    "updatedAt": "2026-10-05T18:23:24.026Z"
+  },
+  {
+    "id": "target_work_orders_98801fd9-ede2-4dfb-86ef-7358f968fb7c",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1007",
+      "product_sku": "78",
+      "target_quantity": 4,
+      "plant_code": "PL-PUN-01",
+      "id": "target_work_orders_98801fd9-ede2-4dfb-86ef-7358f968fb7c",
+      "createdAt": "2026-10-05T18:23:24.031Z",
+      "updatedAt": "2026-10-05T18:23:24.031Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.031Z",
+    "updatedAt": "2026-10-05T18:23:24.031Z"
+  },
+  {
+    "id": "target_work_orders_64de6cba-11df-4c54-b75d-99d32573778a",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1045",
+      "product_sku": "SKU-02008",
+      "target_quantity": 66,
+      "plant_code": "PL-BLR-01",
+      "id": "target_work_orders_64de6cba-11df-4c54-b75d-99d32573778a",
+      "createdAt": "2026-10-05T18:23:24.034Z",
+      "updatedAt": "2026-10-05T18:23:24.034Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.034Z",
+    "updatedAt": "2026-10-05T18:23:24.034Z"
+  },
+  {
+    "id": "target_work_orders_f203c9dd-fcbb-406a-a865-c6a426c7c98f",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1089",
+      "product_sku": "SKU-02009",
+      "target_quantity": 73,
+      "plant_code": "PL-HYD-01",
+      "id": "target_work_orders_f203c9dd-fcbb-406a-a865-c6a426c7c98f",
+      "createdAt": "2026-10-05T18:23:24.041Z",
+      "updatedAt": "2026-10-05T18:23:24.041Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.041Z",
+    "updatedAt": "2026-10-05T18:23:24.041Z"
+  },
+  {
+    "id": "target_work_orders_0d54a320-025e-49a0-a8b3-dbbde171fcb8",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1010",
+      "product_sku": "SKU-02010",
+      "target_quantity": 80,
+      "plant_code": "PL-PUN-01",
+      "id": "target_work_orders_0d54a320-025e-49a0-a8b3-dbbde171fcb8",
+      "createdAt": "2026-10-05T18:23:24.049Z",
+      "updatedAt": "2026-10-05T18:23:24.049Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.049Z",
+    "updatedAt": "2026-10-05T18:23:24.049Z"
+  },
+  {
+    "id": "target_work_orders_a15d208d-26ce-43dc-bb85-bd630b3890bd",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1032",
+      "product_sku": "SKU-02010",
+      "target_quantity": 80,
+      "plant_code": "PL-PUN-01",
+      "id": "target_work_orders_a15d208d-26ce-43dc-bb85-bd630b3890bd",
+      "createdAt": "2026-10-05T18:23:24.055Z",
+      "updatedAt": "2026-10-05T18:23:24.055Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.055Z",
+    "updatedAt": "2026-10-05T18:23:24.055Z"
+  },
+  {
+    "id": "target_work_orders_5a4b78d6-7bfc-423a-b1b5-b19813265555",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1056",
+      "product_sku": "SKU-02010",
+      "target_quantity": 80,
+      "plant_code": "PL-PUN-01",
+      "id": "target_work_orders_5a4b78d6-7bfc-423a-b1b5-b19813265555",
+      "createdAt": "2026-10-05T18:23:24.061Z",
+      "updatedAt": "2026-10-05T18:23:24.061Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.061Z",
+    "updatedAt": "2026-10-05T18:23:24.061Z"
+  },
+  {
+    "id": "target_work_orders_5c025b80-176b-4d91-ade8-b2cb7ed1a2f2",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1013",
+      "product_sku": "SKU-02013",
+      "target_quantity": 101,
+      "plant_code": "PL-PUN-01",
+      "id": "target_work_orders_5c025b80-176b-4d91-ade8-b2cb7ed1a2f2",
+      "createdAt": "2026-10-05T18:23:24.066Z",
+      "updatedAt": "2026-10-05T18:23:24.066Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.066Z",
+    "updatedAt": "2026-10-05T18:23:24.066Z"
+  },
+  {
+    "id": "target_work_orders_73a0cb8b-f917-443b-8f43-4be60e9977b5",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1014",
+      "product_sku": "SKU-02014",
+      "target_quantity": 108,
+      "plant_code": "PL-BLR-01",
+      "id": "target_work_orders_73a0cb8b-f917-443b-8f43-4be60e9977b5",
+      "createdAt": "2026-10-05T18:23:24.074Z",
+      "updatedAt": "2026-10-05T18:23:24.074Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.074Z",
+    "updatedAt": "2026-10-05T18:23:24.074Z"
+  },
+  {
+    "id": "target_work_orders_50c4a412-9bbc-4e11-86c5-cc70b17de7e2",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1015",
+      "product_sku": "SKU-02015",
+      "target_quantity": 115,
+      "plant_code": "PL-HYD-01",
+      "id": "target_work_orders_50c4a412-9bbc-4e11-86c5-cc70b17de7e2",
+      "createdAt": "2026-10-05T18:23:24.083Z",
+      "updatedAt": "2026-10-05T18:23:24.083Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.083Z",
+    "updatedAt": "2026-10-05T18:23:24.083Z"
+  },
+  {
+    "id": "target_work_orders_08f97b7a-51e2-4423-b8f3-51f1c68506da",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-4668",
+      "product_sku": "SKU-02016",
+      "target_quantity": 122,
+      "plant_code": "PL-PUN-01",
+      "id": "target_work_orders_08f97b7a-51e2-4423-b8f3-51f1c68506da",
+      "createdAt": "2026-10-05T18:23:24.090Z",
+      "updatedAt": "2026-10-05T18:23:24.090Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.090Z",
+    "updatedAt": "2026-10-05T18:23:24.090Z"
+  },
+  {
+    "id": "target_work_orders_3c7e8a8d-c51b-4c29-9f61-dccb55b11cf5",
+    "organizationId": "org-master-101",
+    "entity": "work_orders",
+    "data": {
+      "work_order_id": "WO-1017",
+      "product_sku": "SKU-02017",
+      "target_quantity": 129,
+      "plant_code": "PL-BLR-01",
+      "id": "target_work_orders_3c7e8a8d-c51b-4c29-9f61-dccb55b11cf5",
+      "createdAt": "2026-10-05T18:23:24.097Z",
+      "updatedAt": "2026-10-05T18:23:24.097Z"
+    },
+    "createdAt": "2026-10-05T18:23:24.097Z",
+    "updatedAt": "2026-10-05T18:23:24.097Z"
+  },
+  {
+    "id": "target_payments_4ddd1559-f8a5-439b-8ec6-3a335dd8cb52",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "PAY-1000",
+      "invoice_number": "INV-1000",
+      "amount": 1250.5,
+      "payment_date": "2026-09-01",
+      "payment_method": "BANK_TRANSFER",
+      "id": "target_payments_4ddd1559-f8a5-439b-8ec6-3a335dd8cb52",
+      "createdAt": "2026-10-06T08:52:23.068Z",
+      "updatedAt": "2026-10-06T08:52:23.068Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.068Z",
+    "updatedAt": "2026-10-06T08:52:23.068Z"
+  },
+  {
+    "id": "target_payments_c10871f8-c5d9-419b-b879-c583ee981fd3",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "PAY-1001",
+      "invoice_number": "INV-1001",
+      "amount": 1387.75,
+      "payment_date": "2026-09-02",
+      "payment_method": "CREDIT_CARD",
+      "id": "target_payments_c10871f8-c5d9-419b-b879-c583ee981fd3",
+      "createdAt": "2026-10-06T08:52:23.085Z",
+      "updatedAt": "2026-10-06T08:52:23.085Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.085Z",
+    "updatedAt": "2026-10-06T08:52:23.085Z"
+  },
+  {
+    "id": "target_payments_3389004f-66d9-4dc2-a6ce-486e9c0dc49b",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "PAY-1002",
+      "invoice_number": "INV-1002",
+      "amount": 1525,
+      "payment_date": "2026-09-03",
+      "payment_method": "CHEQUE",
+      "id": "target_payments_3389004f-66d9-4dc2-a6ce-486e9c0dc49b",
+      "createdAt": "2026-10-06T08:52:23.106Z",
+      "updatedAt": "2026-10-06T08:52:23.106Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.106Z",
+    "updatedAt": "2026-10-06T08:52:23.106Z"
+  },
+  {
+    "id": "target_payments_c5aaa74b-16cb-49b4-aea3-65daddc39336",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "PAY-1003",
+      "invoice_number": "INV-1003",
+      "amount": 1662.25,
+      "payment_date": "2026-09-04",
+      "payment_method": "WIRE",
+      "id": "target_payments_c5aaa74b-16cb-49b4-aea3-65daddc39336",
+      "createdAt": "2026-10-06T08:52:23.121Z",
+      "updatedAt": "2026-10-06T08:52:23.121Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.121Z",
+    "updatedAt": "2026-10-06T08:52:23.121Z"
+  },
+  {
+    "id": "target_payments_41ec96bc-7927-45a2-a2cd-65b67ef206fe",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "dfjgh",
+      "invoice_number": "INV-1004",
+      "amount": 1799.5,
+      "payment_date": "2026-09-05",
+      "payment_method": "CASH",
+      "id": "target_payments_41ec96bc-7927-45a2-a2cd-65b67ef206fe",
+      "createdAt": "2026-10-06T08:52:23.138Z",
+      "updatedAt": "2026-10-06T08:52:23.138Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.138Z",
+    "updatedAt": "2026-10-06T08:52:23.138Z"
+  },
+  {
+    "id": "target_payments_e936a37c-877a-4332-ae54-820e4b672118",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "PAY-1005",
+      "invoice_number": "INV-1005",
+      "amount": 1936.75,
+      "payment_date": "2026-09-06",
+      "payment_method": "BANK_TRANSFER",
+      "id": "target_payments_e936a37c-877a-4332-ae54-820e4b672118",
+      "createdAt": "2026-10-06T08:52:23.151Z",
+      "updatedAt": "2026-10-06T08:52:23.151Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.151Z",
+    "updatedAt": "2026-10-06T08:52:23.151Z"
+  },
+  {
+    "id": "target_payments_cea39fa4-4212-4c43-9288-de14b06e0d3f",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "PAY-1006",
+      "invoice_number": "INV-1006",
+      "amount": 2074,
+      "payment_date": "2026-09-07",
+      "payment_method": "CREDIT_CARD",
+      "id": "target_payments_cea39fa4-4212-4c43-9288-de14b06e0d3f",
+      "createdAt": "2026-10-06T08:52:23.162Z",
+      "updatedAt": "2026-10-06T08:52:23.162Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.162Z",
+    "updatedAt": "2026-10-06T08:52:23.162Z"
+  },
+  {
+    "id": "target_payments_13a4ff05-2b6c-4a4b-8a04-2858fa21dc0a",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "PAY-1007",
+      "invoice_number": "fgjnb",
+      "amount": 2211.25,
+      "payment_date": "2026-09-08",
+      "payment_method": "CREDIT_CARD",
+      "id": "target_payments_13a4ff05-2b6c-4a4b-8a04-2858fa21dc0a",
+      "createdAt": "2026-10-06T08:52:23.173Z",
+      "updatedAt": "2026-10-06T08:52:23.173Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.173Z",
+    "updatedAt": "2026-10-06T08:52:23.173Z"
+  },
+  {
+    "id": "target_payments_c1f37ced-09f1-4081-b27d-8bebfa5127e7",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "PAY-1009",
+      "invoice_number": "INV-1010",
+      "amount": 2623,
+      "payment_date": "2026-09-11",
+      "payment_method": "BANK_TRANSFER",
+      "id": "target_payments_c1f37ced-09f1-4081-b27d-8bebfa5127e7",
+      "createdAt": "2026-10-06T08:52:23.183Z",
+      "updatedAt": "2026-10-06T08:52:23.223Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.183Z",
+    "updatedAt": "2026-10-06T08:52:23.223Z"
+  },
+  {
+    "id": "target_payments_a926a9e9-bede-4827-b047-21eb66ae6e70",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "PAY-1010",
+      "invoice_number": "INV-1010",
+      "amount": 2623,
+      "payment_date": "2026-09-11",
+      "payment_method": "BANK_TRANSFER",
+      "id": "target_payments_a926a9e9-bede-4827-b047-21eb66ae6e70",
+      "createdAt": "2026-10-06T08:52:23.197Z",
+      "updatedAt": "2026-10-06T08:52:23.197Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.197Z",
+    "updatedAt": "2026-10-06T08:52:23.197Z"
+  },
+  {
+    "id": "target_payments_293dd90a-7b10-476b-8eaf-e3650dd39d88",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "PAY-1013",
+      "invoice_number": "INV-1013",
+      "amount": 3034.75,
+      "payment_date": "2026-09-14",
+      "payment_method": "WIRE",
+      "id": "target_payments_293dd90a-7b10-476b-8eaf-e3650dd39d88",
+      "createdAt": "2026-10-06T08:52:23.236Z",
+      "updatedAt": "2026-10-06T08:52:23.236Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.236Z",
+    "updatedAt": "2026-10-06T08:52:23.236Z"
+  },
+  {
+    "id": "target_payments_d8ae0751-238f-45ba-8853-e590c5679bdb",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "PAY-1014",
+      "invoice_number": "INV-1014",
+      "amount": 3172,
+      "payment_date": "2026-09-15",
+      "payment_method": "CASH",
+      "id": "target_payments_d8ae0751-238f-45ba-8853-e590c5679bdb",
+      "createdAt": "2026-10-06T08:52:23.249Z",
+      "updatedAt": "2026-10-06T08:52:23.249Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.249Z",
+    "updatedAt": "2026-10-06T08:52:23.249Z"
+  },
+  {
+    "id": "target_payments_bba78172-8b2a-4696-bc38-8e2aaad5db74",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "PAY-1015",
+      "invoice_number": "INV-1015",
+      "amount": 3309.25,
+      "payment_date": "2026-09-16",
+      "payment_method": "BANK_TRANSFER",
+      "id": "target_payments_bba78172-8b2a-4696-bc38-8e2aaad5db74",
+      "createdAt": "2026-10-06T08:52:23.263Z",
+      "updatedAt": "2026-10-06T08:52:23.263Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.263Z",
+    "updatedAt": "2026-10-06T08:52:23.263Z"
+  },
+  {
+    "id": "target_payments_3a5dee2a-3b6e-4f77-a57c-d325fdd49c57",
+    "organizationId": "org-master-101",
+    "entity": "payments",
+    "data": {
+      "payment_reference": "PAY-1017",
+      "invoice_number": "INV-1017",
+      "amount": 3583.75,
+      "payment_date": "2026-09-18",
+      "payment_method": "CHEQUE",
+      "id": "target_payments_3a5dee2a-3b6e-4f77-a57c-d325fdd49c57",
+      "createdAt": "2026-10-06T08:52:23.277Z",
+      "updatedAt": "2026-10-06T08:52:23.277Z"
+    },
+    "createdAt": "2026-10-06T08:52:23.277Z",
+    "updatedAt": "2026-10-06T08:52:23.277Z"
+  },
+  {
+    "id": "target_marketing_campaigns_b4fd2960-5409-47a0-8c1f-94944c8d9fe3",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1000",
+      "campaign_name": "Monsoon Launch",
+      "budget": 1250.5,
+      "channel": "EMAIL",
+      "id": "target_marketing_campaigns_b4fd2960-5409-47a0-8c1f-94944c8d9fe3",
+      "createdAt": "2026-10-06T09:17:28.127Z",
+      "updatedAt": "2026-10-06T09:17:28.127Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.127Z",
+    "updatedAt": "2026-10-06T09:17:28.127Z"
+  },
+  {
+    "id": "target_marketing_campaigns_e72c808f-988a-48eb-a012-1c6e5bc5c6ff",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1001",
+      "campaign_name": "Enterprise Growth",
+      "budget": 1387.75,
+      "channel": "SOCIAL",
+      "id": "target_marketing_campaigns_e72c808f-988a-48eb-a012-1c6e5bc5c6ff",
+      "createdAt": "2026-10-06T09:17:28.175Z",
+      "updatedAt": "2026-10-06T09:17:28.175Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.175Z",
+    "updatedAt": "2026-10-06T09:17:28.175Z"
+  },
+  {
+    "id": "target_marketing_campaigns_3f090040-f601-459a-9516-bdf1a0a7c23d",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1002",
+      "campaign_name": "Product Awareness",
+      "budget": 1525,
+      "channel": "SEARCH",
+      "id": "target_marketing_campaigns_3f090040-f601-459a-9516-bdf1a0a7c23d",
+      "createdAt": "2026-10-06T09:17:28.465Z",
+      "updatedAt": "2026-10-06T09:17:28.465Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.465Z",
+    "updatedAt": "2026-10-06T09:17:28.465Z"
+  },
+  {
+    "id": "target_marketing_campaigns_0e15fbe4-72dc-473d-b464-c222777ea0f6",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1003",
+      "campaign_name": "Customer Winback",
+      "budget": 1662.25,
+      "channel": "PARTNER",
+      "id": "target_marketing_campaigns_0e15fbe4-72dc-473d-b464-c222777ea0f6",
+      "createdAt": "2026-10-06T09:17:28.501Z",
+      "updatedAt": "2026-10-06T09:17:28.501Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.501Z",
+    "updatedAt": "2026-10-06T09:17:28.501Z"
+  },
+  {
+    "id": "target_marketing_campaigns_0021930a-7cd3-4444-afc4-1f3599b28161",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1004",
+      "campaign_name": "jdhfgb",
+      "budget": 1799.5,
+      "channel": "EMAIL",
+      "id": "target_marketing_campaigns_0021930a-7cd3-4444-afc4-1f3599b28161",
+      "createdAt": "2026-10-06T09:17:28.537Z",
+      "updatedAt": "2026-10-06T09:17:28.537Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.537Z",
+    "updatedAt": "2026-10-06T09:17:28.537Z"
+  },
+  {
+    "id": "target_marketing_campaigns_bf5d46ae-a1c0-42d6-b617-15d092642be0",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1005",
+      "campaign_name": "Enterprise Growth",
+      "budget": 1936.75,
+      "channel": "SOCIAL",
+      "id": "target_marketing_campaigns_bf5d46ae-a1c0-42d6-b617-15d092642be0",
+      "createdAt": "2026-10-06T09:17:28.567Z",
+      "updatedAt": "2026-10-06T09:17:28.567Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.567Z",
+    "updatedAt": "2026-10-06T09:17:28.567Z"
+  },
+  {
+    "id": "target_marketing_campaigns_f81d6d1c-10e5-4c2e-80a6-6123d0170f0d",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1006",
+      "campaign_name": "Product Awareness",
+      "budget": 2074,
+      "channel": "SEARCH",
+      "id": "target_marketing_campaigns_f81d6d1c-10e5-4c2e-80a6-6123d0170f0d",
+      "createdAt": "2026-10-06T09:17:28.650Z",
+      "updatedAt": "2026-10-06T09:17:28.650Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.650Z",
+    "updatedAt": "2026-10-06T09:17:28.650Z"
+  },
+  {
+    "id": "target_marketing_campaigns_1a53acb7-2187-4382-9896-21eb11f84ab6",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1007",
+      "campaign_name": "jdfhgfghbj",
+      "budget": 4876,
+      "channel": "PARTNER",
+      "id": "target_marketing_campaigns_1a53acb7-2187-4382-9896-21eb11f84ab6",
+      "createdAt": "2026-10-06T09:17:28.704Z",
+      "updatedAt": "2026-10-06T09:17:28.704Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.704Z",
+    "updatedAt": "2026-10-06T09:17:28.704Z"
+  },
+  {
+    "id": "target_marketing_campaigns_460a0382-2625-4b8b-8003-f5bd8decee6e",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1009",
+      "campaign_name": "Enterprise Growth",
+      "budget": 2485.75,
+      "channel": "SOCIAL",
+      "id": "target_marketing_campaigns_460a0382-2625-4b8b-8003-f5bd8decee6e",
+      "createdAt": "2026-10-06T09:17:28.758Z",
+      "updatedAt": "2026-10-06T09:17:28.758Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.758Z",
+    "updatedAt": "2026-10-06T09:17:28.758Z"
+  },
+  {
+    "id": "target_marketing_campaigns_4ef57602-2f8f-4ff2-aa12-ab2f6d86b10e",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1010",
+      "campaign_name": "Product Awareness",
+      "budget": 2623,
+      "channel": "SEARCH",
+      "id": "target_marketing_campaigns_4ef57602-2f8f-4ff2-aa12-ab2f6d86b10e",
+      "createdAt": "2026-10-06T09:17:28.793Z",
+      "updatedAt": "2026-10-06T09:17:28.793Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.793Z",
+    "updatedAt": "2026-10-06T09:17:28.793Z"
+  },
+  {
+    "id": "target_marketing_campaigns_b43fd111-310b-4310-b751-fa9cd1684cba",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1013",
+      "campaign_name": "Enterprise Growth",
+      "budget": 3034.75,
+      "channel": "SOCIAL",
+      "id": "target_marketing_campaigns_b43fd111-310b-4310-b751-fa9cd1684cba",
+      "createdAt": "2026-10-06T09:17:28.831Z",
+      "updatedAt": "2026-10-06T09:17:28.831Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.831Z",
+    "updatedAt": "2026-10-06T09:17:28.831Z"
+  },
+  {
+    "id": "target_marketing_campaigns_566c4352-f998-425a-afed-57a778c8385f",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1014",
+      "campaign_name": "Product Awareness",
+      "budget": 3172,
+      "channel": "SEARCH",
+      "id": "target_marketing_campaigns_566c4352-f998-425a-afed-57a778c8385f",
+      "createdAt": "2026-10-06T09:17:28.868Z",
+      "updatedAt": "2026-10-06T09:17:28.868Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.868Z",
+    "updatedAt": "2026-10-06T09:17:28.868Z"
+  },
+  {
+    "id": "target_marketing_campaigns_849d30f9-137c-4268-8f89-0713c9a79fd3",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1015",
+      "campaign_name": "Customer Winback",
+      "budget": 3309.25,
+      "channel": "PARTNER",
+      "id": "target_marketing_campaigns_849d30f9-137c-4268-8f89-0713c9a79fd3",
+      "createdAt": "2026-10-06T09:17:28.885Z",
+      "updatedAt": "2026-10-06T09:17:28.885Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.885Z",
+    "updatedAt": "2026-10-06T09:17:28.885Z"
+  },
+  {
+    "id": "target_marketing_campaigns_cc489f63-3016-4688-9e6e-688099100d5e",
+    "organizationId": "org-master-101",
+    "entity": "marketing_campaigns",
+    "data": {
+      "campaign_code": "CMP-1017",
+      "campaign_name": "Enterprise Growth",
+      "budget": 3583.75,
+      "channel": "SOCIAL",
+      "id": "target_marketing_campaigns_cc489f63-3016-4688-9e6e-688099100d5e",
+      "createdAt": "2026-10-06T09:17:28.900Z",
+      "updatedAt": "2026-10-06T09:17:28.900Z"
+    },
+    "createdAt": "2026-10-06T09:17:28.900Z",
+    "updatedAt": "2026-10-06T09:17:28.900Z"
+  },
+  {
+    "id": "target_invoices_1a9b4dbd-4dd7-404b-b5c6-fbb310b509cf",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1000",
+      "customer_email": "invoices0@example.com",
+      "total_amount": 1250.5,
+      "issue_date": "2026-09-01",
+      "due_date": "2026-09-01",
+      "currency": "USD",
+      "status": "DRAFT",
+      "id": "target_invoices_1a9b4dbd-4dd7-404b-b5c6-fbb310b509cf",
+      "createdAt": "2026-10-06T10:42:12.032Z",
+      "updatedAt": "2026-10-06T10:42:12.032Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.032Z",
+    "updatedAt": "2026-10-06T10:42:12.032Z"
+  },
+  {
+    "id": "target_invoices_4bd3cff3-d84b-43bd-aca2-61be42cdeb5e",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1001",
+      "customer_email": "invoices1@example.com",
+      "total_amount": 1387.75,
+      "issue_date": "2026-09-02",
+      "due_date": "2026-09-02",
+      "currency": "INR",
+      "status": "ISSUED",
+      "id": "target_invoices_4bd3cff3-d84b-43bd-aca2-61be42cdeb5e",
+      "createdAt": "2026-10-06T10:42:12.037Z",
+      "updatedAt": "2026-10-06T10:42:12.037Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.037Z",
+    "updatedAt": "2026-10-06T10:42:12.037Z"
+  },
+  {
+    "id": "target_invoices_59115d00-f42e-4bce-8544-647e2c70f929",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1002",
+      "customer_email": "invoices2@example.com",
+      "total_amount": 1525,
+      "issue_date": "2026-09-03",
+      "due_date": "2026-09-03",
+      "currency": "EUR",
+      "status": "PAID",
+      "id": "target_invoices_59115d00-f42e-4bce-8544-647e2c70f929",
+      "createdAt": "2026-10-06T10:42:12.042Z",
+      "updatedAt": "2026-10-06T10:42:12.042Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.042Z",
+    "updatedAt": "2026-10-06T10:42:12.042Z"
+  },
+  {
+    "id": "target_invoices_42897659-499c-4939-bd7d-82c01459908a",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1003",
+      "customer_email": "invoices3@example.com",
+      "total_amount": 1662.25,
+      "issue_date": "2026-09-04",
+      "due_date": "2026-09-04",
+      "currency": "USD",
+      "status": "OVERDUE",
+      "id": "target_invoices_42897659-499c-4939-bd7d-82c01459908a",
+      "createdAt": "2026-10-06T10:42:12.052Z",
+      "updatedAt": "2026-10-06T10:42:12.052Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.052Z",
+    "updatedAt": "2026-10-06T10:42:12.052Z"
+  },
+  {
+    "id": "target_invoices_47c7a2ee-23ab-47df-a732-e74d2fb8bdb6",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "857647y",
+      "customer_email": "invoices4@example.com",
+      "total_amount": 1799.5,
+      "issue_date": "2026-09-05",
+      "due_date": "2026-09-05",
+      "currency": "INR",
+      "status": "CANCELLED",
+      "id": "target_invoices_47c7a2ee-23ab-47df-a732-e74d2fb8bdb6",
+      "createdAt": "2026-10-06T10:42:12.056Z",
+      "updatedAt": "2026-10-06T10:42:12.056Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.056Z",
+    "updatedAt": "2026-10-06T10:42:12.056Z"
+  },
+  {
+    "id": "target_invoices_060fbcbb-272c-4e3c-a5bc-df596e5acb22",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1005",
+      "customer_email": "invoices5@example.com",
+      "total_amount": 1936.75,
+      "issue_date": "2026-09-06",
+      "due_date": "2026-09-06",
+      "currency": "EUR",
+      "status": "DRAFT",
+      "id": "target_invoices_060fbcbb-272c-4e3c-a5bc-df596e5acb22",
+      "createdAt": "2026-10-06T10:42:12.059Z",
+      "updatedAt": "2026-10-06T10:42:12.059Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.059Z",
+    "updatedAt": "2026-10-06T10:42:12.059Z"
+  },
+  {
+    "id": "target_invoices_baaf1fe7-15d1-4e3a-beb4-881767c3a93f",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1006",
+      "customer_email": "invoices6@example.com",
+      "total_amount": 2074,
+      "issue_date": "2026-09-07",
+      "due_date": "2026-09-07",
+      "currency": "USD",
+      "status": "ISSUED",
+      "id": "target_invoices_baaf1fe7-15d1-4e3a-beb4-881767c3a93f",
+      "createdAt": "2026-10-06T10:42:12.067Z",
+      "updatedAt": "2026-10-06T10:42:12.067Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.067Z",
+    "updatedAt": "2026-10-06T10:42:12.067Z"
+  },
+  {
+    "id": "target_invoices_7d772ee2-96f0-49b6-9302-228fca9531e2",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1007",
+      "customer_email": "gire@gmail.com",
+      "total_amount": 2211.25,
+      "issue_date": "2026-09-02",
+      "due_date": "2026-09-08",
+      "currency": "INR",
+      "status": "PAID",
+      "id": "target_invoices_7d772ee2-96f0-49b6-9302-228fca9531e2",
+      "createdAt": "2026-10-06T10:42:12.070Z",
+      "updatedAt": "2026-10-06T10:42:12.070Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.070Z",
+    "updatedAt": "2026-10-06T10:42:12.070Z"
+  },
+  {
+    "id": "target_invoices_56332f2b-b9b9-4118-977b-562b6f1e4b7d",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1008",
+      "customer_email": "invoices8@example.com",
+      "total_amount": 2348.5,
+      "issue_date": "2026-09-09",
+      "due_date": "2026-09-09",
+      "currency": "EUR",
+      "status": "OVERDUE",
+      "id": "target_invoices_56332f2b-b9b9-4118-977b-562b6f1e4b7d",
+      "createdAt": "2026-10-06T10:42:12.073Z",
+      "updatedAt": "2026-10-06T10:42:12.073Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.073Z",
+    "updatedAt": "2026-10-06T10:42:12.073Z"
+  },
+  {
+    "id": "target_invoices_1a06eb04-b67f-480e-9524-6b4fd9f61d3f",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1009",
+      "customer_email": "invoices9@example.com",
+      "total_amount": 2485.75,
+      "issue_date": "2026-09-10",
+      "due_date": "2026-09-10",
+      "currency": "USD",
+      "status": "CANCELLED",
+      "id": "target_invoices_1a06eb04-b67f-480e-9524-6b4fd9f61d3f",
+      "createdAt": "2026-10-06T10:42:12.076Z",
+      "updatedAt": "2026-10-06T10:42:12.076Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.076Z",
+    "updatedAt": "2026-10-06T10:42:12.076Z"
+  },
+  {
+    "id": "target_invoices_cbaee65f-6bec-410d-8068-cef00b2b28b7",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1010",
+      "customer_email": "invoices10@example.com",
+      "total_amount": 2623,
+      "issue_date": "2026-09-11",
+      "due_date": "2026-09-11",
+      "currency": "INR",
+      "status": "DRAFT",
+      "id": "target_invoices_cbaee65f-6bec-410d-8068-cef00b2b28b7",
+      "createdAt": "2026-10-06T10:42:12.081Z",
+      "updatedAt": "2026-10-06T10:42:12.081Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.081Z",
+    "updatedAt": "2026-10-06T10:42:12.081Z"
+  },
+  {
+    "id": "target_invoices_c711925c-13d3-42ae-add7-6682f4a9ccb8",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1013",
+      "customer_email": "invoices13@example.com",
+      "total_amount": 3034.75,
+      "issue_date": "2026-09-14",
+      "due_date": "2026-09-14",
+      "currency": "INR",
+      "status": "OVERDUE",
+      "id": "target_invoices_c711925c-13d3-42ae-add7-6682f4a9ccb8",
+      "createdAt": "2026-10-06T10:42:12.084Z",
+      "updatedAt": "2026-10-06T10:42:12.084Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.084Z",
+    "updatedAt": "2026-10-06T10:42:12.084Z"
+  },
+  {
+    "id": "target_invoices_10165cda-a84f-4ec2-ab20-e00a9996b0e5",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1014",
+      "customer_email": "invoices14@example.com",
+      "total_amount": 3172,
+      "issue_date": "2026-09-15",
+      "due_date": "2026-09-15",
+      "currency": "EUR",
+      "status": "CANCELLED",
+      "id": "target_invoices_10165cda-a84f-4ec2-ab20-e00a9996b0e5",
+      "createdAt": "2026-10-06T10:42:12.087Z",
+      "updatedAt": "2026-10-06T10:42:12.087Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.087Z",
+    "updatedAt": "2026-10-06T10:42:12.087Z"
+  },
+  {
+    "id": "target_invoices_bef9c444-4c71-4865-92f3-70c05f775b51",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1015",
+      "customer_email": "invoices15@example.com",
+      "total_amount": 3309.25,
+      "issue_date": "2026-09-16",
+      "due_date": "2026-09-16",
+      "currency": "USD",
+      "status": "DRAFT",
+      "id": "target_invoices_bef9c444-4c71-4865-92f3-70c05f775b51",
+      "createdAt": "2026-10-06T10:42:12.090Z",
+      "updatedAt": "2026-10-06T10:42:12.090Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.090Z",
+    "updatedAt": "2026-10-06T10:42:12.090Z"
+  },
+  {
+    "id": "target_invoices_d3e65aa3-f924-4138-93a7-352a99e1a2d1",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1016",
+      "customer_email": "invoices16@example.com",
+      "total_amount": 87458,
+      "issue_date": "2026-09-17",
+      "due_date": "2026-09-17",
+      "currency": "INR",
+      "status": "ISSUED",
+      "id": "target_invoices_d3e65aa3-f924-4138-93a7-352a99e1a2d1",
+      "createdAt": "2026-10-06T10:42:12.093Z",
+      "updatedAt": "2026-10-06T10:42:12.093Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.093Z",
+    "updatedAt": "2026-10-06T10:42:12.093Z"
+  },
+  {
+    "id": "target_invoices_7c151fe4-dbc3-4e42-b895-c8e060b73e8d",
+    "organizationId": "org-master-101",
+    "entity": "invoices",
+    "data": {
+      "invoice_number": "INV-1017",
+      "customer_email": "invoices17@example.com",
+      "total_amount": 3583.75,
+      "issue_date": "2026-09-18",
+      "due_date": "2026-09-18",
+      "currency": "EUR",
+      "status": "PAID",
+      "id": "target_invoices_7c151fe4-dbc3-4e42-b895-c8e060b73e8d",
+      "createdAt": "2026-10-06T10:42:12.099Z",
+      "updatedAt": "2026-10-06T10:42:12.099Z"
+    },
+    "createdAt": "2026-10-06T10:42:12.099Z",
+    "updatedAt": "2026-10-06T10:42:12.099Z"
+  },
+  {
+    "id": "target_deals_2139a12b-ad87-48ff-995f-bb12fc025dc4",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1000",
+      "deal_name": "Hyderabad Expansion",
+      "amount": 1250.5,
+      "stage": "PROSPECT",
+      "id": "target_deals_2139a12b-ad87-48ff-995f-bb12fc025dc4",
+      "createdAt": "2026-10-05T11:03:00.709Z",
+      "updatedAt": "2026-10-05T11:03:00.709Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.709Z",
+    "updatedAt": "2026-10-05T11:03:00.709Z"
+  },
+  {
+    "id": "target_deals_d755096b-aad8-4203-ad48-f84e721f5913",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1001",
+      "deal_name": "Cloud Services Deal",
+      "amount": 1387.75,
+      "stage": "QUALIFIED",
+      "id": "target_deals_d755096b-aad8-4203-ad48-f84e721f5913",
+      "createdAt": "2026-10-05T11:03:00.714Z",
+      "updatedAt": "2026-10-05T11:03:00.714Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.714Z",
+    "updatedAt": "2026-10-05T11:03:00.714Z"
+  },
+  {
+    "id": "target_deals_21aeacaf-c264-47cb-9627-286f318c35a4",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1002",
+      "deal_name": "Retail Transformation",
+      "amount": 1525,
+      "stage": "PROPOSAL",
+      "id": "target_deals_21aeacaf-c264-47cb-9627-286f318c35a4",
+      "createdAt": "2026-10-05T11:03:00.729Z",
+      "updatedAt": "2026-10-05T11:03:00.729Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.729Z",
+    "updatedAt": "2026-10-05T11:03:00.729Z"
+  },
+  {
+    "id": "target_deals_0825bac1-f411-461d-88fa-441ccb66eae1",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1003",
+      "deal_name": "Annual Renewal",
+      "amount": 1662.25,
+      "stage": "NEGOTIATION",
+      "id": "target_deals_0825bac1-f411-461d-88fa-441ccb66eae1",
+      "createdAt": "2026-10-05T11:03:00.735Z",
+      "updatedAt": "2026-10-05T11:03:00.735Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.735Z",
+    "updatedAt": "2026-10-05T11:03:00.735Z"
+  },
+  {
+    "id": "target_deals_32ac88c2-cf3c-41fa-aecf-f1baf99ccde1",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1004",
+      "deal_name": "jdsgn",
+      "amount": 1799.5,
+      "stage": "CLOSED_WON",
+      "id": "target_deals_32ac88c2-cf3c-41fa-aecf-f1baf99ccde1",
+      "createdAt": "2026-10-05T11:03:00.739Z",
+      "updatedAt": "2026-10-05T11:03:00.739Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.739Z",
+    "updatedAt": "2026-10-05T11:03:00.739Z"
+  },
+  {
+    "id": "target_deals_2787f34b-304c-49e8-9521-0c7c8114dadf",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1005",
+      "deal_name": "Cloud Services Deal",
+      "amount": 1936.75,
+      "stage": "CLOSED_LOST",
+      "id": "target_deals_2787f34b-304c-49e8-9521-0c7c8114dadf",
+      "createdAt": "2026-10-05T11:03:00.743Z",
+      "updatedAt": "2026-10-05T11:03:00.743Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.743Z",
+    "updatedAt": "2026-10-05T11:03:00.743Z"
+  },
+  {
+    "id": "target_deals_e9a3a949-44ca-4c8a-8dbb-96ec3a3f5dcb",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1006",
+      "deal_name": "Retail Transformation",
+      "amount": 2074,
+      "stage": "PROSPECT",
+      "id": "target_deals_e9a3a949-44ca-4c8a-8dbb-96ec3a3f5dcb",
+      "createdAt": "2026-10-05T11:03:00.748Z",
+      "updatedAt": "2026-10-05T11:03:00.748Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.748Z",
+    "updatedAt": "2026-10-05T11:03:00.748Z"
+  },
+  {
+    "id": "target_deals_dbf93741-d110-4437-85be-3c8f9aaeabba",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1007",
+      "deal_name": "hfb",
+      "amount": 87,
+      "stage": "QUALIFIED",
+      "id": "target_deals_dbf93741-d110-4437-85be-3c8f9aaeabba",
+      "createdAt": "2026-10-05T11:03:00.757Z",
+      "updatedAt": "2026-10-05T11:03:00.757Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.757Z",
+    "updatedAt": "2026-10-05T11:03:00.757Z"
+  },
+  {
+    "id": "target_deals_80af4f6a-8456-4e14-812d-c26f0a45e561",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1008",
+      "deal_name": "Hyderabad Expansion",
+      "amount": 2348.5,
+      "stage": "PROPOSAL",
+      "id": "target_deals_80af4f6a-8456-4e14-812d-c26f0a45e561",
+      "createdAt": "2026-10-05T11:03:00.761Z",
+      "updatedAt": "2026-10-05T11:03:00.761Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.761Z",
+    "updatedAt": "2026-10-05T11:03:00.761Z"
+  },
+  {
+    "id": "target_deals_6c99dc2b-289f-4e5b-8daa-16c00534d7b7",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1009",
+      "deal_name": "Cloud Services Deal",
+      "amount": 2485.75,
+      "stage": "NEGOTIATION",
+      "id": "target_deals_6c99dc2b-289f-4e5b-8daa-16c00534d7b7",
+      "createdAt": "2026-10-05T11:03:00.773Z",
+      "updatedAt": "2026-10-05T11:03:00.773Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.773Z",
+    "updatedAt": "2026-10-05T11:03:00.773Z"
+  },
+  {
+    "id": "target_deals_2abb70ce-4ce5-4ed7-8d64-57887fab9fc2",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1087",
+      "deal_name": "Retail Transformation",
+      "amount": 2623,
+      "stage": "CLOSED_WON",
+      "id": "target_deals_2abb70ce-4ce5-4ed7-8d64-57887fab9fc2",
+      "createdAt": "2026-10-05T11:03:00.777Z",
+      "updatedAt": "2026-10-05T11:03:00.777Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.777Z",
+    "updatedAt": "2026-10-05T11:03:00.777Z"
+  },
+  {
+    "id": "target_deals_1a90e4c5-ddca-49ab-aed7-2b2a00241c1d",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1067",
+      "deal_name": "Retail Transformation",
+      "amount": 2623,
+      "stage": "CLOSED_WON",
+      "id": "target_deals_1a90e4c5-ddca-49ab-aed7-2b2a00241c1d",
+      "createdAt": "2026-10-05T11:03:00.780Z",
+      "updatedAt": "2026-10-05T11:03:00.780Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.780Z",
+    "updatedAt": "2026-10-05T11:03:00.780Z"
+  },
+  {
+    "id": "target_deals_43f47bf7-b4ba-4fa7-ba0f-edebbcae20e4",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1010",
+      "deal_name": "Retail Transformation",
+      "amount": 2623,
+      "stage": "CLOSED_WON",
+      "id": "target_deals_43f47bf7-b4ba-4fa7-ba0f-edebbcae20e4",
+      "createdAt": "2026-10-05T11:03:00.788Z",
+      "updatedAt": "2026-10-05T11:03:00.788Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.788Z",
+    "updatedAt": "2026-10-05T11:03:00.788Z"
+  },
+  {
+    "id": "target_deals_356debae-9218-4e5b-8a16-1f2742e7195c",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1013",
+      "deal_name": "Cloud Services Deal",
+      "amount": 3034.75,
+      "stage": "QUALIFIED",
+      "id": "target_deals_356debae-9218-4e5b-8a16-1f2742e7195c",
+      "createdAt": "2026-10-05T11:03:00.792Z",
+      "updatedAt": "2026-10-05T11:03:00.792Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.792Z",
+    "updatedAt": "2026-10-05T11:03:00.792Z"
+  },
+  {
+    "id": "target_deals_d3d30e3f-caa9-4ad7-b2d9-417f41ca795a",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1014",
+      "deal_name": "Retail Transformation",
+      "amount": 3172,
+      "stage": "PROPOSAL",
+      "id": "target_deals_d3d30e3f-caa9-4ad7-b2d9-417f41ca795a",
+      "createdAt": "2026-10-05T11:03:00.796Z",
+      "updatedAt": "2026-10-05T11:03:00.796Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.796Z",
+    "updatedAt": "2026-10-05T11:03:00.796Z"
+  },
+  {
+    "id": "target_deals_c20df593-5a8c-4f34-85e3-0c86c3c92423",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1015",
+      "deal_name": "Annual Renewal",
+      "amount": 3309.25,
+      "stage": "NEGOTIATION",
+      "id": "target_deals_c20df593-5a8c-4f34-85e3-0c86c3c92423",
+      "createdAt": "2026-10-05T11:03:00.806Z",
+      "updatedAt": "2026-10-05T11:03:00.806Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.806Z",
+    "updatedAt": "2026-10-05T11:03:00.806Z"
+  },
+  {
+    "id": "target_deals_5904c53f-0b23-4276-9055-ebdddb9bb617",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1016",
+      "deal_name": "Hyderabad Expansion",
+      "amount": 6,
+      "stage": "CLOSED_WON",
+      "id": "target_deals_5904c53f-0b23-4276-9055-ebdddb9bb617",
+      "createdAt": "2026-10-05T11:03:00.810Z",
+      "updatedAt": "2026-10-05T11:03:00.810Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.810Z",
+    "updatedAt": "2026-10-05T11:03:00.810Z"
+  },
+  {
+    "id": "target_deals_b9f1be17-5cec-4b9d-8070-7bbcd9f930ab",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1017",
+      "deal_name": "Cloud Services Deal",
+      "amount": 3583.75,
+      "stage": "CLOSED_LOST",
+      "id": "target_deals_b9f1be17-5cec-4b9d-8070-7bbcd9f930ab",
+      "createdAt": "2026-10-05T11:03:00.813Z",
+      "updatedAt": "2026-10-05T11:03:00.813Z"
+    },
+    "createdAt": "2026-10-05T11:03:00.813Z",
+    "updatedAt": "2026-10-05T11:03:00.813Z"
+  },
+  {
+    "id": "target_deals_95800033-09df-47e0-8194-16522eebd6c9",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1056",
+      "deal_name": "Retail Transformation",
+      "amount": 2623,
+      "stage": "CLOSED_WON",
+      "id": "target_deals_95800033-09df-47e0-8194-16522eebd6c9",
+      "createdAt": "2026-10-07T10:40:15.754Z",
+      "updatedAt": "2026-10-07T10:40:15.754Z"
+    },
+    "createdAt": "2026-10-07T10:40:15.754Z",
+    "updatedAt": "2026-10-07T10:40:15.754Z"
+  },
+  {
+    "id": "target_deals_d8b83ccb-ad33-4e60-9ca2-4d74cf03baf3",
+    "organizationId": "org-master-101",
+    "entity": "deals",
+    "data": {
+      "deal_id": "DEAL-1057",
+      "deal_name": "Retail Transformation",
+      "amount": 2623,
+      "stage": "CLOSED_WON",
+      "id": "target_deals_d8b83ccb-ad33-4e60-9ca2-4d74cf03baf3",
+      "createdAt": "2026-10-07T10:40:15.777Z",
+      "updatedAt": "2026-10-07T10:40:15.777Z"
+    },
+    "createdAt": "2026-10-07T10:40:15.777Z",
+    "updatedAt": "2026-10-07T10:40:15.777Z"
+  },
+  {
+    "id": "target_shipments_703474f9-a7c3-4068-a4f8-ff2d37b1fde3",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "SHP-1000",
+      "origin": "Hyderabad",
+      "destination": "Pune",
+      "carrier": "Acme Industries",
+      "shipment_date": "2026-09-01",
+      "quantity": 10,
+      "status": "DISPATCHED",
+      "id": "target_shipments_703474f9-a7c3-4068-a4f8-ff2d37b1fde3",
+      "createdAt": "2026-10-09T19:57:49.480Z",
+      "updatedAt": "2026-10-09T19:57:49.480Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.480Z",
+    "updatedAt": "2026-10-09T19:57:49.480Z"
+  },
+  {
+    "id": "target_shipments_3d86b505-b808-44eb-82c5-65e1e75da2be",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "SHP-1001",
+      "origin": "Bengaluru",
+      "destination": "Delhi",
+      "carrier": "Bright Retail",
+      "shipment_date": "2026-09-02",
+      "quantity": 17,
+      "status": "IN_TRANSIT",
+      "id": "target_shipments_3d86b505-b808-44eb-82c5-65e1e75da2be",
+      "createdAt": "2026-10-09T19:57:49.508Z",
+      "updatedAt": "2026-10-09T19:57:49.508Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.508Z",
+    "updatedAt": "2026-10-09T19:57:49.508Z"
+  },
+  {
+    "id": "target_shipments_a21f4e08-6c9e-4957-921f-a9dc785fa121",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "SHP-1002",
+      "origin": "Mumbai",
+      "destination": "Kolkata",
+      "carrier": "CloudBase Tech",
+      "shipment_date": "2026-09-03",
+      "quantity": 24,
+      "status": "DELIVERED",
+      "id": "target_shipments_a21f4e08-6c9e-4957-921f-a9dc785fa121",
+      "createdAt": "2026-10-09T19:57:49.526Z",
+      "updatedAt": "2026-10-09T19:57:49.526Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.526Z",
+    "updatedAt": "2026-10-09T19:57:49.526Z"
+  },
+  {
+    "id": "target_shipments_5fef11ae-d16a-499e-8e43-5401818bb18d",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "SHP-1003",
+      "origin": "Chennai",
+      "destination": "Chennai",
+      "carrier": "Delta Logistics",
+      "shipment_date": "2026-09-04",
+      "quantity": 31,
+      "status": "DELAYED",
+      "id": "target_shipments_5fef11ae-d16a-499e-8e43-5401818bb18d",
+      "createdAt": "2026-10-09T19:57:49.539Z",
+      "updatedAt": "2026-10-09T19:57:49.539Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.539Z",
+    "updatedAt": "2026-10-09T19:57:49.539Z"
+  },
+  {
+    "id": "target_shipments_767a63ea-d87d-4ced-80f0-742b375b3eb7",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "EMPTY",
+      "origin": "Hyderabad",
+      "destination": "Pune",
+      "carrier": "Nova Systems",
+      "shipment_date": "2026-09-05",
+      "quantity": 38,
+      "status": "CANCELLED",
+      "id": "target_shipments_767a63ea-d87d-4ced-80f0-742b375b3eb7",
+      "createdAt": "2026-10-09T19:57:49.552Z",
+      "updatedAt": "2026-10-09T19:57:49.552Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.552Z",
+    "updatedAt": "2026-10-09T19:57:49.552Z"
+  },
+  {
+    "id": "target_shipments_b8c83780-ed4d-4fe0-9ee2-39e47972439b",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "SHP-1005",
+      "origin": "Bengaluru",
+      "destination": "Delhi",
+      "carrier": "Vertex Labs",
+      "shipment_date": "2026-09-06",
+      "quantity": 45,
+      "status": "DISPATCHED",
+      "id": "target_shipments_b8c83780-ed4d-4fe0-9ee2-39e47972439b",
+      "createdAt": "2026-10-09T19:57:49.562Z",
+      "updatedAt": "2026-10-09T19:57:49.562Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.562Z",
+    "updatedAt": "2026-10-09T19:57:49.562Z"
+  },
+  {
+    "id": "target_shipments_5013428d-be68-4a36-8130-a0b1e777db24",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "SHP-1006",
+      "origin": "Mumbai",
+      "destination": "Kolkata",
+      "carrier": "BluePeak Solutions",
+      "shipment_date": "2026-09-07",
+      "quantity": 52,
+      "status": "IN_TRANSIT",
+      "id": "target_shipments_5013428d-be68-4a36-8130-a0b1e777db24",
+      "createdAt": "2026-10-09T19:57:49.570Z",
+      "updatedAt": "2026-10-09T19:57:49.570Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.570Z",
+    "updatedAt": "2026-10-09T19:57:49.570Z"
+  },
+  {
+    "id": "target_shipments_40b50dbf-86d9-4e32-a35e-21288feafd34",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "SHP-1007",
+      "origin": "EMPTY",
+      "destination": "Chennai",
+      "carrier": "Summit Foods",
+      "shipment_date": "2026-09-08",
+      "quantity": 59,
+      "status": "IN_TRANSIT",
+      "id": "target_shipments_40b50dbf-86d9-4e32-a35e-21288feafd34",
+      "createdAt": "2026-10-09T19:57:49.581Z",
+      "updatedAt": "2026-10-09T19:57:49.581Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.581Z",
+    "updatedAt": "2026-10-09T19:57:49.581Z"
+  },
+  {
+    "id": "target_shipments_c74e89d5-6a0d-40d8-8774-390a779a08ed",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "SHP-1009",
+      "origin": "Bengaluru",
+      "destination": "Delhi",
+      "carrier": "Bright Retail",
+      "shipment_date": "2026-09-10",
+      "quantity": 73,
+      "status": "CANCELLED",
+      "id": "target_shipments_c74e89d5-6a0d-40d8-8774-390a779a08ed",
+      "createdAt": "2026-10-09T19:57:49.591Z",
+      "updatedAt": "2026-10-09T19:57:49.591Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.591Z",
+    "updatedAt": "2026-10-09T19:57:49.591Z"
+  },
+  {
+    "id": "target_shipments_6f0b9ae9-8428-4d72-adf4-0af3af3478b4",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "SHP-1010",
+      "origin": "Mumbai",
+      "destination": "Kolkata",
+      "carrier": "CloudBase Tech",
+      "shipment_date": "2026-09-11",
+      "quantity": 80,
+      "status": "DISPATCHED",
+      "id": "target_shipments_6f0b9ae9-8428-4d72-adf4-0af3af3478b4",
+      "createdAt": "2026-10-09T19:57:49.621Z",
+      "updatedAt": "2026-10-09T19:57:49.621Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.621Z",
+    "updatedAt": "2026-10-09T19:57:49.621Z"
+  },
+  {
+    "id": "target_shipments_aa9ceda7-0d20-4a53-8adb-37e99fdae5f6",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "SHP-1013",
+      "origin": "Bengaluru",
+      "destination": "Delhi",
+      "carrier": "Vertex Labs",
+      "shipment_date": "2026-09-14",
+      "quantity": 101,
+      "status": "DELAYED",
+      "id": "target_shipments_aa9ceda7-0d20-4a53-8adb-37e99fdae5f6",
+      "createdAt": "2026-10-09T19:57:49.641Z",
+      "updatedAt": "2026-10-09T19:57:49.641Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.641Z",
+    "updatedAt": "2026-10-09T19:57:49.641Z"
+  },
+  {
+    "id": "target_shipments_f5501641-e090-4a41-8107-6ceb8a44147b",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "SHP-1014",
+      "origin": "Mumbai",
+      "destination": "Kolkata",
+      "carrier": "BluePeak Solutions",
+      "shipment_date": "2026-09-15",
+      "quantity": 108,
+      "status": "CANCELLED",
+      "id": "target_shipments_f5501641-e090-4a41-8107-6ceb8a44147b",
+      "createdAt": "2026-10-09T19:57:49.657Z",
+      "updatedAt": "2026-10-09T19:57:49.657Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.657Z",
+    "updatedAt": "2026-10-09T19:57:49.657Z"
+  },
+  {
+    "id": "target_shipments_5173e6cc-1433-4766-a086-97cab5acb75f",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "SHP-1015",
+      "origin": "Chennai",
+      "destination": "Chennai",
+      "carrier": "Summit Foods",
+      "shipment_date": "2026-09-16",
+      "quantity": 115,
+      "status": "DISPATCHED",
+      "id": "target_shipments_5173e6cc-1433-4766-a086-97cab5acb75f",
+      "createdAt": "2026-10-09T19:57:49.684Z",
+      "updatedAt": "2026-10-09T19:57:49.684Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.684Z",
+    "updatedAt": "2026-10-09T19:57:49.684Z"
+  },
+  {
+    "id": "target_shipments_51c801aa-317b-4b4e-bcde-29980c831c47",
+    "organizationId": "org-master-101",
+    "entity": "shipments",
+    "data": {
+      "shipment_reference": "SHP-1017",
+      "origin": "Bengaluru",
+      "destination": "Delhi",
+      "carrier": "Bright Retail",
+      "shipment_date": "2026-09-18",
+      "quantity": 129,
+      "status": "DELIVERED",
+      "id": "target_shipments_51c801aa-317b-4b4e-bcde-29980c831c47",
+      "createdAt": "2026-10-09T19:57:49.698Z",
+      "updatedAt": "2026-10-09T19:57:49.698Z"
+    },
+    "createdAt": "2026-10-09T19:57:49.698Z",
+    "updatedAt": "2026-10-09T19:57:49.698Z"
+  },
+  {
+    "id": "target_payroll_0afc9c7e-c6d2-4e03-889a-fcd080d126ef",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1000",
+      "employee_id": "EMP-1000",
+      "net_salary": 1250.5,
+      "pay_period": "2026-09",
+      "id": "target_payroll_0afc9c7e-c6d2-4e03-889a-fcd080d126ef",
+      "createdAt": "2026-10-07T07:24:14.231Z",
+      "updatedAt": "2026-10-10T09:05:53.705Z"
+    },
+    "createdAt": "2026-10-07T07:24:14.231Z",
+    "updatedAt": "2026-10-10T09:05:53.705Z"
+  },
+  {
+    "id": "target_payroll_abdaee97-7840-49e8-85bb-1702eb0f4e1b",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1001",
+      "employee_id": "EMP-1001",
+      "net_salary": 1387.75,
+      "pay_period": "2026-09",
+      "id": "target_payroll_abdaee97-7840-49e8-85bb-1702eb0f4e1b",
+      "createdAt": "2026-10-07T07:24:14.317Z",
+      "updatedAt": "2026-10-10T09:05:53.714Z"
+    },
+    "createdAt": "2026-10-07T07:24:14.317Z",
+    "updatedAt": "2026-10-10T09:05:53.714Z"
+  },
+  {
+    "id": "target_payroll_4c59b7be-804e-494b-ade6-01bd0fca9410",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1002",
+      "employee_id": "EMP-1002",
+      "net_salary": 1525,
+      "pay_period": "2026-09",
+      "id": "target_payroll_4c59b7be-804e-494b-ade6-01bd0fca9410",
+      "createdAt": "2026-10-07T07:24:14.384Z",
+      "updatedAt": "2026-10-10T09:05:53.719Z"
+    },
+    "createdAt": "2026-10-07T07:24:14.384Z",
+    "updatedAt": "2026-10-10T09:05:53.719Z"
+  },
+  {
+    "id": "target_payroll_7b394fa5-188b-4971-91eb-aafc2fe4ca66",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1003",
+      "employee_id": "EMP-1003",
+      "net_salary": 1662.25,
+      "pay_period": "2026-09",
+      "id": "target_payroll_7b394fa5-188b-4971-91eb-aafc2fe4ca66",
+      "createdAt": "2026-10-07T07:24:14.451Z",
+      "updatedAt": "2026-10-10T09:05:53.725Z"
+    },
+    "createdAt": "2026-10-07T07:24:14.451Z",
+    "updatedAt": "2026-10-10T09:05:53.725Z"
+  },
+  {
+    "id": "target_payroll_2ecc4603-1804-4ccd-a7c4-5a50e1a2a810",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "AS",
+      "employee_id": "EMP-1004",
+      "net_salary": 1799.5,
+      "pay_period": "2026-09",
+      "id": "target_payroll_2ecc4603-1804-4ccd-a7c4-5a50e1a2a810",
+      "createdAt": "2026-10-07T07:24:14.533Z",
+      "updatedAt": "2026-10-07T07:24:14.533Z"
+    },
+    "createdAt": "2026-10-07T07:24:14.533Z",
+    "updatedAt": "2026-10-07T07:24:14.533Z"
+  },
+  {
+    "id": "target_payroll_f1def42d-81cc-4db4-8456-e4e03f676260",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1005",
+      "employee_id": "EMP-1005",
+      "net_salary": 1936.75,
+      "pay_period": "2026-09",
+      "id": "target_payroll_f1def42d-81cc-4db4-8456-e4e03f676260",
+      "createdAt": "2026-10-07T07:24:14.581Z",
+      "updatedAt": "2026-10-10T09:05:53.736Z"
+    },
+    "createdAt": "2026-10-07T07:24:14.581Z",
+    "updatedAt": "2026-10-10T09:05:53.736Z"
+  },
+  {
+    "id": "target_payroll_5aea8dde-0ca5-4d43-a2a1-b73f588077df",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1006",
+      "employee_id": "EMP-1006",
+      "net_salary": 2074,
+      "pay_period": "2026-09",
+      "id": "target_payroll_5aea8dde-0ca5-4d43-a2a1-b73f588077df",
+      "createdAt": "2026-10-07T07:24:14.685Z",
+      "updatedAt": "2026-10-10T09:05:53.740Z"
+    },
+    "createdAt": "2026-10-07T07:24:14.685Z",
+    "updatedAt": "2026-10-10T09:05:53.740Z"
+  },
+  {
+    "id": "target_payroll_9a5aaa00-7fbc-4d65-bcb4-b90081e11560",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1007",
+      "employee_id": "EMPTY",
+      "net_salary": 657,
+      "pay_period": "2026-09",
+      "id": "target_payroll_9a5aaa00-7fbc-4d65-bcb4-b90081e11560",
+      "createdAt": "2026-10-07T07:24:14.726Z",
+      "updatedAt": "2026-10-10T09:05:53.747Z"
+    },
+    "createdAt": "2026-10-07T07:24:14.726Z",
+    "updatedAt": "2026-10-10T09:05:53.747Z"
+  },
+  {
+    "id": "target_payroll_19145ebf-519e-4777-a0fb-00b7ec7785ca",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1009",
+      "employee_id": "EMP-1009",
+      "net_salary": 2485.75,
+      "pay_period": "2026-09",
+      "id": "target_payroll_19145ebf-519e-4777-a0fb-00b7ec7785ca",
+      "createdAt": "2026-10-07T07:24:14.813Z",
+      "updatedAt": "2026-10-07T07:24:14.813Z"
+    },
+    "createdAt": "2026-10-07T07:24:14.813Z",
+    "updatedAt": "2026-10-07T07:24:14.813Z"
+  },
+  {
+    "id": "target_payroll_267c53c4-9208-438a-ae05-1d0fceeaa1ee",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1010",
+      "employee_id": "EMP-1010",
+      "net_salary": 2623,
+      "pay_period": "2026-09",
+      "id": "target_payroll_267c53c4-9208-438a-ae05-1d0fceeaa1ee",
+      "createdAt": "2026-10-07T07:24:14.866Z",
+      "updatedAt": "2026-10-10T09:05:53.754Z"
+    },
+    "createdAt": "2026-10-07T07:24:14.866Z",
+    "updatedAt": "2026-10-10T09:05:53.754Z"
+  },
+  {
+    "id": "target_payroll_f299e92e-748d-4f1f-93b3-0427eb6ec819",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1013",
+      "employee_id": "EMP-1013",
+      "net_salary": 3034.75,
+      "pay_period": "2026-09",
+      "id": "target_payroll_f299e92e-748d-4f1f-93b3-0427eb6ec819",
+      "createdAt": "2026-10-07T07:24:14.903Z",
+      "updatedAt": "2026-10-10T09:05:53.758Z"
+    },
+    "createdAt": "2026-10-07T07:24:14.903Z",
+    "updatedAt": "2026-10-10T09:05:53.758Z"
+  },
+  {
+    "id": "target_payroll_7a50f38b-3cab-48fd-8e68-3fbbeafc3b44",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1014",
+      "employee_id": "EMP-1014",
+      "net_salary": 3172,
+      "pay_period": "2026-09",
+      "id": "target_payroll_7a50f38b-3cab-48fd-8e68-3fbbeafc3b44",
+      "createdAt": "2026-10-07T07:24:14.968Z",
+      "updatedAt": "2026-10-10T09:05:53.766Z"
+    },
+    "createdAt": "2026-10-07T07:24:14.968Z",
+    "updatedAt": "2026-10-10T09:05:53.766Z"
+  },
+  {
+    "id": "target_payroll_c4541fe9-425d-4760-8383-dee40132f212",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1015",
+      "employee_id": "EMP-1015",
+      "net_salary": 3309.25,
+      "pay_period": "2026-09",
+      "id": "target_payroll_c4541fe9-425d-4760-8383-dee40132f212",
+      "createdAt": "2026-10-07T07:24:15.065Z",
+      "updatedAt": "2026-10-10T09:05:53.771Z"
+    },
+    "createdAt": "2026-10-07T07:24:15.065Z",
+    "updatedAt": "2026-10-10T09:05:53.771Z"
+  },
+  {
+    "id": "target_payroll_79efdccc-8850-4d46-ba04-c48597bcb4a0",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1017",
+      "employee_id": "EMP-1017",
+      "net_salary": 3583.75,
+      "pay_period": "2026-09",
+      "id": "target_payroll_79efdccc-8850-4d46-ba04-c48597bcb4a0",
+      "createdAt": "2026-10-07T07:24:15.267Z",
+      "updatedAt": "2026-10-10T09:05:53.779Z"
+    },
+    "createdAt": "2026-10-07T07:24:15.267Z",
+    "updatedAt": "2026-10-10T09:05:53.779Z"
+  },
+  {
+    "id": "target_payroll_cc9d06fb-01c9-4fbf-b131-8c5585cd69c5",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "EMPTY",
+      "employee_id": "EMP-1004",
+      "net_salary": 1799.5,
+      "pay_period": "2026-09",
+      "id": "target_payroll_cc9d06fb-01c9-4fbf-b131-8c5585cd69c5",
+      "createdAt": "2026-10-10T09:05:53.732Z",
+      "updatedAt": "2026-10-10T09:05:53.732Z"
+    },
+    "createdAt": "2026-10-10T09:05:53.732Z",
+    "updatedAt": "2026-10-10T09:05:53.732Z"
+  },
+  {
+    "id": "target_payroll_2be0901f-93b1-47b4-a24f-02d924172603",
+    "organizationId": "org-master-101",
+    "entity": "payroll",
+    "data": {
+      "payroll_id": "PAYR-1056",
+      "employee_id": "EMP-1009",
+      "net_salary": 2485.75,
+      "pay_period": "2026-09",
+      "id": "target_payroll_2be0901f-93b1-47b4-a24f-02d924172603",
+      "createdAt": "2026-10-10T09:05:53.751Z",
+      "updatedAt": "2026-10-10T09:05:53.751Z"
+    },
+    "createdAt": "2026-10-10T09:05:53.751Z",
+    "updatedAt": "2026-10-10T09:05:53.751Z"
+  },
+  {
+    "id": "target_employees_da4b2f39-8c95-420a-8c6e-378ca3650e39",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1000",
+      "first_name": "Aarav",
+      "last_name": "Sharma",
+      "email": "employees0@example.com",
+      "phone": "+919000010000",
+      "department": "Engineering",
+      "job_title": "Software Engineer",
+      "status": "ACTIVE",
+      "id": "target_employees_da4b2f39-8c95-420a-8c6e-378ca3650e39",
+      "createdAt": "2026-10-06T05:23:01.546Z",
+      "updatedAt": "2026-10-10T16:36:29.866Z"
+    },
+    "createdAt": "2026-10-06T05:23:01.546Z",
+    "updatedAt": "2026-10-10T16:36:29.866Z"
+  },
+  {
+    "id": "target_employees_ed8cd501-a3ae-485a-b947-eccd1ae60572",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1001",
+      "first_name": "Ananya",
+      "last_name": "Reddy",
+      "email": "employees1@example.com",
+      "phone": "+919000010001",
+      "department": "Finance",
+      "job_title": "Analyst",
+      "status": "INACTIVE",
+      "id": "target_employees_ed8cd501-a3ae-485a-b947-eccd1ae60572",
+      "createdAt": "2026-10-06T05:23:01.638Z",
+      "updatedAt": "2026-10-10T16:36:29.902Z"
+    },
+    "createdAt": "2026-10-06T05:23:01.638Z",
+    "updatedAt": "2026-10-10T16:36:29.902Z"
+  },
+  {
+    "id": "target_employees_38c081ab-7935-4753-b705-782363540c75",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1002",
+      "first_name": "Riya",
+      "last_name": "Patel",
+      "email": "employees2@example.com",
+      "phone": "+919000010002",
+      "department": "Human Resources",
+      "job_title": "Manager",
+      "status": "ON_LEAVE",
+      "id": "target_employees_38c081ab-7935-4753-b705-782363540c75",
+      "createdAt": "2026-10-06T05:23:01.723Z",
+      "updatedAt": "2026-10-10T16:36:29.914Z"
+    },
+    "createdAt": "2026-10-06T05:23:01.723Z",
+    "updatedAt": "2026-10-10T16:36:29.914Z"
+  },
+  {
+    "id": "target_employees_2441b6f1-bac5-4bdd-b125-725005b12451",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1003",
+      "first_name": "Arjun",
+      "last_name": "Rao",
+      "email": "employees3@example.com",
+      "phone": "+919000010003",
+      "department": "Sales",
+      "job_title": "Specialist",
+      "status": "TERMINATED",
+      "id": "target_employees_2441b6f1-bac5-4bdd-b125-725005b12451",
+      "createdAt": "2026-10-06T05:23:01.823Z",
+      "updatedAt": "2026-10-10T16:36:29.931Z"
+    },
+    "createdAt": "2026-10-06T05:23:01.823Z",
+    "updatedAt": "2026-10-10T16:36:29.931Z"
+  },
+  {
+    "id": "target_employees_1895f25e-6a9b-444d-9e46-2b9e58fbc713",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1004",
+      "first_name": "Ishaan",
+      "last_name": "EMPTY",
+      "email": "employees4@example.com",
+      "phone": "+919000010004",
+      "department": "Engineering",
+      "job_title": "Software Engineer",
+      "status": "ACTIVE",
+      "id": "target_employees_1895f25e-6a9b-444d-9e46-2b9e58fbc713",
+      "createdAt": "2026-10-06T05:23:01.897Z",
+      "updatedAt": "2026-10-10T16:36:29.945Z"
+    },
+    "createdAt": "2026-10-06T05:23:01.897Z",
+    "updatedAt": "2026-10-10T16:36:29.945Z"
+  },
+  {
+    "id": "target_employees_8a71eeeb-8a2c-443e-b392-751dce847314",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1005",
+      "first_name": "Meera",
+      "last_name": "Iyer",
+      "email": "employees5@example.com",
+      "phone": "+919000010005",
+      "department": "Finance",
+      "job_title": "Analyst",
+      "status": "INACTIVE",
+      "id": "target_employees_8a71eeeb-8a2c-443e-b392-751dce847314",
+      "createdAt": "2026-10-06T05:23:01.989Z",
+      "updatedAt": "2026-10-10T16:36:29.956Z"
+    },
+    "createdAt": "2026-10-06T05:23:01.989Z",
+    "updatedAt": "2026-10-10T16:36:29.956Z"
+  },
+  {
+    "id": "target_employees_e9834f7f-10d8-4c3e-b981-36eb6a94178d",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1006",
+      "first_name": "Kavya",
+      "last_name": "Khan",
+      "email": "employees6@example.com",
+      "phone": "+919000010006",
+      "department": "Human Resources",
+      "job_title": "Manager",
+      "status": "ON_LEAVE",
+      "id": "target_employees_e9834f7f-10d8-4c3e-b981-36eb6a94178d",
+      "createdAt": "2026-10-06T05:23:02.058Z",
+      "updatedAt": "2026-10-10T16:36:29.966Z"
+    },
+    "createdAt": "2026-10-06T05:23:02.058Z",
+    "updatedAt": "2026-10-10T16:36:29.966Z"
+  },
+  {
+    "id": "target_employees_ad970809-b391-4e54-885e-27700f3f24c6",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1007",
+      "first_name": "Rahul",
+      "last_name": "EMPTY",
+      "email": "employees7@example.com",
+      "phone": "+919000010007",
+      "department": "Sales",
+      "job_title": "Specialist",
+      "status": "TERMINATED",
+      "id": "target_employees_ad970809-b391-4e54-885e-27700f3f24c6",
+      "createdAt": "2026-10-06T05:23:02.129Z",
+      "updatedAt": "2026-10-10T16:36:29.977Z"
+    },
+    "createdAt": "2026-10-06T05:23:02.129Z",
+    "updatedAt": "2026-10-10T16:36:29.977Z"
+  },
+  {
+    "id": "target_employees_ff212fe5-5811-4dba-9762-741d743a171e",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "###INVALID###",
+      "first_name": "Neha",
+      "last_name": "Kapoor",
+      "email": "employees8@example.com",
+      "phone": "+919000010008",
+      "department": "Engineering",
+      "job_title": "Software Engineer",
+      "status": "ACTIVE",
+      "id": "target_employees_ff212fe5-5811-4dba-9762-741d743a171e",
+      "createdAt": "2026-10-06T05:23:02.139Z",
+      "updatedAt": "2026-10-06T05:23:02.139Z"
+    },
+    "createdAt": "2026-10-06T05:23:02.139Z",
+    "updatedAt": "2026-10-06T05:23:02.139Z"
+  },
+  {
+    "id": "target_employees_8e90ab84-2ac2-450f-a502-9bf539c9d5de",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1009",
+      "first_name": "Vikram",
+      "last_name": "Nair",
+      "email": "employees9@example.com",
+      "phone": "+919000010009",
+      "department": "Finance",
+      "job_title": "Analyst",
+      "status": "INACTIVE",
+      "id": "target_employees_8e90ab84-2ac2-450f-a502-9bf539c9d5de",
+      "createdAt": "2026-10-06T05:23:02.204Z",
+      "updatedAt": "2026-10-10T16:36:29.992Z"
+    },
+    "createdAt": "2026-10-06T05:23:02.204Z",
+    "updatedAt": "2026-10-10T16:36:29.992Z"
+  },
+  {
+    "id": "target_employees_87f9713e-c22d-4139-a523-c2047b25ff68",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1010",
+      "first_name": "Priya",
+      "last_name": "Joshi",
+      "email": "employees10@example.com",
+      "phone": "+919000010010",
+      "department": "Human Resources",
+      "job_title": "Manager",
+      "status": "ON_LEAVE",
+      "id": "target_employees_87f9713e-c22d-4139-a523-c2047b25ff68",
+      "createdAt": "2026-10-06T05:23:02.238Z",
+      "updatedAt": "2026-10-10T16:36:30.004Z"
+    },
+    "createdAt": "2026-10-06T05:23:02.238Z",
+    "updatedAt": "2026-10-10T16:36:30.004Z"
+  },
+  {
+    "id": "target_employees_76372fa5-0cb0-451d-bd57-6589c7a0e2f1",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1013",
+      "first_name": "Karan",
+      "last_name": "Menon",
+      "email": "employees13@example.com",
+      "phone": "+919000010013",
+      "department": "Finance",
+      "job_title": "Analyst",
+      "status": "INACTIVE",
+      "id": "target_employees_76372fa5-0cb0-451d-bd57-6589c7a0e2f1",
+      "createdAt": "2026-10-06T05:23:02.276Z",
+      "updatedAt": "2026-10-10T16:36:30.018Z"
+    },
+    "createdAt": "2026-10-06T05:23:02.276Z",
+    "updatedAt": "2026-10-10T16:36:30.018Z"
+  },
+  {
+    "id": "target_employees_0099418c-da32-4e9c-96e1-c2d121ab2d0f",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1014",
+      "first_name": "Sneha",
+      "last_name": "Gupta",
+      "email": "employees14@example.com",
+      "phone": "+919000010014",
+      "department": "Human Resources",
+      "job_title": "Manager",
+      "status": "ON_LEAVE",
+      "id": "target_employees_0099418c-da32-4e9c-96e1-c2d121ab2d0f",
+      "createdAt": "2026-10-06T05:23:02.296Z",
+      "updatedAt": "2026-10-10T16:36:30.034Z"
+    },
+    "createdAt": "2026-10-06T05:23:02.296Z",
+    "updatedAt": "2026-10-10T16:36:30.034Z"
+  },
+  {
+    "id": "target_employees_0dd008f9-58e5-469b-b3b9-e3a09fa2087d",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1015",
+      "first_name": "Aarav",
+      "last_name": "Sharma",
+      "email": "employees15@example.com",
+      "phone": "+919000010015",
+      "department": "Sales",
+      "job_title": "Specialist",
+      "status": "TERMINATED",
+      "id": "target_employees_0dd008f9-58e5-469b-b3b9-e3a09fa2087d",
+      "createdAt": "2026-10-06T05:23:02.303Z",
+      "updatedAt": "2026-10-10T16:36:30.045Z"
+    },
+    "createdAt": "2026-10-06T05:23:02.303Z",
+    "updatedAt": "2026-10-10T16:36:30.045Z"
+  },
+  {
+    "id": "target_employees_59773f24-cc9a-4ea6-ba47-0d657f48f474",
+    "organizationId": "org-master-101",
+    "entity": "employees",
+    "data": {
+      "employee_id": "EMP-1017",
+      "first_name": "Riya",
+      "last_name": "Patel",
+      "email": "employees17@example.com",
+      "phone": "+919000010017",
+      "department": "Finance",
+      "job_title": "Analyst",
+      "status": "INACTIVE",
+      "id": "target_employees_59773f24-cc9a-4ea6-ba47-0d657f48f474",
+      "createdAt": "2026-10-06T05:23:02.316Z",
+      "updatedAt": "2026-10-10T16:36:30.054Z"
+    },
+    "createdAt": "2026-10-06T05:23:02.316Z",
+    "updatedAt": "2026-10-10T16:36:30.054Z"
+  },
+  {
+    "id": "target_enterprise_assets_44133bed-eb95-405b-8152-48cf098257d5",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1000",
+      "asset_name": "Sample asset_name 1",
+      "purchase_cost": 1250.5,
+      "location": "Hyderabad",
+      "id": "target_enterprise_assets_44133bed-eb95-405b-8152-48cf098257d5",
+      "createdAt": "2026-10-06T07:23:37.065Z",
+      "updatedAt": "2026-10-10T17:01:57.593Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.065Z",
+    "updatedAt": "2026-10-10T17:01:57.593Z"
+  },
+  {
+    "id": "target_enterprise_assets_a2fca77e-1fdc-4ee0-a9f5-aa2a29693bc2",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1001",
+      "asset_name": "Sample asset_name 2",
+      "purchase_cost": 1387.75,
+      "location": "Secunderabad",
+      "id": "target_enterprise_assets_a2fca77e-1fdc-4ee0-a9f5-aa2a29693bc2",
+      "createdAt": "2026-10-06T07:23:37.076Z",
+      "updatedAt": "2026-10-10T17:01:57.603Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.076Z",
+    "updatedAt": "2026-10-10T17:01:57.603Z"
+  },
+  {
+    "id": "target_enterprise_assets_1dd07714-8010-4081-9285-65b7f2177a5d",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1002",
+      "asset_name": "Sample asset_name 3",
+      "purchase_cost": 1525,
+      "location": "Bengaluru",
+      "id": "target_enterprise_assets_1dd07714-8010-4081-9285-65b7f2177a5d",
+      "createdAt": "2026-10-06T07:23:37.097Z",
+      "updatedAt": "2026-10-10T17:01:57.623Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.097Z",
+    "updatedAt": "2026-10-10T17:01:57.623Z"
+  },
+  {
+    "id": "target_enterprise_assets_6d2a4fe0-c2cb-4028-a258-b0283dace2f6",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1003",
+      "asset_name": "Sample asset_name 4",
+      "purchase_cost": 1662.25,
+      "location": "Pune",
+      "id": "target_enterprise_assets_6d2a4fe0-c2cb-4028-a258-b0283dace2f6",
+      "createdAt": "2026-10-06T07:23:37.258Z",
+      "updatedAt": "2026-10-10T17:01:57.636Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.258Z",
+    "updatedAt": "2026-10-10T17:01:57.636Z"
+  },
+  {
+    "id": "target_enterprise_assets_d5847524-65b0-483b-b228-0980f1f67cfa",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1004",
+      "asset_name": "EMPTY",
+      "purchase_cost": 1799.5,
+      "location": "Chennai",
+      "id": "target_enterprise_assets_d5847524-65b0-483b-b228-0980f1f67cfa",
+      "createdAt": "2026-10-06T07:23:37.305Z",
+      "updatedAt": "2026-10-10T17:01:57.649Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.305Z",
+    "updatedAt": "2026-10-10T17:01:57.649Z"
+  },
+  {
+    "id": "target_enterprise_assets_251ea39c-300c-47a2-afd9-b119babee0bf",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1005",
+      "asset_name": "Sample asset_name 6",
+      "purchase_cost": 1936.75,
+      "location": "Mumbai",
+      "id": "target_enterprise_assets_251ea39c-300c-47a2-afd9-b119babee0bf",
+      "createdAt": "2026-10-06T07:23:37.324Z",
+      "updatedAt": "2026-10-10T17:01:57.673Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.324Z",
+    "updatedAt": "2026-10-10T17:01:57.673Z"
+  },
+  {
+    "id": "target_enterprise_assets_282cda60-485c-437f-828b-1afda6c4d5c0",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1006",
+      "asset_name": "Sample asset_name 7",
+      "purchase_cost": 2074,
+      "location": "Delhi",
+      "id": "target_enterprise_assets_282cda60-485c-437f-828b-1afda6c4d5c0",
+      "createdAt": "2026-10-06T07:23:37.340Z",
+      "updatedAt": "2026-10-10T17:01:57.683Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.340Z",
+    "updatedAt": "2026-10-10T17:01:57.683Z"
+  },
+  {
+    "id": "target_enterprise_assets_9226fe12-b6fd-4026-93f0-a3fe45d317ba",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1007",
+      "asset_name": "EMPTY",
+      "purchase_cost": 85486,
+      "location": "Kochi",
+      "id": "target_enterprise_assets_9226fe12-b6fd-4026-93f0-a3fe45d317ba",
+      "createdAt": "2026-10-06T07:23:37.354Z",
+      "updatedAt": "2026-10-10T17:01:57.694Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.354Z",
+    "updatedAt": "2026-10-10T17:01:57.694Z"
+  },
+  {
+    "id": "target_enterprise_assets_691aeee8-01da-4c39-b70f-239b83bda8e1",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "###INVALID###",
+      "asset_name": "Sample asset_name 9",
+      "purchase_cost": 2348.5,
+      "location": "Hyderabad",
+      "id": "target_enterprise_assets_691aeee8-01da-4c39-b70f-239b83bda8e1",
+      "createdAt": "2026-10-06T07:23:37.366Z",
+      "updatedAt": "2026-10-06T07:23:37.366Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.366Z",
+    "updatedAt": "2026-10-06T07:23:37.366Z"
+  },
+  {
+    "id": "target_enterprise_assets_f2411333-c7f6-48d9-9e80-f3658f106b2b",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1009",
+      "asset_name": "Sample asset_name 10",
+      "purchase_cost": 2485.75,
+      "location": "Secunderabad",
+      "id": "target_enterprise_assets_f2411333-c7f6-48d9-9e80-f3658f106b2b",
+      "createdAt": "2026-10-06T07:23:37.382Z",
+      "updatedAt": "2026-10-10T17:01:57.705Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.382Z",
+    "updatedAt": "2026-10-10T17:01:57.705Z"
+  },
+  {
+    "id": "target_enterprise_assets_5962697e-8f31-4b71-90de-30e3f2b49687",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1010",
+      "asset_name": "Sample asset_name 11",
+      "purchase_cost": 2623,
+      "location": "Bengaluru",
+      "id": "target_enterprise_assets_5962697e-8f31-4b71-90de-30e3f2b49687",
+      "createdAt": "2026-10-06T07:23:37.395Z",
+      "updatedAt": "2026-10-10T17:01:57.715Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.395Z",
+    "updatedAt": "2026-10-10T17:01:57.715Z"
+  },
+  {
+    "id": "target_enterprise_assets_041874bc-38ce-4f31-8f1a-54508f3b9349",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1013",
+      "asset_name": "Sample asset_name 14",
+      "purchase_cost": 3034.75,
+      "location": "Mumbai",
+      "id": "target_enterprise_assets_041874bc-38ce-4f31-8f1a-54508f3b9349",
+      "createdAt": "2026-10-06T07:23:37.406Z",
+      "updatedAt": "2026-10-10T17:01:57.729Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.406Z",
+    "updatedAt": "2026-10-10T17:01:57.729Z"
+  },
+  {
+    "id": "target_enterprise_assets_fb6c9cdb-3ce3-462f-9128-d4932ef24311",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1014",
+      "asset_name": "Sample asset_name 15",
+      "purchase_cost": 3172,
+      "location": "Delhi",
+      "id": "target_enterprise_assets_fb6c9cdb-3ce3-462f-9128-d4932ef24311",
+      "createdAt": "2026-10-06T07:23:37.415Z",
+      "updatedAt": "2026-10-10T17:01:57.740Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.415Z",
+    "updatedAt": "2026-10-10T17:01:57.740Z"
+  },
+  {
+    "id": "target_enterprise_assets_82a74363-0028-4041-9104-2b1619d311b7",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1015",
+      "asset_name": "Sample asset_name 16",
+      "purchase_cost": 3309.25,
+      "location": "Kochi",
+      "id": "target_enterprise_assets_82a74363-0028-4041-9104-2b1619d311b7",
+      "createdAt": "2026-10-06T07:23:37.427Z",
+      "updatedAt": "2026-10-10T17:01:57.755Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.427Z",
+    "updatedAt": "2026-10-10T17:01:57.755Z"
+  },
+  {
+    "id": "target_enterprise_assets_428b48f6-1695-411e-a83f-b589cd8d4db8",
+    "organizationId": "org-master-101",
+    "entity": "enterprise_assets",
+    "data": {
+      "asset_tag": "AST-1017",
+      "asset_name": "Sample asset_name 18",
+      "purchase_cost": 3583.75,
+      "location": "Secunderabad",
+      "id": "target_enterprise_assets_428b48f6-1695-411e-a83f-b589cd8d4db8",
+      "createdAt": "2026-10-06T07:23:37.434Z",
+      "updatedAt": "2026-10-10T17:01:57.767Z"
+    },
+    "createdAt": "2026-10-06T07:23:37.434Z",
+    "updatedAt": "2026-10-10T17:01:57.767Z"
+  },
+  {
+    "id": "target_compliance_records_421e27ce-7f58-4f20-9067-33dbd0d543f9",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1000",
+      "policy_name": "Acme Industries",
+      "auditor": "Sample auditor 1",
+      "audit_date": "2026-09-01",
+      "status": "COMPLIANT",
+      "id": "target_compliance_records_421e27ce-7f58-4f20-9067-33dbd0d543f9",
+      "createdAt": "2026-10-10T17:03:35.604Z",
+      "updatedAt": "2026-10-10T17:03:35.604Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.604Z",
+    "updatedAt": "2026-10-10T17:03:35.604Z"
+  },
+  {
+    "id": "target_compliance_records_c307f6f4-1c62-4787-9716-a8d993ad13d1",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1001",
+      "policy_name": "Bright Retail",
+      "auditor": "Sample auditor 2",
+      "audit_date": "2026-09-02",
+      "status": "NON_COMPLIANT",
+      "id": "target_compliance_records_c307f6f4-1c62-4787-9716-a8d993ad13d1",
+      "createdAt": "2026-10-10T17:03:35.615Z",
+      "updatedAt": "2026-10-10T17:03:35.615Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.615Z",
+    "updatedAt": "2026-10-10T17:03:35.615Z"
+  },
+  {
+    "id": "target_compliance_records_bb6e44f3-1f67-4727-b045-aa470171d668",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1002",
+      "policy_name": "CloudBase Tech",
+      "auditor": "Sample auditor 3",
+      "audit_date": "2026-09-03",
+      "status": "UNDER_REVIEW",
+      "id": "target_compliance_records_bb6e44f3-1f67-4727-b045-aa470171d668",
+      "createdAt": "2026-10-10T17:03:35.629Z",
+      "updatedAt": "2026-10-10T17:03:35.629Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.629Z",
+    "updatedAt": "2026-10-10T17:03:35.629Z"
+  },
+  {
+    "id": "target_compliance_records_05b63b7b-b937-4f91-9788-db18ae0b6ac0",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1003",
+      "policy_name": "Delta Logistics",
+      "auditor": "Sample auditor 4",
+      "audit_date": "2026-09-04",
+      "status": "ACTION_REQUIRED",
+      "id": "target_compliance_records_05b63b7b-b937-4f91-9788-db18ae0b6ac0",
+      "createdAt": "2026-10-10T17:03:35.642Z",
+      "updatedAt": "2026-10-10T17:03:35.642Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.642Z",
+    "updatedAt": "2026-10-10T17:03:35.642Z"
+  },
+  {
+    "id": "target_compliance_records_80f72fcb-c89d-4e45-a88f-29ba2b5cf038",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1004",
+      "policy_name": "EMPTY",
+      "auditor": "Sample auditor 5",
+      "audit_date": "2026-09-05",
+      "status": "COMPLIANT",
+      "id": "target_compliance_records_80f72fcb-c89d-4e45-a88f-29ba2b5cf038",
+      "createdAt": "2026-10-10T17:03:35.657Z",
+      "updatedAt": "2026-10-10T17:03:35.657Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.657Z",
+    "updatedAt": "2026-10-10T17:03:35.657Z"
+  },
+  {
+    "id": "target_compliance_records_902885d9-ad5c-409d-806f-2bf1ab37d134",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1005",
+      "policy_name": "Vertex Labs",
+      "auditor": "Sample auditor 6",
+      "audit_date": "2026-09-06",
+      "status": "NON_COMPLIANT",
+      "id": "target_compliance_records_902885d9-ad5c-409d-806f-2bf1ab37d134",
+      "createdAt": "2026-10-10T17:03:35.673Z",
+      "updatedAt": "2026-10-10T17:03:35.673Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.673Z",
+    "updatedAt": "2026-10-10T17:03:35.673Z"
+  },
+  {
+    "id": "target_compliance_records_d7e6a27c-b2be-41d7-af4f-974852c14915",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1006",
+      "policy_name": "BluePeak Solutions",
+      "auditor": "Sample auditor 7",
+      "audit_date": "2026-09-07",
+      "status": "UNDER_REVIEW",
+      "id": "target_compliance_records_d7e6a27c-b2be-41d7-af4f-974852c14915",
+      "createdAt": "2026-10-10T17:03:35.688Z",
+      "updatedAt": "2026-10-10T17:03:35.688Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.688Z",
+    "updatedAt": "2026-10-10T17:03:35.688Z"
+  },
+  {
+    "id": "target_compliance_records_3b1be198-4607-46c1-a985-fb9fc0e721f2",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1007",
+      "policy_name": "EMPTY",
+      "auditor": "Sample auditor 8",
+      "audit_date": "2026-09-02",
+      "status": "ACTION_REQUIRED",
+      "id": "target_compliance_records_3b1be198-4607-46c1-a985-fb9fc0e721f2",
+      "createdAt": "2026-10-10T17:03:35.699Z",
+      "updatedAt": "2026-10-10T17:03:35.699Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.699Z",
+    "updatedAt": "2026-10-10T17:03:35.699Z"
+  },
+  {
+    "id": "target_compliance_records_a70b9087-00de-47e3-83d4-27016e7c0f45",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1008",
+      "policy_name": "Acme Industries",
+      "auditor": "Sample auditor 9",
+      "audit_date": "2026-09-09",
+      "status": "NON_COMPLIANT",
+      "id": "target_compliance_records_a70b9087-00de-47e3-83d4-27016e7c0f45",
+      "createdAt": "2026-10-10T17:03:35.710Z",
+      "updatedAt": "2026-10-10T17:03:35.710Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.710Z",
+    "updatedAt": "2026-10-10T17:03:35.710Z"
+  },
+  {
+    "id": "target_compliance_records_c6c4002e-fc56-4cb1-879a-2b66f760a8e4",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1009",
+      "policy_name": "Bright Retail",
+      "auditor": "Sample auditor 10",
+      "audit_date": "2026-09-10",
+      "status": "NON_COMPLIANT",
+      "id": "target_compliance_records_c6c4002e-fc56-4cb1-879a-2b66f760a8e4",
+      "createdAt": "2026-10-10T17:03:35.734Z",
+      "updatedAt": "2026-10-10T17:03:35.734Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.734Z",
+    "updatedAt": "2026-10-10T17:03:35.734Z"
+  },
+  {
+    "id": "target_compliance_records_7b4cfb1b-b316-40d9-b259-25b41d6778bb",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1010",
+      "policy_name": "CloudBase Tech",
+      "auditor": "Sample auditor 11",
+      "audit_date": "2026-09-11",
+      "status": "UNDER_REVIEW",
+      "id": "target_compliance_records_7b4cfb1b-b316-40d9-b259-25b41d6778bb",
+      "createdAt": "2026-10-10T17:03:35.749Z",
+      "updatedAt": "2026-10-10T17:03:35.749Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.749Z",
+    "updatedAt": "2026-10-10T17:03:35.749Z"
+  },
+  {
+    "id": "target_compliance_records_4b76fd2c-c65a-44fe-9e90-8190a056dac0",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1067",
+      "policy_name": "CloudBase Tech",
+      "auditor": "Sample auditor 11",
+      "audit_date": "2026-09-11",
+      "status": "UNDER_REVIEW",
+      "id": "target_compliance_records_4b76fd2c-c65a-44fe-9e90-8190a056dac0",
+      "createdAt": "2026-10-10T17:03:35.765Z",
+      "updatedAt": "2026-10-10T17:03:35.765Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.765Z",
+    "updatedAt": "2026-10-10T17:03:35.765Z"
+  },
+  {
+    "id": "target_compliance_records_4b7d1e0a-8228-41f1-9f7e-7bfdc9b22dfc",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1013",
+      "policy_name": "Vertex Labs",
+      "auditor": "Sample auditor 14",
+      "audit_date": "2026-09-14",
+      "status": "NON_COMPLIANT",
+      "id": "target_compliance_records_4b7d1e0a-8228-41f1-9f7e-7bfdc9b22dfc",
+      "createdAt": "2026-10-10T17:03:35.775Z",
+      "updatedAt": "2026-10-10T17:03:35.775Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.775Z",
+    "updatedAt": "2026-10-10T17:03:35.775Z"
+  },
+  {
+    "id": "target_compliance_records_c85bda2e-3d06-4814-9322-426058165288",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1014",
+      "policy_name": "BluePeak Solutions",
+      "auditor": "Sample auditor 15",
+      "audit_date": "2026-09-15",
+      "status": "UNDER_REVIEW",
+      "id": "target_compliance_records_c85bda2e-3d06-4814-9322-426058165288",
+      "createdAt": "2026-10-10T17:03:35.787Z",
+      "updatedAt": "2026-10-10T17:03:35.787Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.787Z",
+    "updatedAt": "2026-10-10T17:03:35.787Z"
+  },
+  {
+    "id": "target_compliance_records_f761c805-7363-457d-970f-871012e85582",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1015",
+      "policy_name": "Summit Foods",
+      "auditor": "Sample auditor 16",
+      "audit_date": "2026-09-16",
+      "status": "ACTION_REQUIRED",
+      "id": "target_compliance_records_f761c805-7363-457d-970f-871012e85582",
+      "createdAt": "2026-10-10T17:03:35.798Z",
+      "updatedAt": "2026-10-10T17:03:35.798Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.798Z",
+    "updatedAt": "2026-10-10T17:03:35.798Z"
+  },
+  {
+    "id": "target_compliance_records_57ed6bb6-9b1b-490c-a971-a42f71e916d5",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1016",
+      "policy_name": "Acme Industries",
+      "auditor": "Sample auditor 17",
+      "audit_date": "2026-09-02",
+      "status": "COMPLIANT",
+      "id": "target_compliance_records_57ed6bb6-9b1b-490c-a971-a42f71e916d5",
+      "createdAt": "2026-10-10T17:03:35.808Z",
+      "updatedAt": "2026-10-10T17:03:35.808Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.808Z",
+    "updatedAt": "2026-10-10T17:03:35.808Z"
+  },
+  {
+    "id": "target_compliance_records_b42e6d92-e0e8-4558-8cfb-feb06d2469e9",
+    "organizationId": "org-master-101",
+    "entity": "compliance_records",
+    "data": {
+      "audit_id": "AUD-1017",
+      "policy_name": "Bright Retail",
+      "auditor": "Sample auditor 18",
+      "audit_date": "2026-09-18",
+      "status": "NON_COMPLIANT",
+      "id": "target_compliance_records_b42e6d92-e0e8-4558-8cfb-feb06d2469e9",
+      "createdAt": "2026-10-10T17:03:35.818Z",
+      "updatedAt": "2026-10-10T17:03:35.818Z"
+    },
+    "createdAt": "2026-10-10T17:03:35.818Z",
+    "updatedAt": "2026-10-10T17:03:35.818Z"
+  },
+  {
+    "id": "target_inventory_9d13e303-efdf-4fdd-84c2-10ff4ae85ea4",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1000",
+      "sku": "SKU-02000",
+      "warehouse": "WH-HYD-01",
+      "quantity": 10,
+      "id": "target_inventory_9d13e303-efdf-4fdd-84c2-10ff4ae85ea4",
+      "createdAt": "2026-10-07T11:04:34.212Z",
+      "updatedAt": "2026-10-10T18:28:56.396Z"
+    },
+    "createdAt": "2026-10-07T11:04:34.212Z",
+    "updatedAt": "2026-10-10T18:28:56.396Z"
+  },
+  {
+    "id": "target_inventory_451ae0ed-84ce-4be0-bc6f-d94dea966dd6",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1001",
+      "sku": "SKU-02001",
+      "warehouse": "WH-BLR-01",
+      "quantity": 17,
+      "id": "target_inventory_451ae0ed-84ce-4be0-bc6f-d94dea966dd6",
+      "createdAt": "2026-10-07T11:04:34.476Z",
+      "updatedAt": "2026-10-10T18:28:56.416Z"
+    },
+    "createdAt": "2026-10-07T11:04:34.476Z",
+    "updatedAt": "2026-10-10T18:28:56.416Z"
+  },
+  {
+    "id": "target_inventory_f361b0ae-3091-45c8-addd-6129589d81d0",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1002",
+      "sku": "SKU-02002",
+      "warehouse": "WH-MUM-01",
+      "quantity": 24,
+      "id": "target_inventory_f361b0ae-3091-45c8-addd-6129589d81d0",
+      "createdAt": "2026-10-07T11:04:34.960Z",
+      "updatedAt": "2026-10-10T18:28:56.453Z"
+    },
+    "createdAt": "2026-10-07T11:04:34.960Z",
+    "updatedAt": "2026-10-10T18:28:56.453Z"
+  },
+  {
+    "id": "target_inventory_62df9734-091f-4116-9d39-467c038ef59b",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1003",
+      "sku": "SKU-02003",
+      "warehouse": "WH-HYD-01",
+      "quantity": 31,
+      "id": "target_inventory_62df9734-091f-4116-9d39-467c038ef59b",
+      "createdAt": "2026-10-07T11:04:35.008Z",
+      "updatedAt": "2026-10-10T18:28:56.473Z"
+    },
+    "createdAt": "2026-10-07T11:04:35.008Z",
+    "updatedAt": "2026-10-10T18:28:56.473Z"
+  },
+  {
+    "id": "target_inventory_ce4989cf-a818-4124-ae77-9b662e75ff71",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1004",
+      "sku": "EMPTY",
+      "warehouse": "WH-BLR-01",
+      "quantity": 38,
+      "id": "target_inventory_ce4989cf-a818-4124-ae77-9b662e75ff71",
+      "createdAt": "2026-10-07T11:04:35.277Z",
+      "updatedAt": "2026-10-10T18:28:56.484Z"
+    },
+    "createdAt": "2026-10-07T11:04:35.277Z",
+    "updatedAt": "2026-10-10T18:28:56.484Z"
+  },
+  {
+    "id": "target_inventory_9bfb6193-2558-4947-a040-2f0db54bca51",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1005",
+      "sku": "SKU-02005",
+      "warehouse": "WH-MUM-01",
+      "quantity": 45,
+      "id": "target_inventory_9bfb6193-2558-4947-a040-2f0db54bca51",
+      "createdAt": "2026-10-07T11:04:35.543Z",
+      "updatedAt": "2026-10-10T18:28:56.495Z"
+    },
+    "createdAt": "2026-10-07T11:04:35.543Z",
+    "updatedAt": "2026-10-10T18:28:56.495Z"
+  },
+  {
+    "id": "target_inventory_35198c3c-1cce-4c43-aa78-d0d9330ef492",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1006",
+      "sku": "SKU-02006",
+      "warehouse": "WH-HYD-01",
+      "quantity": 52,
+      "id": "target_inventory_35198c3c-1cce-4c43-aa78-d0d9330ef492",
+      "createdAt": "2026-10-07T11:04:38.118Z",
+      "updatedAt": "2026-10-10T18:28:56.502Z"
+    },
+    "createdAt": "2026-10-07T11:04:38.118Z",
+    "updatedAt": "2026-10-10T18:28:56.502Z"
+  },
+  {
+    "id": "target_inventory_0ba2b77a-afde-4c90-8d2c-f1364ee36f82",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1007",
+      "sku": "EMPTY",
+      "warehouse": "WH-BLR-01",
+      "quantity": 56,
+      "id": "target_inventory_0ba2b77a-afde-4c90-8d2c-f1364ee36f82",
+      "createdAt": "2026-10-07T11:04:38.808Z",
+      "updatedAt": "2026-10-10T18:28:56.511Z"
+    },
+    "createdAt": "2026-10-07T11:04:38.808Z",
+    "updatedAt": "2026-10-10T18:28:56.511Z"
+  },
+  {
+    "id": "target_inventory_56b6b9b6-caa4-4e77-9e4f-feb002da8597",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1009",
+      "sku": "SKU-02009",
+      "warehouse": "WH-HYD-01",
+      "quantity": 73,
+      "id": "target_inventory_56b6b9b6-caa4-4e77-9e4f-feb002da8597",
+      "createdAt": "2026-10-07T11:04:39.865Z",
+      "updatedAt": "2026-10-10T18:28:56.517Z"
+    },
+    "createdAt": "2026-10-07T11:04:39.865Z",
+    "updatedAt": "2026-10-10T18:28:56.517Z"
+  },
+  {
+    "id": "target_inventory_00d6e158-e6a0-4b7e-879c-1f76d8f5133b",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1010",
+      "sku": "SKU-02010",
+      "warehouse": "WH-BLR-01",
+      "quantity": 80,
+      "id": "target_inventory_00d6e158-e6a0-4b7e-879c-1f76d8f5133b",
+      "createdAt": "2026-10-07T11:04:40.047Z",
+      "updatedAt": "2026-10-10T18:28:56.526Z"
+    },
+    "createdAt": "2026-10-07T11:04:40.047Z",
+    "updatedAt": "2026-10-10T18:28:56.526Z"
+  },
+  {
+    "id": "target_inventory_09361eac-6060-46cf-99da-7172aba6358e",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1067",
+      "sku": "SKU-02010",
+      "warehouse": "WH-BLR-01",
+      "quantity": 80,
+      "id": "target_inventory_09361eac-6060-46cf-99da-7172aba6358e",
+      "createdAt": "2026-10-07T11:04:40.201Z",
+      "updatedAt": "2026-10-07T11:04:40.201Z"
+    },
+    "createdAt": "2026-10-07T11:04:40.201Z",
+    "updatedAt": "2026-10-07T11:04:40.201Z"
+  },
+  {
+    "id": "target_inventory_2bb4b7da-a073-40b0-8c55-38934a1a3076",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1013",
+      "sku": "SKU-02013",
+      "warehouse": "WH-BLR-01",
+      "quantity": 101,
+      "id": "target_inventory_2bb4b7da-a073-40b0-8c55-38934a1a3076",
+      "createdAt": "2026-10-07T11:04:40.283Z",
+      "updatedAt": "2026-10-10T18:28:56.545Z"
+    },
+    "createdAt": "2026-10-07T11:04:40.283Z",
+    "updatedAt": "2026-10-10T18:28:56.545Z"
+  },
+  {
+    "id": "target_inventory_fff8123b-4ff8-4469-8e27-9e94ea87a2c1",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1014",
+      "sku": "SKU-02014",
+      "warehouse": "WH-MUM-01",
+      "quantity": 108,
+      "id": "target_inventory_fff8123b-4ff8-4469-8e27-9e94ea87a2c1",
+      "createdAt": "2026-10-07T11:04:40.361Z",
+      "updatedAt": "2026-10-10T18:28:56.557Z"
+    },
+    "createdAt": "2026-10-07T11:04:40.361Z",
+    "updatedAt": "2026-10-10T18:28:56.557Z"
+  },
+  {
+    "id": "target_inventory_798004a1-06b7-4fa2-ade4-c14e2b91ae70",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1015",
+      "sku": "SKU-02015",
+      "warehouse": "WH-HYD-01",
+      "quantity": 115,
+      "id": "target_inventory_798004a1-06b7-4fa2-ade4-c14e2b91ae70",
+      "createdAt": "2026-10-07T11:04:40.892Z",
+      "updatedAt": "2026-10-10T18:28:56.568Z"
+    },
+    "createdAt": "2026-10-07T11:04:40.892Z",
+    "updatedAt": "2026-10-10T18:28:56.568Z"
+  },
+  {
+    "id": "target_inventory_54d18d56-bf6e-4e24-8ac9-fc7bd71e6b48",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-1017",
+      "sku": "SKU-02017",
+      "warehouse": "WH-MUM-01",
+      "quantity": 129,
+      "id": "target_inventory_54d18d56-bf6e-4e24-8ac9-fc7bd71e6b48",
+      "createdAt": "2026-10-07T11:04:41.243Z",
+      "updatedAt": "2026-10-10T18:28:56.576Z"
+    },
+    "createdAt": "2026-10-07T11:04:41.243Z",
+    "updatedAt": "2026-10-10T18:28:56.576Z"
+  },
+  {
+    "id": "target_inventory_93a25c64-eb58-4d8e-abad-5f7576fd5a1a",
+    "organizationId": "org-master-101",
+    "entity": "inventory",
+    "data": {
+      "item_id": "ITEM-10099",
+      "sku": "SKU-02010",
+      "warehouse": "WH-BLR-01",
+      "quantity": 80,
+      "id": "target_inventory_93a25c64-eb58-4d8e-abad-5f7576fd5a1a",
+      "createdAt": "2026-10-10T18:28:56.535Z",
+      "updatedAt": "2026-10-10T18:28:56.535Z"
+    },
+    "createdAt": "2026-10-10T18:28:56.535Z",
+    "updatedAt": "2026-10-10T18:28:56.535Z"
+  },
+  {
+    "id": "target_it_tickets_acf4ba3c-c4eb-4490-8a05-ec7789a4e506",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1000",
+      "subject": "VPN access request",
+      "requested_by": "ittickets0@example.com",
+      "priority": "LOW",
+      "id": "target_it_tickets_acf4ba3c-c4eb-4490-8a05-ec7789a4e506",
+      "createdAt": "2026-10-07T14:38:06.415Z",
+      "updatedAt": "2026-10-11T18:00:52.085Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.415Z",
+    "updatedAt": "2026-10-11T18:00:52.085Z"
+  },
+  {
+    "id": "target_it_tickets_8e73db5c-5a2f-4a55-a278-bfd251968407",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1001",
+      "subject": "Laptop replacement",
+      "requested_by": "ittickets1@example.com",
+      "priority": "MEDIUM",
+      "id": "target_it_tickets_8e73db5c-5a2f-4a55-a278-bfd251968407",
+      "createdAt": "2026-10-07T14:38:06.464Z",
+      "updatedAt": "2026-10-11T18:00:52.090Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.464Z",
+    "updatedAt": "2026-10-11T18:00:52.090Z"
+  },
+  {
+    "id": "target_it_tickets_db9d76b2-34d0-4abc-88f0-5ae423509e37",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1002",
+      "subject": "Database access",
+      "requested_by": "ittickets2@example.com",
+      "priority": "HIGH",
+      "id": "target_it_tickets_db9d76b2-34d0-4abc-88f0-5ae423509e37",
+      "createdAt": "2026-10-07T14:38:06.518Z",
+      "updatedAt": "2026-10-11T18:00:52.109Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.518Z",
+    "updatedAt": "2026-10-11T18:00:52.109Z"
+  },
+  {
+    "id": "target_it_tickets_d1cdab73-75ea-4714-a113-1527038f8e38",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1003",
+      "subject": "Network outage",
+      "requested_by": "ittickets3@example.com",
+      "priority": "CRITICAL",
+      "id": "target_it_tickets_d1cdab73-75ea-4714-a113-1527038f8e38",
+      "createdAt": "2026-10-07T14:38:06.543Z",
+      "updatedAt": "2026-10-11T18:00:52.153Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.543Z",
+    "updatedAt": "2026-10-11T18:00:52.153Z"
+  },
+  {
+    "id": "target_it_tickets_ba196e60-ed5a-4572-bafb-db8b207b6fe2",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1004",
+      "subject": "EMPTY",
+      "requested_by": "ittickets4@example.com",
+      "priority": "LOW",
+      "id": "target_it_tickets_ba196e60-ed5a-4572-bafb-db8b207b6fe2",
+      "createdAt": "2026-10-07T14:38:06.580Z",
+      "updatedAt": "2026-10-11T18:00:52.185Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.580Z",
+    "updatedAt": "2026-10-11T18:00:52.185Z"
+  },
+  {
+    "id": "target_it_tickets_ae4de0d5-de7a-4514-bb66-863cd8874e4e",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1005",
+      "subject": "Laptop replacement",
+      "requested_by": "ittickets5@example.com",
+      "priority": "MEDIUM",
+      "id": "target_it_tickets_ae4de0d5-de7a-4514-bb66-863cd8874e4e",
+      "createdAt": "2026-10-07T14:38:06.610Z",
+      "updatedAt": "2026-10-11T18:00:52.193Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.610Z",
+    "updatedAt": "2026-10-11T18:00:52.193Z"
+  },
+  {
+    "id": "target_it_tickets_af2a9f8f-acb1-4341-b9c0-5a27cb153a49",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1006",
+      "subject": "Database access",
+      "requested_by": "ittickets6@example.com",
+      "priority": "HIGH",
+      "id": "target_it_tickets_af2a9f8f-acb1-4341-b9c0-5a27cb153a49",
+      "createdAt": "2026-10-07T14:38:06.633Z",
+      "updatedAt": "2026-10-11T18:00:52.202Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.633Z",
+    "updatedAt": "2026-10-11T18:00:52.202Z"
+  },
+  {
+    "id": "target_it_tickets_e1b79285-54df-48fb-9261-ab1edb139d0d",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1007",
+      "subject": "EMPTY",
+      "requested_by": "shgf@gmail.com",
+      "priority": "CRITICAL",
+      "id": "target_it_tickets_e1b79285-54df-48fb-9261-ab1edb139d0d",
+      "createdAt": "2026-10-07T14:38:06.677Z",
+      "updatedAt": "2026-10-11T18:00:52.208Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.677Z",
+    "updatedAt": "2026-10-11T18:00:52.208Z"
+  },
+  {
+    "id": "target_it_tickets_570c70ec-00ea-4b73-9116-b2f3d8d98e34",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1008",
+      "subject": "VPN access request",
+      "requested_by": "ittickets8@example.com",
+      "priority": "MEDIUM",
+      "id": "target_it_tickets_570c70ec-00ea-4b73-9116-b2f3d8d98e34",
+      "createdAt": "2026-10-07T14:38:06.718Z",
+      "updatedAt": "2026-10-11T18:00:52.218Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.718Z",
+    "updatedAt": "2026-10-11T18:00:52.218Z"
+  },
+  {
+    "id": "target_it_tickets_e82e9c9e-8562-48cc-8860-64cb04586f60",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1009",
+      "subject": "Laptop replacement",
+      "requested_by": "ittickets9@example.com",
+      "priority": "MEDIUM",
+      "id": "target_it_tickets_e82e9c9e-8562-48cc-8860-64cb04586f60",
+      "createdAt": "2026-10-07T14:38:06.761Z",
+      "updatedAt": "2026-10-11T18:00:52.226Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.761Z",
+    "updatedAt": "2026-10-11T18:00:52.226Z"
+  },
+  {
+    "id": "target_it_tickets_bcd3bebe-1fb8-4f11-b25d-e3d78bd5cfd7",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1010",
+      "subject": "Database access",
+      "requested_by": "ittickets10@example.com",
+      "priority": "HIGH",
+      "id": "target_it_tickets_bcd3bebe-1fb8-4f11-b25d-e3d78bd5cfd7",
+      "createdAt": "2026-10-07T14:38:06.790Z",
+      "updatedAt": "2026-10-11T18:00:52.233Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.790Z",
+    "updatedAt": "2026-10-11T18:00:52.233Z"
+  },
+  {
+    "id": "target_it_tickets_c1ab0c7b-306a-4a46-be0c-0df70d5a6c97",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1013",
+      "subject": "Laptop replacement",
+      "requested_by": "ittickets13@example.com",
+      "priority": "MEDIUM",
+      "id": "target_it_tickets_c1ab0c7b-306a-4a46-be0c-0df70d5a6c97",
+      "createdAt": "2026-10-07T14:38:06.808Z",
+      "updatedAt": "2026-10-11T18:00:52.239Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.808Z",
+    "updatedAt": "2026-10-11T18:00:52.239Z"
+  },
+  {
+    "id": "target_it_tickets_a704a728-f6d3-4aed-aa19-63540b86cf46",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1014",
+      "subject": "Database access",
+      "requested_by": "ittickets14@example.com",
+      "priority": "HIGH",
+      "id": "target_it_tickets_a704a728-f6d3-4aed-aa19-63540b86cf46",
+      "createdAt": "2026-10-07T14:38:06.838Z",
+      "updatedAt": "2026-10-11T18:00:52.244Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.838Z",
+    "updatedAt": "2026-10-11T18:00:52.244Z"
+  },
+  {
+    "id": "target_it_tickets_bd820f3d-298d-4a4d-b494-6443ca248160",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1015",
+      "subject": "Network outage",
+      "requested_by": "ittickets15@example.com",
+      "priority": "CRITICAL",
+      "id": "target_it_tickets_bd820f3d-298d-4a4d-b494-6443ca248160",
+      "createdAt": "2026-10-07T14:38:06.870Z",
+      "updatedAt": "2026-10-11T18:00:52.251Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.870Z",
+    "updatedAt": "2026-10-11T18:00:52.251Z"
+  },
+  {
+    "id": "target_it_tickets_44d2acc5-a3de-4c8a-8494-76ca53cac45a",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1016",
+      "subject": "VPN access request",
+      "requested_by": "dkfjh@gmail.com",
+      "priority": "LOW",
+      "id": "target_it_tickets_44d2acc5-a3de-4c8a-8494-76ca53cac45a",
+      "createdAt": "2026-10-07T14:38:06.901Z",
+      "updatedAt": "2026-10-11T18:00:52.256Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.901Z",
+    "updatedAt": "2026-10-11T18:00:52.256Z"
+  },
+  {
+    "id": "target_it_tickets_d740e109-5a59-4a5a-a90a-76a37036a4d5",
+    "organizationId": "org-master-101",
+    "entity": "it_tickets",
+    "data": {
+      "ticket_id": "TKT-1017",
+      "subject": "Laptop replacement",
+      "requested_by": "ittickets17@example.com",
+      "priority": "MEDIUM",
+      "id": "target_it_tickets_d740e109-5a59-4a5a-a90a-76a37036a4d5",
+      "createdAt": "2026-10-07T14:38:06.916Z",
+      "updatedAt": "2026-10-11T18:00:52.261Z"
+    },
+    "createdAt": "2026-10-07T14:38:06.916Z",
+    "updatedAt": "2026-10-11T18:00:52.261Z"
+  },
+  {
+    "id": "target_products_16737f35-4078-45f2-96a8-6dc4cec8f729",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02000",
+      "name": "Enterprise Analytics",
+      "price": 1250.5,
+      "category": "Travel",
+      "stock_quantity": 10,
+      "id": "target_products_16737f35-4078-45f2-96a8-6dc4cec8f729",
+      "createdAt": "2026-10-11T18:04:19.126Z",
+      "updatedAt": "2026-10-11T18:04:19.126Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.126Z",
+    "updatedAt": "2026-10-11T18:04:19.126Z"
+  },
+  {
+    "id": "target_products_c5e1a3ea-4770-4550-8c7b-63981bb23eff",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02001",
+      "name": "Cloud Migration",
+      "price": 1387.75,
+      "category": "Meals",
+      "stock_quantity": 17,
+      "id": "target_products_c5e1a3ea-4770-4550-8c7b-63981bb23eff",
+      "createdAt": "2026-10-11T18:04:19.145Z",
+      "updatedAt": "2026-10-11T18:04:19.145Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.145Z",
+    "updatedAt": "2026-10-11T18:04:19.145Z"
+  },
+  {
+    "id": "target_products_2ccf7e37-2023-40ce-af22-de0e33f5a76d",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02002",
+      "name": "Retail Platform",
+      "price": 1525,
+      "category": "Software",
+      "stock_quantity": 24,
+      "id": "target_products_2ccf7e37-2023-40ce-af22-de0e33f5a76d",
+      "createdAt": "2026-10-11T18:04:19.164Z",
+      "updatedAt": "2026-10-11T18:04:19.164Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.164Z",
+    "updatedAt": "2026-10-11T18:04:19.164Z"
+  },
+  {
+    "id": "target_products_8d18075b-90ea-46be-9ba7-2c4597bda263",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02003",
+      "name": "Finance Modernization",
+      "price": 1662.25,
+      "category": "Office Supplies",
+      "stock_quantity": 31,
+      "id": "target_products_8d18075b-90ea-46be-9ba7-2c4597bda263",
+      "createdAt": "2026-10-11T18:04:19.181Z",
+      "updatedAt": "2026-10-11T18:04:19.181Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.181Z",
+    "updatedAt": "2026-10-11T18:04:19.181Z"
+  },
+  {
+    "id": "target_products_8ae3946e-ae1e-4bf5-9c5b-efd3461a4baf",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02004",
+      "name": "EMPTY",
+      "price": 1799.5,
+      "category": "Travel",
+      "stock_quantity": 38,
+      "id": "target_products_8ae3946e-ae1e-4bf5-9c5b-efd3461a4baf",
+      "createdAt": "2026-10-11T18:04:19.209Z",
+      "updatedAt": "2026-10-11T18:04:19.209Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.209Z",
+    "updatedAt": "2026-10-11T18:04:19.209Z"
+  },
+  {
+    "id": "target_products_9fbe4e5d-4630-46b0-aaee-01f5df547479",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02005",
+      "name": "Enterprise Analytics",
+      "price": 1936.75,
+      "category": "Meals",
+      "stock_quantity": 45,
+      "id": "target_products_9fbe4e5d-4630-46b0-aaee-01f5df547479",
+      "createdAt": "2026-10-11T18:04:19.218Z",
+      "updatedAt": "2026-10-11T18:04:19.218Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.218Z",
+    "updatedAt": "2026-10-11T18:04:19.218Z"
+  },
+  {
+    "id": "target_products_da695d8d-8208-4d2e-8c08-8b1fd48439d5",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02006",
+      "name": "Cloud Migration",
+      "price": 2074,
+      "category": "Software",
+      "stock_quantity": 52,
+      "id": "target_products_da695d8d-8208-4d2e-8c08-8b1fd48439d5",
+      "createdAt": "2026-10-11T18:04:19.233Z",
+      "updatedAt": "2026-10-11T18:04:19.233Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.233Z",
+    "updatedAt": "2026-10-11T18:04:19.233Z"
+  },
+  {
+    "id": "target_products_9952c13f-534e-4fc3-8f25-35c128c13eda",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02007",
+      "name": "EMPTY",
+      "price": 2211.25,
+      "category": "Office Supplies",
+      "stock_quantity": 756,
+      "id": "target_products_9952c13f-534e-4fc3-8f25-35c128c13eda",
+      "createdAt": "2026-10-11T18:04:19.245Z",
+      "updatedAt": "2026-10-11T18:04:19.245Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.245Z",
+    "updatedAt": "2026-10-11T18:04:19.245Z"
+  },
+  {
+    "id": "target_products_5f791571-08d0-4088-85ad-2bd96608c142",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02008",
+      "name": "Finance Modernization",
+      "price": 767,
+      "category": "Travel",
+      "stock_quantity": 66,
+      "id": "target_products_5f791571-08d0-4088-85ad-2bd96608c142",
+      "createdAt": "2026-10-11T18:04:19.260Z",
+      "updatedAt": "2026-10-11T18:04:19.260Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.260Z",
+    "updatedAt": "2026-10-11T18:04:19.260Z"
+  },
+  {
+    "id": "target_products_1a2fee76-3929-4a04-b35b-534287dd2ef9",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02009",
+      "name": "HR Transformation",
+      "price": 2485.75,
+      "category": "Meals",
+      "stock_quantity": 73,
+      "id": "target_products_1a2fee76-3929-4a04-b35b-534287dd2ef9",
+      "createdAt": "2026-10-11T18:04:19.272Z",
+      "updatedAt": "2026-10-11T18:04:19.272Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.272Z",
+    "updatedAt": "2026-10-11T18:04:19.272Z"
+  },
+  {
+    "id": "target_products_0a9a9a8a-8120-4901-85fb-ddc1bc6d6cda",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02010",
+      "name": "Enterprise Analytics",
+      "price": 2623,
+      "category": "Software",
+      "stock_quantity": 80,
+      "id": "target_products_0a9a9a8a-8120-4901-85fb-ddc1bc6d6cda",
+      "createdAt": "2026-10-11T18:04:19.284Z",
+      "updatedAt": "2026-10-11T18:04:19.284Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.284Z",
+    "updatedAt": "2026-10-11T18:04:19.284Z"
+  },
+  {
+    "id": "target_products_e48110ba-267a-4f39-a386-e782d6319dda",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-020096",
+      "name": "Enterprise Analytics",
+      "price": 2623,
+      "category": "Software",
+      "stock_quantity": 80,
+      "id": "target_products_e48110ba-267a-4f39-a386-e782d6319dda",
+      "createdAt": "2026-10-11T18:04:19.296Z",
+      "updatedAt": "2026-10-11T18:04:19.296Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.296Z",
+    "updatedAt": "2026-10-11T18:04:19.296Z"
+  },
+  {
+    "id": "target_products_56d87a30-e4b5-44d8-a83d-be4d3022258d",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02013",
+      "name": "Finance Modernization",
+      "price": 3034.75,
+      "category": "Meals",
+      "stock_quantity": 101,
+      "id": "target_products_56d87a30-e4b5-44d8-a83d-be4d3022258d",
+      "createdAt": "2026-10-11T18:04:19.305Z",
+      "updatedAt": "2026-10-11T18:04:19.305Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.305Z",
+    "updatedAt": "2026-10-11T18:04:19.305Z"
+  },
+  {
+    "id": "target_products_d7826b66-b817-4c4c-bed5-d9886a50693c",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02014",
+      "name": "HR Transformation",
+      "price": 3172,
+      "category": "Software",
+      "stock_quantity": 108,
+      "id": "target_products_d7826b66-b817-4c4c-bed5-d9886a50693c",
+      "createdAt": "2026-10-11T18:04:19.315Z",
+      "updatedAt": "2026-10-11T18:04:19.315Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.315Z",
+    "updatedAt": "2026-10-11T18:04:19.315Z"
+  },
+  {
+    "id": "target_products_bc509a67-2c85-4881-bb70-f12cf68e6a08",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02015",
+      "name": "Enterprise Analytics",
+      "price": 3309.25,
+      "category": "Office Supplies",
+      "stock_quantity": 115,
+      "id": "target_products_bc509a67-2c85-4881-bb70-f12cf68e6a08",
+      "createdAt": "2026-10-11T18:04:19.326Z",
+      "updatedAt": "2026-10-11T18:04:19.326Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.326Z",
+    "updatedAt": "2026-10-11T18:04:19.326Z"
+  },
+  {
+    "id": "target_products_02542842-fcde-422c-b294-b541af8a8242",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02016",
+      "name": "Cloud Migration",
+      "price": 476,
+      "category": "Travel",
+      "stock_quantity": 122,
+      "id": "target_products_02542842-fcde-422c-b294-b541af8a8242",
+      "createdAt": "2026-10-11T18:04:19.335Z",
+      "updatedAt": "2026-10-11T18:04:19.335Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.335Z",
+    "updatedAt": "2026-10-11T18:04:19.335Z"
+  },
+  {
+    "id": "target_products_a0084784-7d67-41f0-8897-d4b34c4a3928",
+    "organizationId": "org-master-101",
+    "entity": "products",
+    "data": {
+      "sku": "SKU-02017",
+      "name": "Retail Platform",
+      "price": 3583.75,
+      "category": "Meals",
+      "stock_quantity": 129,
+      "id": "target_products_a0084784-7d67-41f0-8897-d4b34c4a3928",
+      "createdAt": "2026-10-11T18:04:19.345Z",
+      "updatedAt": "2026-10-11T18:04:19.345Z"
+    },
+    "createdAt": "2026-10-11T18:04:19.345Z",
+    "updatedAt": "2026-10-11T18:04:19.345Z"
+  },
+  {
+    "id": "target_vendors_a183d712-4ad1-43ea-b309-4aaa6dd3c312",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1000",
+      "vendor_name": "Acme Industries",
+      "registration_number": "REG-005000",
+      "email": "vendors0@example.com",
+      "id": "target_vendors_a183d712-4ad1-43ea-b309-4aaa6dd3c312",
+      "createdAt": "2026-10-07T10:08:08.032Z",
+      "updatedAt": "2026-10-13T05:04:46.760Z"
+    },
+    "createdAt": "2026-10-07T10:08:08.032Z",
+    "updatedAt": "2026-10-13T05:04:46.760Z"
+  },
+  {
+    "id": "target_vendors_6f118022-29f9-42d4-bdf3-b7269fa305e2",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1001",
+      "vendor_name": "Bright Retail",
+      "registration_number": "REG-005001",
+      "email": "vendors1@example.com",
+      "id": "target_vendors_6f118022-29f9-42d4-bdf3-b7269fa305e2",
+      "createdAt": "2026-10-07T10:08:08.141Z",
+      "updatedAt": "2026-10-13T05:04:46.778Z"
+    },
+    "createdAt": "2026-10-07T10:08:08.141Z",
+    "updatedAt": "2026-10-13T05:04:46.778Z"
+  },
+  {
+    "id": "target_vendors_d86be067-a677-4312-bc31-919e30c2804a",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1002",
+      "vendor_name": "CloudBase Tech",
+      "registration_number": "REG-005002",
+      "email": "vendors2@example.com",
+      "id": "target_vendors_d86be067-a677-4312-bc31-919e30c2804a",
+      "createdAt": "2026-10-07T10:08:08.368Z",
+      "updatedAt": "2026-10-13T05:04:46.788Z"
+    },
+    "createdAt": "2026-10-07T10:08:08.368Z",
+    "updatedAt": "2026-10-13T05:04:46.788Z"
+  },
+  {
+    "id": "target_vendors_998f4c64-d702-4bcd-abc7-f303f8a51c1a",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1003",
+      "vendor_name": "Delta Logistics",
+      "registration_number": "REG-005003",
+      "email": "vendors3@example.com",
+      "id": "target_vendors_998f4c64-d702-4bcd-abc7-f303f8a51c1a",
+      "createdAt": "2026-10-07T10:08:08.382Z",
+      "updatedAt": "2026-10-13T05:04:46.808Z"
+    },
+    "createdAt": "2026-10-07T10:08:08.382Z",
+    "updatedAt": "2026-10-13T05:04:46.808Z"
+  },
+  {
+    "id": "target_vendors_8d005b4f-5d3d-4fd1-b099-9c178bfe8892",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1004",
+      "vendor_name": "EMPTY",
+      "registration_number": "REG-005004",
+      "email": "vendors4@example.com",
+      "id": "target_vendors_8d005b4f-5d3d-4fd1-b099-9c178bfe8892",
+      "createdAt": "2026-10-07T10:08:08.402Z",
+      "updatedAt": "2026-10-13T05:04:46.820Z"
+    },
+    "createdAt": "2026-10-07T10:08:08.402Z",
+    "updatedAt": "2026-10-13T05:04:46.820Z"
+  },
+  {
+    "id": "target_vendors_f5551b45-52f9-4df3-a110-2d992c0793de",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1005",
+      "vendor_name": "Vertex Labs",
+      "registration_number": "REG-005005",
+      "email": "vendors5@example.com",
+      "id": "target_vendors_f5551b45-52f9-4df3-a110-2d992c0793de",
+      "createdAt": "2026-10-07T10:08:08.419Z",
+      "updatedAt": "2026-10-13T05:04:46.835Z"
+    },
+    "createdAt": "2026-10-07T10:08:08.419Z",
+    "updatedAt": "2026-10-13T05:04:46.835Z"
+  },
+  {
+    "id": "target_vendors_308483c5-3a06-45f0-b9e3-4dccf35879ad",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1006",
+      "vendor_name": "BluePeak Solutions",
+      "registration_number": "REG-005006",
+      "email": "vendors6@example.com",
+      "id": "target_vendors_308483c5-3a06-45f0-b9e3-4dccf35879ad",
+      "createdAt": "2026-10-07T10:08:08.550Z",
+      "updatedAt": "2026-10-13T05:04:46.844Z"
+    },
+    "createdAt": "2026-10-07T10:08:08.550Z",
+    "updatedAt": "2026-10-13T05:04:46.844Z"
+  },
+  {
+    "id": "target_vendors_65316e7a-63f8-487e-90f2-942f66f984e9",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1007",
+      "vendor_name": "EMPTY",
+      "registration_number": "REG-005007",
+      "email": "g@gmail.com",
+      "id": "target_vendors_65316e7a-63f8-487e-90f2-942f66f984e9",
+      "createdAt": "2026-10-07T10:08:08.692Z",
+      "updatedAt": "2026-10-13T05:04:46.856Z"
+    },
+    "createdAt": "2026-10-07T10:08:08.692Z",
+    "updatedAt": "2026-10-13T05:04:46.856Z"
+  },
+  {
+    "id": "target_vendors_3ea4f654-7a1c-467a-9fde-2364af03d9e1",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1009",
+      "vendor_name": "Bright Retail",
+      "registration_number": "REG-005009",
+      "email": "vendors9@example.com",
+      "id": "target_vendors_3ea4f654-7a1c-467a-9fde-2364af03d9e1",
+      "createdAt": "2026-10-07T10:08:08.714Z",
+      "updatedAt": "2026-10-13T05:04:46.871Z"
+    },
+    "createdAt": "2026-10-07T10:08:08.714Z",
+    "updatedAt": "2026-10-13T05:04:46.871Z"
+  },
+  {
+    "id": "target_vendors_e40594a9-4a7d-40c3-a59f-45da8dbc0a1a",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1010",
+      "vendor_name": "CloudBase Tech",
+      "registration_number": "REG-005010",
+      "email": "vendors10@example.com",
+      "id": "target_vendors_e40594a9-4a7d-40c3-a59f-45da8dbc0a1a",
+      "createdAt": "2026-10-07T10:08:08.830Z",
+      "updatedAt": "2026-10-13T05:04:46.885Z"
+    },
+    "createdAt": "2026-10-07T10:08:08.830Z",
+    "updatedAt": "2026-10-13T05:04:46.885Z"
+  },
+  {
+    "id": "target_vendors_467e273e-c550-46af-a425-bf21f1fe77ad",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1013",
+      "vendor_name": "Vertex Labs",
+      "registration_number": "REG-005013",
+      "email": "vendors13@example.com",
+      "id": "target_vendors_467e273e-c550-46af-a425-bf21f1fe77ad",
+      "createdAt": "2026-10-07T10:08:08.973Z",
+      "updatedAt": "2026-10-13T05:04:46.936Z"
+    },
+    "createdAt": "2026-10-07T10:08:08.973Z",
+    "updatedAt": "2026-10-13T05:04:46.936Z"
+  },
+  {
+    "id": "target_vendors_d311dd7b-7b10-4b17-8cfd-a37196ec5a3f",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1014",
+      "vendor_name": "BluePeak Solutions",
+      "registration_number": "REG-005014",
+      "email": "vendors14@example.com",
+      "id": "target_vendors_d311dd7b-7b10-4b17-8cfd-a37196ec5a3f",
+      "createdAt": "2026-10-07T10:08:09.052Z",
+      "updatedAt": "2026-10-13T05:04:46.946Z"
+    },
+    "createdAt": "2026-10-07T10:08:09.052Z",
+    "updatedAt": "2026-10-13T05:04:46.946Z"
+  },
+  {
+    "id": "target_vendors_2bb8f9fd-0d92-4196-852f-d4eff7fd83df",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1015",
+      "vendor_name": "Summit Foods",
+      "registration_number": "REG-005015",
+      "email": "vendors15@example.com",
+      "id": "target_vendors_2bb8f9fd-0d92-4196-852f-d4eff7fd83df",
+      "createdAt": "2026-10-07T10:08:09.073Z",
+      "updatedAt": "2026-10-13T05:04:46.957Z"
+    },
+    "createdAt": "2026-10-07T10:08:09.073Z",
+    "updatedAt": "2026-10-13T05:04:46.957Z"
+  },
+  {
+    "id": "target_vendors_1eec1cdc-fb60-4835-9234-f50a138b5e5c",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1017",
+      "vendor_name": "Bright Retail",
+      "registration_number": "REG-005017",
+      "email": "vendors17@example.com",
+      "id": "target_vendors_1eec1cdc-fb60-4835-9234-f50a138b5e5c",
+      "createdAt": "2026-10-07T10:08:09.104Z",
+      "updatedAt": "2026-10-13T05:04:46.968Z"
+    },
+    "createdAt": "2026-10-07T10:08:09.104Z",
+    "updatedAt": "2026-10-13T05:04:46.968Z"
+  },
+  {
+    "id": "target_vendors_21d52bae-b3ff-42d8-b743-f56c46946682",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1067",
+      "vendor_name": "CloudBase Tech",
+      "registration_number": "REG-005010",
+      "email": "vendors10@example.com",
+      "id": "target_vendors_21d52bae-b3ff-42d8-b743-f56c46946682",
+      "createdAt": "2026-10-13T05:04:46.911Z",
+      "updatedAt": "2026-10-13T05:04:46.911Z"
+    },
+    "createdAt": "2026-10-13T05:04:46.911Z",
+    "updatedAt": "2026-10-13T05:04:46.911Z"
+  },
+  {
+    "id": "target_vendors_80ef64cc-1bdc-46bf-8efa-e19dfdd234ac",
+    "organizationId": "org-master-101",
+    "entity": "vendors",
+    "data": {
+      "vendor_id": "VEN-1056",
+      "vendor_name": "CloudBase Tech",
+      "registration_number": "REG-005010",
+      "email": "vendors10@example.com",
+      "id": "target_vendors_80ef64cc-1bdc-46bf-8efa-e19dfdd234ac",
+      "createdAt": "2026-10-13T05:04:46.924Z",
+      "updatedAt": "2026-10-13T05:04:46.924Z"
+    },
+    "createdAt": "2026-10-13T05:04:46.924Z",
+    "updatedAt": "2026-10-13T05:04:46.924Z"
+  },
+  {
+    "id": "target_attendance_aabde29a-d338-413e-ac9a-128a17062464",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1000",
+      "employee_id": "EMP-1000",
+      "work_date": "2026-09-01",
+      "hours_worked": 1250.5,
+      "id": "target_attendance_aabde29a-d338-413e-ac9a-128a17062464",
+      "createdAt": "2026-10-07T09:54:30.083Z",
+      "updatedAt": "2026-10-28T13:42:40.295Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.083Z",
+    "updatedAt": "2026-10-28T13:42:40.295Z"
+  },
+  {
+    "id": "target_attendance_33f2dc99-23a4-499e-b131-82980221de69",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1001",
+      "employee_id": "EMP-1001",
+      "work_date": "2026-09-02",
+      "hours_worked": 1387.75,
+      "id": "target_attendance_33f2dc99-23a4-499e-b131-82980221de69",
+      "createdAt": "2026-10-07T09:54:30.117Z",
+      "updatedAt": "2026-10-28T13:42:40.526Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.117Z",
+    "updatedAt": "2026-10-28T13:42:40.526Z"
+  },
+  {
+    "id": "target_attendance_5a2d67f7-1441-4b60-a274-6f7bfc023c61",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1002",
+      "employee_id": "EMP-1002",
+      "work_date": "2026-09-03",
+      "hours_worked": 1525,
+      "id": "target_attendance_5a2d67f7-1441-4b60-a274-6f7bfc023c61",
+      "createdAt": "2026-10-07T09:54:30.137Z",
+      "updatedAt": "2026-10-28T13:42:40.605Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.137Z",
+    "updatedAt": "2026-10-28T13:42:40.605Z"
+  },
+  {
+    "id": "target_attendance_82457f96-fa27-499f-b1c4-51b909fad4fc",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1003",
+      "employee_id": "EMP-1003",
+      "work_date": "2026-09-04",
+      "hours_worked": 1662.25,
+      "id": "target_attendance_82457f96-fa27-499f-b1c4-51b909fad4fc",
+      "createdAt": "2026-10-07T09:54:30.175Z",
+      "updatedAt": "2026-10-28T13:42:40.683Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.175Z",
+    "updatedAt": "2026-10-28T13:42:40.683Z"
+  },
+  {
+    "id": "target_attendance_cd3b528c-a27d-4417-99d4-3cce23d4c1e8",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1004",
+      "employee_id": "EMPTY",
+      "work_date": "2026-09-05",
+      "hours_worked": 1799.5,
+      "id": "target_attendance_cd3b528c-a27d-4417-99d4-3cce23d4c1e8",
+      "createdAt": "2026-10-07T09:54:30.220Z",
+      "updatedAt": "2026-10-28T13:42:40.763Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.220Z",
+    "updatedAt": "2026-10-28T13:42:40.763Z"
+  },
+  {
+    "id": "target_attendance_89e49e5b-ba70-412c-b8a5-c62aea22d8cc",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1005",
+      "employee_id": "EMP-1005",
+      "work_date": "2026-09-06",
+      "hours_worked": 1936.75,
+      "id": "target_attendance_89e49e5b-ba70-412c-b8a5-c62aea22d8cc",
+      "createdAt": "2026-10-07T09:54:30.313Z",
+      "updatedAt": "2026-10-28T13:42:40.828Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.313Z",
+    "updatedAt": "2026-10-28T13:42:40.828Z"
+  },
+  {
+    "id": "target_attendance_7404b7a9-fe26-4e75-bed7-961a18136107",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1006",
+      "employee_id": "EMP-1006",
+      "work_date": "2026-09-07",
+      "hours_worked": 2074,
+      "id": "target_attendance_7404b7a9-fe26-4e75-bed7-961a18136107",
+      "createdAt": "2026-10-07T09:54:30.495Z",
+      "updatedAt": "2026-10-28T13:42:40.905Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.495Z",
+    "updatedAt": "2026-10-28T13:42:40.905Z"
+  },
+  {
+    "id": "target_attendance_f80ad55d-777c-48c9-b687-747d75480b1c",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1007",
+      "employee_id": "EMPTY",
+      "work_date": "2026-09-02",
+      "hours_worked": 2211.25,
+      "id": "target_attendance_f80ad55d-777c-48c9-b687-747d75480b1c",
+      "createdAt": "2026-10-07T09:54:30.567Z",
+      "updatedAt": "2026-10-28T13:42:41.061Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.567Z",
+    "updatedAt": "2026-10-28T13:42:41.061Z"
+  },
+  {
+    "id": "target_attendance_55879ed5-ecfd-4649-a49a-9f096520c11a",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1008",
+      "employee_id": "EMP-1008",
+      "work_date": "2026-09-09",
+      "hours_worked": 78,
+      "id": "target_attendance_55879ed5-ecfd-4649-a49a-9f096520c11a",
+      "createdAt": "2026-10-07T09:54:30.620Z",
+      "updatedAt": "2026-10-28T13:42:41.149Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.620Z",
+    "updatedAt": "2026-10-28T13:42:41.149Z"
+  },
+  {
+    "id": "target_attendance_5c963d26-7e77-471a-93fe-880470fe1593",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1009",
+      "employee_id": "EMP-1010",
+      "work_date": "2026-09-11",
+      "hours_worked": 2623,
+      "id": "target_attendance_5c963d26-7e77-471a-93fe-880470fe1593",
+      "createdAt": "2026-10-07T09:54:30.669Z",
+      "updatedAt": "2026-10-28T13:42:41.263Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.669Z",
+    "updatedAt": "2026-10-28T13:42:41.263Z"
+  },
+  {
+    "id": "target_attendance_eb5bce1f-8e77-47bf-aa6d-4a776016fbf1",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1010",
+      "employee_id": "EMP-1010",
+      "work_date": "2026-09-11",
+      "hours_worked": 2623,
+      "id": "target_attendance_eb5bce1f-8e77-47bf-aa6d-4a776016fbf1",
+      "createdAt": "2026-10-07T09:54:30.747Z",
+      "updatedAt": "2026-10-28T13:42:41.203Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.747Z",
+    "updatedAt": "2026-10-28T13:42:41.203Z"
+  },
+  {
+    "id": "target_attendance_0a5ba744-4d21-4384-8cfb-54b2ca99be24",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1013",
+      "employee_id": "EMP-1013",
+      "work_date": "2026-09-14",
+      "hours_worked": 3034.75,
+      "id": "target_attendance_0a5ba744-4d21-4384-8cfb-54b2ca99be24",
+      "createdAt": "2026-10-07T09:54:30.801Z",
+      "updatedAt": "2026-10-28T13:42:41.321Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.801Z",
+    "updatedAt": "2026-10-28T13:42:41.321Z"
+  },
+  {
+    "id": "target_attendance_498bd75b-66b2-42e0-9750-a42ca35062af",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1014",
+      "employee_id": "EMP-1014",
+      "work_date": "2026-09-15",
+      "hours_worked": 3172,
+      "id": "target_attendance_498bd75b-66b2-42e0-9750-a42ca35062af",
+      "createdAt": "2026-10-07T09:54:30.889Z",
+      "updatedAt": "2026-10-28T13:42:41.389Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.889Z",
+    "updatedAt": "2026-10-28T13:42:41.389Z"
+  },
+  {
+    "id": "target_attendance_ec82d6f6-f509-461f-aca2-c37e7993543b",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1015",
+      "employee_id": "EMP-1015",
+      "work_date": "2026-09-16",
+      "hours_worked": 3309.25,
+      "id": "target_attendance_ec82d6f6-f509-461f-aca2-c37e7993543b",
+      "createdAt": "2026-10-07T09:54:30.969Z",
+      "updatedAt": "2026-10-28T13:42:41.451Z"
+    },
+    "createdAt": "2026-10-07T09:54:30.969Z",
+    "updatedAt": "2026-10-28T13:42:41.451Z"
+  },
+  {
+    "id": "target_attendance_3773de9e-bdfc-470a-b8c2-12329f4631d8",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1016",
+      "employee_id": "EMP-1016",
+      "work_date": "2026-09-03",
+      "hours_worked": 3446.5,
+      "id": "target_attendance_3773de9e-bdfc-470a-b8c2-12329f4631d8",
+      "createdAt": "2026-10-07T09:54:31.083Z",
+      "updatedAt": "2026-10-28T13:42:41.498Z"
+    },
+    "createdAt": "2026-10-07T09:54:31.083Z",
+    "updatedAt": "2026-10-28T13:42:41.498Z"
+  },
+  {
+    "id": "target_attendance_359dc6a9-6cdd-40b9-aa8d-cd0db73fc2a1",
+    "organizationId": "org-master-101",
+    "entity": "attendance",
+    "data": {
+      "log_id": "ATT-1017",
+      "employee_id": "EMP-1017",
+      "work_date": "2026-09-18",
+      "hours_worked": 3583.75,
+      "id": "target_attendance_359dc6a9-6cdd-40b9-aa8d-cd0db73fc2a1",
+      "createdAt": "2026-10-07T09:54:31.136Z",
+      "updatedAt": "2026-10-28T13:42:41.632Z"
+    },
+    "createdAt": "2026-10-07T09:54:31.136Z",
+    "updatedAt": "2026-10-28T13:42:41.632Z"
+  }
+]
